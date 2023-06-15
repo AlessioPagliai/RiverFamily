@@ -81,7 +81,7 @@
       height: calc(100% - 20px);
       overflow-x: hidden; /* Aggiunto: impedisce lo scorrimento orizzontale */
     }
-
+    
     .swiper-slide {
       position: relative;
       /*height: 100%;*/
@@ -206,6 +206,7 @@
     <div class="swiper-button-prev"></div>
   </div>
 
+
   <div class="container">
     <div class="image-section">
       <img src="images\6.t.webp" alt="Immagine 1">
@@ -232,7 +233,6 @@
     function showSection(sectionId) {
       var sections = document.getElementsByClassName('hidden-section');
       var buttonContainers = document.querySelectorAll('.button-container, .swiper-container .button-container');
-      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
       var correspondingSectionId;
       if (sectionId === 'section1-1-1') {
@@ -252,7 +252,7 @@
           section.style.display = 'block';
           // Se la sezione contiene un video, riproducilo
           var video = section.getElementsByTagName('video')[0];
-          if (video && !isMobile) {
+          if (video) {
             //video.currentTime = 0;
             video.play();
           }
