@@ -2,4 +2,5 @@
 
 Website, 3d models, gcodes, images, videos 
 
-[river.family](https://www.river.family){:target="_blank"}
+[river.family](https://www.river.family)
+
