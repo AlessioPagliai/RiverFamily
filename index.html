@@ -236,37 +236,45 @@
 
       var correspondingSectionId;
       if (sectionId === 'section1-1-1') {
-    correspondingSectionId = 'section1-2-1';
-} else if (sectionId === 'section1-1-2') {
-    correspondingSectionId = 'section1-2-2';
-} else if (sectionId === 'section1-2-1') {
-    correspondingSectionId = 'section1-1-1';
-} else if (sectionId === 'section1-2-2') {
-    correspondingSectionId = 'section1-1-2';
-}
+        correspondingSectionId = 'section1-2-1';
+      } else if (sectionId === 'section1-1-2') {
+        correspondingSectionId = 'section1-2-2';
+      } else if (sectionId === 'section1-2-1') {
+        correspondingSectionId = 'section1-1-1';
+      } else if (sectionId === 'section1-2-2') {
+        correspondingSectionId = 'section1-1-2';
+      }
 
-for (var i = 0; i < sections.length; i++) {
-    var section = sections[i];
-    var video = section.getElementsByTagName('video')[0];
+      for (var i = 0; i < sections.length; i++) {
+        var section = sections[i];
 
-    if (section.id === sectionId) {
-        section.style.display = 'block';
-        if (video && !isMobile) {
+        if (section.id === sectionId) {
+          section.style.display = 'block';
+          // Se la sezione contiene un video, riproducilo
+          var video = section.getElementsByTagName('video')[0];
+          if (video && !isMobile) {
+            //video.currentTime = 0;
             video.play();
-        }
-    } else if (section.id === correspondingSectionId) {
-        section.style.display = 'block';
-        // Se la sezione contiene un video, riproducilo
-        if (video  && !isMobile) {
+          }
+        } 
+
+        else if (section.id === correspondingSectionId) {
+          section.style.display = 'block';
+          // Se la sezione contiene un video, riproducilo
+          /*var video = section.getElementsByTagName('video')[0];
+          if (video) {
             video.currentTime = 0;
             video.play();
+          }*/
         }
-    } else {
-        section.style.display = 'none';
-        // Se la sezione contiene un video, mettilo in pausa
-        if (video) video.pause();
-    }
-}
+        
+        else {
+          section.style.display = 'none';
+          // Se la sezione contiene un video, mettilo in pausa
+          var video = section.getElementsByTagName('video')[0];
+          if (video) video.pause();
+        }
+      }
 
       for (var j = 0; j < buttonContainers.length; j++) {
         var buttons = buttonContainers[j].getElementsByTagName('button');
