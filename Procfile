@@ -1,1 +1,1 @@
-web: npx http-server -p $PORT
+web: bin/start-nginx
