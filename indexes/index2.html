@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagina con immagini e bottoni</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 60px;
+      font-family: "Poppins";
+    }
+
+    .container {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .image-section {
+      display: inline-block;
+      max-width: 100%;
+      position: relative;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      max-height: 490px;
+    }
+
+    .hidden-section {
+      display: none;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .button-container button {
+      margin: 0 5px;
+      font-family: "Poppins";
+      font-size: 17px;  /* Modifica la dimensione del testo nei pulsanti */
+      color: #0070C9;
+      /*color: blue;*/
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .button-container button:hover {
+      text-decoration: underline;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+<script>
+    function showSection(sectionId) {
+      var sections = document.getElementsByClassName('hidden-section');
+      var buttons = document.getElementsByClassName('button-container')[0].getElementsByTagName('button');
+
+      for (var i = 0; i < sections.length; i++) {
+        var section = sections[i];
+
+        if (section.id === sectionId) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      }
+
+      for (var j = 0; j < buttons.length; j++) {
+        if (buttons[j].getAttribute("data-section") === sectionId) {
+          buttons[j].style.display = 'none';
+        } else {
+          buttons[j].style.display = 'inline-block';
+        }
+      }
+    }
+
+    function showButton(sectionId) {
+      var buttons = document.getElementsByClassName('button-container')[0].getElementsByTagName('button');
+      for (var j = 0; j < buttons.length; j++) {
+        if (buttons[j].getAttribute("data-section") === sectionId) {
+          buttons[j].style.display = 'inline-block';
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var sections = document.getElementsByClassName('hidden-section');
+
+      function hideSectionsOnScroll() {
+        for (var i = 0; i < sections.length; i++) {
+          var section = sections[i];
+          var rect = section.getBoundingClientRect();
+
+          if ((rect.bottom < 0 || rect.top > window.innerHeight) && section.style.display !== 'none') {
+            section.style.display = 'none';
+            showButton(section.id);
+          }
+        }
+      }
+
+      window.addEventListener('scroll', hideSectionsOnScroll);
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="image-section">
+      <img src="images\classic.png" alt="Immagine 1">
+      <div class="button-container">
+        <button data-section="section1" onclick="showSection('section1')">Discover ></button>
+        <button data-section="section2" onclick="showSection('section2')">Print ></button>
+      </div>
+    </div>
+    <div class="hidden-section" id="section1">
+      <h2>Sezione 1</h2>
+      <p>Contenuto della sezione 1.</p>
+    </div>
+    <div class="hidden-section" id="section2">
+      <h2>Sezione 2</h2>
+      <p>Contenuto della sezione 2.</p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="image-section">
+      <img src="images\classic.png" alt="Immagine 1">
+      <div class="button-container">
+        <button data-section="section3" onclick="showSection('section3')">Discover ></button>
+        <button data-section="section4" onclick="showSection('section4')">Print ></button>
+      </div>
+    </div>
+    <div class="hidden-section" id="section3">
+      <h2>Sezione 3</h2>
+      <p>Contenuto della sezione 3.</p>
+    </div>
+    <div class="hidden-section" id="section4">
+      <h2>Sezione 4</h2>
+      <p>Contenuto della sezione 4.</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
