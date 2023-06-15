@@ -257,7 +257,7 @@ for (var i = 0; i < sections.length; i++) {
     } else if (section.id === correspondingSectionId) {
         section.style.display = 'block';
         // Se la sezione contiene un video, riproducilo
-        if (video) {
+        if (video  && !isMobile) {
             video.currentTime = 0;
             video.play();
         }
