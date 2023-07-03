@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Alessio</title>
-  <link rel="icon" type="image/png" href="images\logo.png">
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -44,7 +44,7 @@
     }
 
     .button-container button {
-      margin: 0 12px;
+      margin: 0 5px;
       font-family: "Poppins";
       font-size: 17px;
       color: #0070C9;
@@ -54,61 +54,13 @@
       text-decoration: none;
     }
 
-   /* .button-container button:hover {
+    .button-container button:hover {
       text-decoration: underline;
-    }*/
+    }
 
     .button-container.download-buttons {
   flex-direction: column;
 }
-
-.link-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 12px;
-}
-
-.link-container .link-button {
-  margin: 0 6px;
-  font-family: "Poppins";
-  font-size: 17px;
-  color: #0070C9;
-  background: none;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-
-.button-container button.clicked {
-      text-decoration: underline;
-    }
-
-
-    select {
-      font-family: "Poppins";
-      font-size: 17px;
-      color: #0070C9;
-      border: none;
-      outline: none;
-      
-      background-color: transparent;
-      cursor: pointer;
-      appearance: none;
-      -moz-appearance: none;
-      -webkit-appearance: none;
-      position: relative;
-      z-index: 1;
-
-      width: 60px;
-    }
-
-
-    select option {
-      font-family: "Poppins";
-      font-size: 17px;
-      color: #0070C9;
-    }
 
     .hidden {
       display: none;
@@ -196,45 +148,25 @@
           <div class="image-section">
             <img src="images\classic.png" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section1-1-1" onclick="showSection('section1-1-1')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip">Mini</option>
-                  <option value="gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 2 Pro</option>
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">CR6-se</option>
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 3 S1</option>
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="gcodes/yuki/Yuki-Ender-3-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
+              <button data-section="section1-1-1" onclick="showSection('section1-1-1')">mostra sezione 1.1.1</button>
+              <button data-section="section1-1-2" onclick="showSection('section1-1-2')">mostra sezione 1.1.2</button>
             </div>
             <div class="hidden-section" id="section1-1-1">
-              <h2>Yuki</h2>
+              <h2>Sezione 1.1.1</h2>
+              <p>Contenuto della sezione 1.1.1</p>
               <div class="video-wrapper">
                 <video id="video-section1-1-1" muted loop controls>
-                  <source src="videos\yuki_classic.mp4" type="video/mp4">
+                  <source src="videos\yukiclassic.mp4" type="video/mp4">
                 </video>
               </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:4923823')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/217636-yuki-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
+            </div>
+            <div class="hidden-section" id="section1-1-2">
+              <h2>Choose your printer:</h2>
+              <!-- <p>Contenuto della sezione 1.1.2</p>-->
+              <div class="button-container download-buttons">
+              <button onclick="downloadFile('gcodes/yuki/Yuki-Ender-3-Gcodes.zip')">Creality Ender 3</button>
+              <button onclick="downloadFile('gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip')">Prusa Mini</button>
+            </div>
             </div>
           </div>
         </div>
@@ -246,140 +178,26 @@
           <div class="image-section">
             <img src="images\snowflake.png" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section1-2-1" onclick="showSection('section1-2-1')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Prusa-MINI-Gcodes.zip">Mini</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Ender-2-Gcodes.zip">Ender 2 Pro</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Creality-CR6-se-Gcodes.zip">CR6-se</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Ender-5-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Anycubic-MegaS-Pro-x-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="gcodes\yuki_snowflake\Yuki-Snowflake-QIDI-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
+              <button data-section="section1-2-1" onclick="showSection('section1-2-1')">mostra sezione 1.2.1</button>
+              <button data-section="section1-2-2" onclick="showSection('section1-2-2')">mostra sezione 1.2.2</button>
             </div>
             <div class="hidden-section" id="section1-2-1">
-              <h2>Yuki Snowflake</h2>
+              <h2>Sezione 1.2.1</h2>
+              <p>Contenuto della sezione 1.2.1</p>
               <div class="video-wrapper">
                 <video id="video-section1-2-1"  muted loop controls>
-                  <source src="videos\yuki_snowflake.mp4" type="video/mp4">
+                  <source src="videos\doggie.mp4" type="video/mp4">
                 </video>
               </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/229614-yuki-air-cooler-snowflake')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
+            </div>
+            <div class="hidden-section" id="section1-2-2">
+              <h2>Sezione 1.2.2</h2>
+              <p>Contenuto della sezione 1.2.2</p>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="images\bulbasaur.png" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section1-2-1" onclick="showSection('section1-2-1')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Creality-CR6-se-Gcodes.zip">CR6-se</option>
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Ender-5-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="gcodes\yuki_bulbasaur\Bulbasaur-Qidi-iMate-XPlus-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section1-2-1">
-              <h2>Bulbasaur Air Cooler</h2>
-              <div class="video-wrapper">
-                <video id="video-section1-2-1"  muted loop controls>
-                  <source src="videos\yuki_bulbasaur.mp4" type="video/mp4">
-                </video>
-              </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:5425729')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/229602-bulbasaur-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="images\gengar.jpg" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section1-2-1" onclick="showSection('section1-2-1')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Creality">
-                  <option value="gcodes\yuki_gengar\Gengar-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="gcodes\yuki_gengar\Gengar-CR6-se-Gcodes.zip">CR6-se</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="gcodes\yuki_gengar\Gengar-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="gcodes\yuki_gengar\Gengar-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="gcodes\yuki_gengar\Gengar-Artillery-Sidewinder-Gcodes.zip">Sidewinder X2</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="gcodes\yuki_gengar\Gengar-Qidi-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section1-2-1">
-              <h2>Gengar Air Cooler</h2>
-              <div class="video-wrapper">
-                <video id="video-section1-2-1"  muted loop controls>
-                  <source src="videos\yuki_gengar.mp4" type="video/mp4">
-                </video>
-              </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:5425729')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/236596-gengar-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <!-- Aggiungi più contenitori se necessario -->
     </div>
 
     <!-- Pagination & Navigation -->
@@ -390,60 +208,20 @@
 
 
   <div class="container">
-    <div class="image-section" >
-      <img src="images\dado7.png" alt="Immagine 1">
+    <div class="image-section">
+      <img src="images\6.t.webp" alt="Immagine 1">
       <div class="button-container">
-        <button data-section="section2-1-1" onclick="showSection('section2-1-1')">Discover</button>
-        <select onchange="downloadFile(this.value, this)">
-          <option value="">Print</option>
-          <optgroup label="Prusa">
-            <option value="gcodes\dado\Dado_Prusa Mini_gcodes.zip">Mini</option>
-            <option value="gcodes\dado\Dado_Prusa MK3S_gcodes.zip">MK3S</option>
-            <option value="gcodes\dado\Dado_Prusa MK4_gcodes.zip">MK4</option>
-          </optgroup>
-          <optgroup label="Creality">
-            <option value="gcodes\dado\Dado_Ender 3_gcodes.zip">Ender 3 (V2 / Pro)</option>
-            <option value="gcodes\dado\Dado_Ender 2 pro_gcodes.zip">Ender 2 Pro</option>
-            <option value="gcodes\yuki_gengar\Gengar-CR6-se-Gcodes.zip">CR6-se</option>
-          </optgroup>
-          <optgroup label="Ankermake">
-            <option value="gcodes\dado\Dado_AnkerMake M5_gcodes.zip">M5</option>
-          </optgroup>
-          <optgroup label="Anycubic">
-            <option value="gcodes\dado\Dado_Anycubic Mega_gcodes.zip">Mega (S / X / Pro)</option>
-            <option value="gcodes\dado\Dado_Anycubic Vyper_gcodes.zip">Vyper</option>
-            <option value="gcodes\dado\Dado_Anycubic Kobra 2_gcodes.zip">Kobra 2</option>
-          </optgroup>
-          <optgroup label="Artillery">
-            <option value="gcodes\dado\Dado_Artillery Sidewinder X2_gcodes.zip">Sidewinder X2</option>
-            <option value="gcodes\dado\Dado_Artillery Genius_gcodes.zip">Genius</option>
-          </optgroup>
-          <optgroup label="Bambu Lab">
-            <option value="gcodes\dado\Dado_Bambu Lab X1-Carbon_gcodes.zip">X1 Carbon</option>
-            <option value="gcodes\dado\Dado_Bambu Lab P1P_gcodes.zip">P1P</option>
-          </optgroup>
-          <optgroup label="Qidi">
-            <option value="gcodes\dado\Dado_Qidi XMAX_gcodes.zip">i-Mate / X-Plus / XMax</option>
-          </optgroup>
-          <optgroup label="Sovol">
-            <option value="gcodes\dado\Dado_Sovol SV06_gcodes.zip">SV06</option>
-          </optgroup>
-        </select>
+        <button data-section="section2-1-1" onclick="showSection('section2-1-1')">mostra sezione 2.1.1</button>
+        <button data-section="section2-1-2" onclick="showSection('section2-1-2')">mostra sezione 2.1.2</button>
       </div>
       <div class="hidden-section" id="section2-1-1">
-        <h2>Dado</h2>
-        <div class="video-wrapper">
-          <video id="video-section1-2-1"  muted loop controls>
-            <source src="videos\dado.mp4" type="video/mp4">
-          </video>
+        <h2>Sezione 2.1.1</h2>
+        <p>Contenuto della sezione 2.1.1</p>
       </div>
-      <p>Turning Dado changes the airflow angle</p>
-      <p>Fits any 80mm, 92mm 120mm, 140mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:4923823')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/217636-yuki-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
+      <div class="hidden-section" id="section2-1-2">
+        <h2>Sezione 2.1.2</h2>
+        <p>Contenuto della sezione 2.1.2</p>
+      </div>
     </div>
   </div>
 
@@ -498,14 +276,14 @@
         }
       }
 
-       for (var j = 0; j < buttonContainers.length; j++) {
+      for (var j = 0; j < buttonContainers.length; j++) {
         var buttons = buttonContainers[j].getElementsByTagName('button');
 
         for (var k = 0; k < buttons.length; k++) {
           if (buttons[k].getAttribute("data-section") === sectionId || buttons[k].getAttribute("data-section") === correspondingSectionId) {
-            buttons[k].classList.add('clicked');
+            buttons[k].style.display = 'none';
           } else {
-            buttons[k].classList.remove('clicked');
+            buttons[k].style.display = 'inline-block';
           }
         }
       }
@@ -531,18 +309,17 @@
 
         for (var k = 0; k < buttons.length; k++) {
           if (buttons[k].getAttribute("data-section") === sectionId) {
-            buttons[k].classList.remove('clicked');
+            buttons[k].style.display = 'inline-block';
           }
         }
       }
     }
 
-    function downloadFile(filePath, selectElement) {
+    function downloadFile(filePath) {
   var link = document.createElement('a');
   link.href = filePath;
   link.download = filePath.substring(filePath.lastIndexOf('/') + 1);
   link.click();
-  selectElement.selectedIndex = 0;
 }
 
     document.addEventListener("DOMContentLoaded", function() {
