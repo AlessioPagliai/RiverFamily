@@ -141,23 +141,35 @@
   margin-right: 60px;
 }
 
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* Aspect Ratio (height / width * 100%) */
-      height: 0;
-      overflow: hidden;
-      margin: 0 auto;
-      width: 800px;
-      max-width: 100%;
-    }
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect Ratio (height / width * 100%) */
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+}
 
-   .video-wrapper video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;  
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;  
+}
+
+
 
     .fullscreen-button {
       position: absolute;
@@ -228,6 +240,7 @@
                 <video id="video-section1-1-1" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_classic.mp4" type="video/mp4">
                 </video>
+                <iframe src="https://www.youtube.com/embed/vF2obkSBFAg?si=gw-rdLfxYRrPNLcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <p>Fits any 80mm PC fan</p>
               <div class="link-container">
@@ -275,10 +288,10 @@
             <div class="hidden-section" id="section1-2-1">
               <h2>Yuki Snowflake</h2>
               <div class="video-wrapper">
-                <video id="video-section1-2-1"  muted loop controls>
+                <video id="video-section1-2-1" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_snowflake.mp4" type="video/mp4">
                 </video>
-              </div>
+                <iframe src="https://www.youtube.com/embed/PF0ymJvRQEU?si=fJCl4KHxy9w3549c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
               <p>Fits any 80mm PC fan</p>
               <div class="link-container">
                 <button class="link-button" onclick="window.open('https://www.printables.com/model/229614-yuki-air-cooler-snowflake')">Printables</button>
@@ -323,9 +336,9 @@
               <h2>Bulbasaur Air Cooler</h2>
               <div class="video-wrapper">
                 <video id="video-section1-2-1"  muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_bulbasaur_1.mp4" type="video/mp4">
+                  <source src="https://www.youtube.com/watch?v=TFFby_LWA9A&t=5s" type="video/mp4">
                 </video>
-              </div>
+                <iframe src="https://www.youtube.com/embed/TFFby_LWA9A?si=jkC6MhBXXNgcqgrS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
               <p>Fits any 80mm PC fan</p>
               <div class="link-container">
                 <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
@@ -368,7 +381,7 @@
                 <video id="video-section1-2-1"  muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_gengar.mp4" type="video/mp4">
                 </video>
-              </div>
+                <iframe src="https://www.youtube.com/embed/3r7qFmCJfaw?si=k1BBDUf2ZvwSY21s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
               <p>Fits any 80mm PC fan</p>
               <div class="link-container">
                 <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
@@ -435,7 +448,7 @@
           <video id="video-section1-2-1"  muted loop controls>
               <source src="https://storage.googleapis.com/riverfamily/videos/dado_1.mp4" type="video/mp4">
             </video>
-          </video>
+            <iframe src="https://www.youtube.com/embed/uD2vHHnfa2A?si=4EQjOxBqw-D_UIGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
       </div>
       <p>Turning Dado changes the airflow angle</p>
       <p>Fits any 80mm, 92mm 120mm, 140mm PC fan</p>
@@ -452,6 +465,9 @@
   <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
 
   <script>
+
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
     function showSection(sectionId) {
       var sections = document.getElementsByClassName('hidden-section');
       var buttonContainers = document.querySelectorAll('.button-container, .swiper-container .button-container');
@@ -474,7 +490,7 @@
           section.style.display = 'block';
           // Se la sezione contiene un video, riproducilo
           var video = section.getElementsByTagName('video')[0];
-          if (video) {
+          if (video && !isMobile) {
             //video.currentTime = 0;
             video.play();
           }
@@ -494,7 +510,7 @@
           section.style.display = 'none';
           // Se la sezione contiene un video, mettilo in pausa
           var video = section.getElementsByTagName('video')[0];
-          if (video) video.pause();
+          if (video && !isMobile) video.pause();
         }
       }
 
@@ -519,7 +535,7 @@
         showButton(section.id); // aggiunta chiamata a showButton qui
         // Se la sezione contiene un video, mettilo in pausa
         var video = section.getElementsByTagName('video')[0];
-        if (video) video.pause();
+        if (video && !isMobile) video.pause();
       }
     }
 
@@ -556,7 +572,7 @@
           if ((rect.bottom < 0 || rect.top > window.innerHeight) && section.style.display !== 'none') {
             section.style.display = 'none';
             var video = section.getElementsByTagName('video')[0];
-        if (video) video.pause();
+        if (video && !isMobile) video.pause();
             showButton(section.id);
           }
         }
@@ -582,8 +598,10 @@
         // Metti in pausa tutti i video e resetta il tempo a 0
         var allVideos = document.querySelectorAll('video');
         for (var i = 0; i < allVideos.length; i++) {
-          allVideos[i].pause();
-          //allVideos[i].currentTime = 0;
+          if (!isMobile) {
+            allVideos[i].pause();
+            //allVideos[i].currentTime = 0;
+          }
         }
 
         // Ottieni la slide attuale
@@ -592,7 +610,7 @@
         // Trova il video nella slide attuale (se presente) e avvialo solo se si trova in una sezione visibile con la visibilità impostata su "block" o "inline-block"
   var currentVideo = currentSlide.querySelector('video');
   var currentSection = currentVideo.closest('.hidden-section');
-  if (currentVideo && currentSection && (currentSection.style.display === 'block' || currentSection.style.display === 'inline-block')) {
+  if (currentVideo && currentSection && (currentSection.style.display === 'block' || currentSection.style.display === 'inline-block')&& !isMobile) {
     //currentVideo.currentTime = 0;
     currentVideo.play();
   }
@@ -602,6 +620,30 @@
 
       });
     });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var videoElements = document.querySelectorAll('.video-wrapper video');
+  var iframeElements = document.querySelectorAll('.video-wrapper iframe');
+
+  if (isMobile) {
+    videoElements.forEach(function(video) {
+      video.style.display = 'none';
+    });
+
+    iframeElements.forEach(function(iframe) {
+      iframe.style.display = 'block';
+    });
+  } else {
+    videoElements.forEach(function(video) {
+      video.style.display = 'block';
+    });
+
+    iframeElements.forEach(function(iframe) {
+      iframe.style.display = 'none';
+    });
+  }
+});
 
 
     
