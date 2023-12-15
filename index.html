@@ -200,6 +200,70 @@
 </head>
 
 <body>
+
+  <div class="container">
+    <div class="image-section" >
+      <img src="images\Jusy_6.2.png" alt="Immagine 1">
+      <div class="button-container">
+        <button data-section="section2-1-1" onclick="showSection('section2-1-1')">Discover</button>
+        <select onchange="downloadFile(this.value, this)">
+          <option value="">Print</option>
+          <optgroup label="Prusa">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Prusa%20Mini_gcodes.zip">Mini</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Prusa%20MK3S_gcodes.zip">MK3S</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Prusa%20MK4_gcodes.zip">MK4</option>
+          </optgroup>
+          <optgroup label="Bambu Lab">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Bambu%20Lab%20A1%20-%20A1%20Mini_gcodes.zip">A1 / A1 Mini</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Bambu%20Lab%20X1-Carbon_gcodes.zip">X1 Carbon</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Bambu%20Lab%20P1P%20-%20P1S_gcodes.zip">P1S / P1P</option>
+          </optgroup>
+          <optgroup label="Creality">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Ender%203%20-%20V2%20-%20V3%20SE_gcodes.zip">Ender 3 (V2 / Pro)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Ender%202%20pro_gcodes.zip">Ender 2 Pro</option>
+          </optgroup>
+          <optgroup label="Ankermake">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_AnkerMake%20M5_gcodes.zip">M5</option>
+          </optgroup>
+          <optgroup label="Anycubic">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Anycubic%20Mega_gcodes.zip">Mega (S / X / Pro)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Anycubic%20Vyper_gcodes.zip">Vyper</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Anycubic%20Kobra%202_gcodes.zip">Kobra 2</option>
+          </optgroup>
+          <optgroup label="Artillery">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Artillery%20Sidewinder%20X2%20-%20X3_gcodes.zip">Sidewinder X2</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Artillery%20Genius_gcodes.zip">Genius</option>
+          </optgroup>
+          <optgroup label="Elegoo">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Elegoo%20Neptune%204%20Pro%20-%20Plus_gcodes.zip">Neptune 4 Pro / Plus</option>
+          </optgroup>
+          <optgroup label="Qidi">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Qidi%20Xplus%20-%20Xplus3%20-%20XMAX%20-%20XMAX3%20-%20Xsmart3_gcodes.zip">Xplus / Xplus3 / XMAX / XMAX3 / Xsmart3</option>
+          </optgroup>
+          <optgroup label="Sovol">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy_Sovol%20SV06_gcodes.zip">SV06 / SV07</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="hidden-section" id="section2-1-1">
+        <h2>Jusy</h2>
+        <div class="video-wrapper">
+          <video id="video-section1-2-1"  muted loop controls>
+              <source src="https://storage.googleapis.com/riverfamily/videos/Jusy_3.mp4" type="video/mp4">
+            </video>
+            <iframe src="https://www.youtube.com/embed/DMNk7lGvKVU?si=AbOwYjt3zkW6jm2z&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
+      </div>
+      <p>~ 4mm activated carbon size</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/517534-dado-desk-fan')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+    </div>
+  </div>
+
+  <div style="height: 50px;"></div>
+  
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <!-- Slide 1 -->
