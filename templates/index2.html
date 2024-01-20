@@ -103,7 +103,7 @@
       position: relative;
       z-index: 1;
 
-      width: 50px;
+      width: 40px;
     }
 
 
@@ -839,23 +839,21 @@ function changeQuantity(itemIndex, change) {
       
 
       function hideSectionsOnScroll() {
-    if (!isMobile) {  // Aggiungi questa verifica
-      for (var i = 0; i < sections.length; i++) {
-        var section = sections[i];
-        var rect = section.getBoundingClientRect();
+        for (var i = 0; i < sections.length; i++) {
+          var section = sections[i];
+          var rect = section.getBoundingClientRect();
 
-        if ((rect.bottom < 0 || rect.top > window.innerHeight) && section.style.display !== 'none') {
-          section.style.display = 'none';
-          var video = section.getElementsByTagName('video')[0];
-          if (video) video.pause();
-          showButton(section.id);
+          if ((rect.bottom < 0 || rect.top > window.innerHeight) && section.style.display !== 'none') {
+            section.style.display = 'none';
+            var video = section.getElementsByTagName('video')[0];
+        if (video && !isMobile) video.pause();
+            showButton(section.id);
+          }
         }
       }
-    }
-  }
+      
 
-    window.addEventListener('scroll', hideSectionsOnScroll);
-
+      window.addEventListener('scroll', hideSectionsOnScroll);
 
       var swiper = new Swiper('.swiper-container', {
         loop: false,
