@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Alessio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="icon" type="image/webp" href="static/images/logo.webp">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -58,6 +57,10 @@
 
     
 
+   /* .button-container button:hover {
+      text-decoration: underline;
+    }*/
+
     .button-container.download-buttons {
   flex-direction: column;
 }
@@ -79,6 +82,10 @@
   text-decoration: none;
 }
 
+
+.button-container button.clicked {
+      text-decoration: underline;
+    }
 
 
     select {
@@ -286,6 +293,267 @@
 
 <body>
 
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-section">
+            <img src="static\images\classic.webp" alt="Immagine 1">
+            <div class="button-container">
+              <button data-section="section1-1" onclick="showSection('section1-1')">Discover</button>
+              <select onchange="downloadFile(this.value, this)">
+                <option value="">Print</option>
+                <optgroup label="Prusa">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip">Mini</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
+                </optgroup>
+                <optgroup label="Creality">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-2-Gcodes.zip">Ender 2 Pro</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-CR6-se-Gcodes.zip">CR6-se</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-3S1-Gcodes.zip">Ender 3 S1</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-5-Gcodes.zip">Ender 5</option>
+                </optgroup>
+                <optgroup label="Anycubic">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Anycubic-MegaS-Pro-x-Gcodes.zip">Mega (S / X / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Anycubic-Vyper-Gcodes.zip">Vyper</option>
+                </optgroup>
+                <optgroup label="Artillery">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
+                </optgroup>
+                <optgroup label="Qidi">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Qidi-iMate-Xplus-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="hidden-section" id="section1-1">
+              <h2>Yuki</h2>
+              <div class="video-wrapper">
+                <video id="video-section1-1" muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_classic.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/vF2obkSBFAg?si=gw-rdLfxYRrPNLcs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <p>Fits any 80mm PC fan</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/217636-yuki-air-cooler')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-section">
+            <img src="static\images\snowflake.webp" alt="Immagine 1">
+            <div class="button-container">
+              <button data-section="section1-2
+             " onclick="showSection('section1-2')">Discover</button>
+              <select onchange="downloadFile(this.value, this)">
+                <option value="">Print</option>
+                <optgroup label="Prusa">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Prusa-MINI-Gcodes.zip">Mini</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
+                </optgroup>
+                <optgroup label="Creality">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-2-Gcodes.zip">Ender 2 Pro</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Creality-CR6-se-Gcodes.zip">CR6-se</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-5-Gcodes.zip">Ender 5</option>
+                </optgroup>
+                <optgroup label="Anycubic">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Anycubic-MegaS-Pro-x-Gcodes.zip">Mega (S / X / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Anycubic-Vyper-Gcodes.zip">Vyper</option>
+                </optgroup>
+                <optgroup label="Artillery">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
+                </optgroup>
+                <optgroup label="Qidi">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-QIDI-Gcodes.zip">i-Mate / X-Plus / XMax</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="hidden-section" id="section1-2">
+              <h2>Yuki Snowflake</h2>
+              <div class="video-wrapper">
+                <video id="video-section1-2" muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_snowflake.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/PF0ymJvRQEU?si=fJCl4KHxy9w3549c&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+              <p>Fits any 80mm PC fan</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/229614-yuki-air-cooler-snowflake')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-section">
+            <img src="static\images\bulbasaur.webp" alt="Immagine 1">
+            <div class="button-container">
+              <button data-section="section1-3" onclick="showSection('section1-3')">Discover</button>
+              <select onchange="downloadFile(this.value, this)">
+                <option value="">Print</option>
+                <optgroup label="Prusa">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
+                </optgroup>
+                <optgroup label="Creality">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Creality-CR6-se-Gcodes.zip">CR6-se</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-5-Gcodes.zip">Ender 5</option>
+                </optgroup>
+                <optgroup label="Anycubic">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Anycubic-Vyper-Gcodes.zip">Vyper</option>
+                </optgroup>
+                <optgroup label="Artillery">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
+                </optgroup>
+                <optgroup label="Qidi">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Qidi-iMate-XPlus-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="hidden-section" id="section1-3">
+              <h2>Bulbasaur Air Cooler</h2>
+              <div class="video-wrapper">
+                <video id="video-section1-3"  muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_bulbasaur_1.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/TFFby_LWA9A?si=jkC6MhBXXNgcqgrS&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <p>Fits any 80mm PC fan</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/229602-bulbasaur-air-cooler')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-section">
+            <img src="static\images\gengar.webp" alt="Immagine 1">
+            <div class="button-container">
+              <button data-section="section1-4" onclick="showSection('section1-4')">Discover</button>
+              <select onchange="downloadFile(this.value, this)">
+                <option value="">Print</option>
+                <optgroup label="Creality">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-CR6-se-Gcodes.zip">CR6-se</option>
+                </optgroup>
+                <optgroup label="Anycubic">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Anycubic-Vyper-Gcodes.zip">Vyper</option>
+                </optgroup>
+                <optgroup label="Artillery">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Artillery-Sidewinder-Gcodes.zip">Sidewinder X2</option>
+                </optgroup>
+                <optgroup label="Qidi">
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Qidi-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="hidden-section" id="section1-4">
+              <h2>Gengar Air Cooler</h2>
+              <div class="video-wrapper">
+                <video id="video-section1-4"  muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_gengar.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/3r7qFmCJfaw?si=k1BBDUf2ZvwSY21s&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+              <p>Fits any 80mm PC fan</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/236596-gengar-air-cooler')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Pagination & Navigation -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="image-section" >
+      <img src="static\images\dado7.webp" alt="Immagine 1">
+      <div class="button-container">
+        <button data-section="section2-1" onclick="showSection('section2-1')">Discover</button>
+        <select onchange="downloadFile(this.value, this)">
+          <option value="">Print</option>
+          <optgroup label="Prusa">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20Mini_gcodes.zip">Mini</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20MK3S_gcodes.zip">MK3S</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20MK4_gcodes.zip">MK4</option>
+          </optgroup>
+          <optgroup label="Creality">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Ender%203_gcodes.zip">Ender 3 (V2 / Pro)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Ender%202%20pro_gcodes.zip">Ender 2 Pro</option>
+          </optgroup>
+          <optgroup label="Ankermake">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_AnkerMake%20M5_gcodes.zip">M5</option>
+          </optgroup>
+          <optgroup label="Anycubic">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Mega_gcodes.zip">Mega (S / X / Pro)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Vyper_gcodes.zip">Vyper</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Kobra%202_gcodes.zip">Kobra 2</option>
+          </optgroup>
+          <optgroup label="Artillery">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Artillery%20Sidewinder%20X2_gcodes.zip">Sidewinder X2</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Artillery%20Genius_gcodes.zip">Genius</option>
+          </optgroup>
+          <optgroup label="Bambu Lab">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Bambu%20Lab%20X1-Carbon_gcodes.zip">X1 Carbon</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Bambu%20Lab%20P1P_gcodes.zip">P1P</option>
+          </optgroup>
+          <optgroup label="Qidi">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Qidi%20XMAX_gcodes.zip">i-Mate / X-Plus / XMax</option>
+          </optgroup>
+          <optgroup label="Sovol">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Sovol%20SV06_gcodes.zip">SV06</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="hidden-section" id="section2-1">
+        <h2>Dado</h2>
+        <div class="video-wrapper">
+          <video id="video-section2-1"  muted loop controls>
+              <source src="https://storage.googleapis.com/riverfamily/videos/dado_1.mp4" type="video/mp4">
+            </video>
+            <iframe src="https://www.youtube.com/embed/uD2vHHnfa2A?si=4EQjOxBqw-D_UIGs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
+      </div>
+      <p>Turning Dado changes the airflow angle</p>
+      <p>Fits any 80mm, 92mm 120mm, 140mm PC fan</p>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/517534-dado-desk-fan')">Printables</button>
+                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
+              </div>
+    </div>
+  </div>
+
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -295,53 +563,21 @@
           <div class="image-section">
             <img src="static\images\12.png" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section1-1" onclick="showSection('section1-1')" >Discover</button>
-              <select onchange="downloadFile(this.value, this)">
+              <button data-section="section3-1" onclick="showSection('section3-1')" >Discover</button>
+              <select onchange="downloadFile(this.value, this)" >
                 <option value="">Print</option>
                 <optgroup label="Prusa">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Prusa%20Mini_gcodes.zip">Mini</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Prusa%20MK3S_gcodes.zip">MK3S</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Prusa%20MK4_gcodes.zip">MK4</option>
-                </optgroup>
-                <optgroup label="Bambu Lab">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Bambu%20Lab%20A1%20-%20A1%20Mini_gcodes.zip">A1 / A1 Mini</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Bambu%20Lab%20X1-Carbon_gcodes.zip">X1 Carbon</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Bambu%20Lab%20P1P%20-%20P1S_gcodes.zip">P1S / P1P</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Ender%203%20-%20V2%20-%20V3%20SE_gcodes.zip">Ender 3 (V2 / Pro / V3 SE)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Ender%202%20pro_gcodes.zip">Ender 2 Pro</option>
-                </optgroup>
-                <optgroup label="Ankermake">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_AnkerMake%20M5_gcodes.zip">M5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Anycubic%20Mega_gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Anycubic%20Vyper_gcodes.zip">Vyper</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Anycubic%20Kobra%202_gcodes.zip">Kobra 2</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Artillery%20Sidewinder%20X2%20-%20X3_gcodes.zip">Sidewinder X2 / X3</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Artillery%20Genius_gcodes.zip">Genius</option>
-                </optgroup>
-                <optgroup label="Elegoo">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Elegoo%20Neptune%204%20Pro%20-%20Plus_gcodes.zip">Neptune 4 Pro / Plus</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Qidi%20Xplus%20-%20XMAX_gcodes.zip">Xplus / XMAX / i-Mate</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Qidi%20Xplus3%20-%20XMAX3%20-%20Xsmart3_gcodes.zip">Xplus3 / XMAX3 / Xsmart3</option>
-                </optgroup>
-                <optgroup label="Sovol">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Sovol%20SV06_gcodes.zip">SV06 / SV07</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip">Mini</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
                 </optgroup>
               </select>
-              <button onclick="addToCart('Jem', 20, 'price_1Ob5ooAuFwBMux61a9278EY3', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
+              <button onclick="addToCart('Jem', 17.90, 'price_1Oaf48AuFwBMux61hD5gCa7E', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
             </div>
-            <div class="hidden-section" id="section1-1">
-              <h2>Jem</h2>
+            <div class="hidden-section" id="section3-1">
+              <h2>Yuki</h2>
               <div class="video-wrapper">
-                <video id="video-section1-1" muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/Jem.mp4" type="video/mp4">
+                <video id="video-section3-1" muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_classic.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/vF2obkSBFAg?si=gw-rdLfxYRrPNLcs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
@@ -360,7 +596,7 @@
             <div class="image-section" >
               <img src="static\images\Jusy_6.2.png" alt="Immagine 1">
               <div class="button-container">
-                <button data-section="section1-2" onclick="showSection('section1-2')">Discover</button>
+                <button data-section="section3-2" onclick="showSection('section3-2')">Discover</button>
                 <select onchange="downloadFile(this.value, this)">
                   <option value="">Print</option>
                   <optgroup label="Prusa">
@@ -400,10 +636,10 @@
                   </optgroup>
                 </select>
               </div>
-              <div class="hidden-section" id="section1-2">
+              <div class="hidden-section" id="section3-2">
                 <h2>Jusy</h2>
                 <div class="video-wrapper">
-                  <video id="video-section1-2"  muted loop controls>
+                  <video id="video-section3-2"  muted loop controls>
                       <source src="https://storage.googleapis.com/riverfamily/videos/Jusy_4.mp4" type="video/mp4">
                     </video>
                     <iframe src="https://www.youtube.com/embed/G5-VeiQyuBg?si=aWUJeIZlmT9UDycU&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
@@ -424,277 +660,9 @@
     <div class="swiper-pagination"></div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-
-
   </div>
 
-  <div class="spacer"></div>
-
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <!-- Slide 1 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="static\images\classic.webp" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section2-1" onclick="showSection('section2-1')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-Mini-Gcodes.zip">Mini</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-2-Gcodes.zip">Ender 2 Pro</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-CR6-se-Gcodes.zip">CR6-se</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-3S1-Gcodes.zip">Ender 3 S1</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Ender-5-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Anycubic-MegaS-Pro-x-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Qidi-iMate-Xplus-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section2-1">
-              <h2>Yuki</h2>
-              <div class="video-wrapper">
-                <video id="video-section2-1" muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_classic.mp4" type="video/mp4">
-                </video>
-                <iframe src="https://www.youtube.com/embed/vF2obkSBFAg?si=gw-rdLfxYRrPNLcs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/217636-yuki-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="static\images\snowflake.webp" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section2-2
-             " onclick="showSection('section2-2')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Prusa-MINI-Gcodes.zip">Mini</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-2-Gcodes.zip">Ender 2 Pro</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Creality-CR6-se-Gcodes.zip">CR6-se</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Ender-5-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Anycubic-MegaS-Pro-x-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-QIDI-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section2-2">
-              <h2>Yuki Snowflake</h2>
-              <div class="video-wrapper">
-                <video id="video-section2-2" muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_snowflake.mp4" type="video/mp4">
-                </video>
-                <iframe src="https://www.youtube.com/embed/PF0ymJvRQEU?si=fJCl4KHxy9w3549c&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/229614-yuki-air-cooler-snowflake')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="static\images\bulbasaur.webp" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section2-3" onclick="showSection('section2-3')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Prusa">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
-                </optgroup>
-                <optgroup label="Creality">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Creality-CR6-se-Gcodes.zip">CR6-se</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-3-S1-Gcodes.zip">Ender 3 S1</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Ender-5-Gcodes.zip">Ender 5</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Artillery-Sidewinder-Genius-Gcodes.zip">Sidewinder X2 / Genius</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Bulbasaur-Qidi-iMate-XPlus-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section2-3">
-              <h2>Bulbasaur Air Cooler</h2>
-              <div class="video-wrapper">
-                <video id="video-section2-3"  muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_bulbasaur_1.mp4" type="video/mp4">
-                </video>
-                <iframe src="https://www.youtube.com/embed/TFFby_LWA9A?si=jkC6MhBXXNgcqgrS&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/229602-bulbasaur-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="static\images\gengar.webp" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section2-4" onclick="showSection('section2-4')">Discover</button>
-              <select onchange="downloadFile(this.value, this)">
-                <option value="">Print</option>
-                <optgroup label="Creality">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Ender-3-Gcodes.zip">Ender 3 (V2 / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-CR6-se-Gcodes.zip">CR6-se</option>
-                </optgroup>
-                <optgroup label="Anycubic">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Anycubic-Mega-X-Gcodes.zip">Mega (S / X / Pro)</option>
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Anycubic-Vyper-Gcodes.zip">Vyper</option>
-                </optgroup>
-                <optgroup label="Artillery">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Artillery-Sidewinder-Gcodes.zip">Sidewinder X2</option>
-                </optgroup>
-                <optgroup label="Qidi">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_bulbasaur/Gengar-Qidi-XMax-Gcodes.zip">i-Mate / X-Plus / XMax</option>
-                </optgroup>
-              </select>
-            </div>
-            <div class="hidden-section" id="section2-4">
-              <h2>Gengar Air Cooler</h2>
-              <div class="video-wrapper">
-                <video id="video-section2-4"  muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/yuki_gengar.mp4" type="video/mp4">
-                </video>
-                <iframe src="https://www.youtube.com/embed/3r7qFmCJfaw?si=k1BBDUf2ZvwSY21s&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-              <p>Fits any 80mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/236596-gengar-air-cooler')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Pagination & Navigation -->
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
   </div>
-
-
-  <div class="container">
-    <div class="image-section" >
-      <img src="static\images\dado7.webp" alt="Immagine 1">
-      <div class="button-container">
-        <button data-section="section3-1" onclick="showSection('section3-1')">Discover</button>
-        <select onchange="downloadFile(this.value, this)">
-          <option value="">Print</option>
-          <optgroup label="Prusa">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20Mini_gcodes.zip">Mini</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20MK3S_gcodes.zip">MK3S</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Prusa%20MK4_gcodes.zip">MK4</option>
-          </optgroup>
-          <optgroup label="Creality">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Ender%203_gcodes.zip">Ender 3 (V2 / Pro)</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Ender%202%20pro_gcodes.zip">Ender 2 Pro</option>
-          </optgroup>
-          <optgroup label="Ankermake">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_AnkerMake%20M5_gcodes.zip">M5</option>
-          </optgroup>
-          <optgroup label="Anycubic">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Mega_gcodes.zip">Mega (S / X / Pro)</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Vyper_gcodes.zip">Vyper</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Anycubic%20Kobra%202_gcodes.zip">Kobra 2</option>
-          </optgroup>
-          <optgroup label="Artillery">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Artillery%20Sidewinder%20X2_gcodes.zip">Sidewinder X2</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Artillery%20Genius_gcodes.zip">Genius</option>
-          </optgroup>
-          <optgroup label="Bambu Lab">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Bambu%20Lab%20X1-Carbon_gcodes.zip">X1 Carbon</option>
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Bambu%20Lab%20P1P_gcodes.zip">P1P</option>
-          </optgroup>
-          <optgroup label="Qidi">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Qidi%20XMAX_gcodes.zip">i-Mate / X-Plus / XMax</option>
-          </optgroup>
-          <optgroup label="Sovol">
-            <option value="https://storage.googleapis.com/riverfamily/gcodes/dado/Dado_Sovol%20SV06_gcodes.zip">SV06</option>
-          </optgroup>
-        </select>
-      </div>
-      <div class="hidden-section" id="section3-1">
-        <h2>Dado</h2>
-        <div class="video-wrapper">
-          <video id="video-section3-1"  muted loop controls>
-              <source src="https://storage.googleapis.com/riverfamily/videos/dado_1.mp4" type="video/mp4">
-            </video>
-            <iframe src="https://www.youtube.com/embed/uD2vHHnfa2A?si=4EQjOxBqw-D_UIGs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
-      </div>
-      <p>Turning Dado changes the airflow angle</p>
-      <p>Fits any 80mm, 92mm 120mm, 140mm PC fan</p>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
-                <button class="link-button" onclick="window.open('https://www.printables.com/model/517534-dado-desk-fan')">Printables</button>
-                <button class="link-button" onclick="window.open('https://www.github.com/AlessioPagliai/RiverFamily')">Github</button>
-              </div>
-    </div>
-  </div>
-
-  
-</div>
-
-
 
 
   <style>
@@ -848,8 +816,7 @@
     <div class="checkout-items">
       <!-- Aggiungi qui gli articoli nel carrello -->
     </div>
-    <p style="margin-top: 0px;"><span id="cart-total"> $ 0.00</span></p>
-    <p id="checkout-message" style="display: none;"></p>
+    <p style="margin-top: 0px;"><span id="cart-total"> € 0.00</span></p>
     <button class="styled-button" id="purchase-button" type="submit" form="checkout-form" style="margin-bottom: 30px; margin-top: 20px;">Checkout</button>
     <div id="close-popup" style="cursor:pointer;">&times;</div>
   </div>
@@ -865,46 +832,28 @@ $(document).ready(function() {
   $('#purchase-button').on('click', function(e) {
     e.preventDefault();
 
-    // Calcola il totale del carrello
-    var totalAmount = parseFloat($('#cart-total').text().replace('$', '').trim());
-
-    // Mostra il messaggio di errore se il totale è inferiore a 50$ e interrompe l'esecuzione
-    if (totalAmount < 50) {
-      var checkoutMessage = $('#checkout-message');
-      checkoutMessage.text('Please make a minimum order of $50 to proceed to checkout').show();
-
-      // Nascondi il messaggio dopo 5 secondi
-      setTimeout(function() {
-        checkoutMessage.hide();
-      }, 5000);
-
-      return;
-    }
-
-    // Prepara gli articoli per il checkout
     var lineItems = cart.map(function(item) {
-      return {
-        price: item.priceId, // Usa l'ID del prezzo Stripe da ciascun prodotto nel carrello
-        quantity: item.quantity,
-      };
+        return {
+            price: item.priceId, // Usa l'ID del prezzo Stripe da ciascun prodotto nel carrello
+            quantity: item.quantity,
+        };
     });
 
-    // Procedi con il redirect al checkout di Stripe
-    stripe.redirectToCheckout({
-      lineItems: lineItems,
-      mode: 'payment',
-      successUrl: window.location.origin, 
-      cancelUrl: window.location.origin,
-      billingAddressCollection: 'required',
-      shippingAddressCollection: {
-        allowedCountries: ['IT', 'US', 'GB'],
-      },
-    }).then(function(result) {
-      if (result.error) {
-        $('#error-message').text(result.error.message);
-      }
-    });
+  stripe.redirectToCheckout({
+    lineItems: lineItems,
+    mode: 'payment',
+    successUrl: window.location.origin , 
+    cancelUrl: window.location.origin ,
+    billingAddressCollection: 'required',
+    shippingAddressCollection: {
+      allowedCountries: ['IT', 'US', 'GB'],  // Lista di paesi consentiti
+    },
+  }).then(function (result) {
+    if (result.error) {
+      $('#error-message').text(result.error.message);
+    }
   });
+});
 });
 
 
@@ -1008,7 +957,7 @@ function updateCart() {
         itemElement.classList.add('cart-item');
 
         var productDetails = document.createElement('span');
-        productDetails.textContent = item.name  + ' - $ ' + item.price.toFixed(2);
+        productDetails.textContent = item.name + ' - € ' + item.price.toFixed(2);
 
         var quantityContainer = document.createElement('div');
         quantityContainer.classList.add('quantity-container');
@@ -1039,7 +988,7 @@ function updateCart() {
         totalCount += item.quantity;
     });
 
-    cartTotal.textContent = '$ ' + totalAmount.toFixed(2);
+    cartTotal.textContent = '€ ' + totalAmount.toFixed(2);
     cartCounter.textContent = totalCount;
     document.getElementById('checkout-button').style.display = cart.length > 0 ? 'block' : 'none';
 }
@@ -1098,6 +1047,8 @@ function updateCart() {
       handleVideoPlayback(section, false);
     }
   }
+
+  updateButtonState(sectionId);
 }
 
 function handleVideoPlayback(section, shouldPlay) {
@@ -1107,6 +1058,41 @@ function handleVideoPlayback(section, shouldPlay) {
       video.play();
     } else {
       video.pause();
+    }
+  }
+}
+
+
+function updateButtonState(activeSectionId) {
+  var activeSliderGroup = activeSectionId.split('-')[0]; // Estrai il gruppo dello slider
+
+  var sections = document.querySelectorAll('.hidden-section');
+  var isAnySectionOpen = false;
+
+  // Controlla se una qualsiasi sezione in questo gruppo di slider è aperta
+  for (var i = 0; i < sections.length; i++) {
+    var sectionGroup = sections[i].id.split('-')[0];
+    if (sectionGroup === activeSliderGroup && sections[i].style.display === 'block') {
+      isAnySectionOpen = true;
+      break;
+    }
+  }
+
+  // Aggiorna lo stato di tutti i bottoni "Discover" nel gruppo di slider
+  var buttonContainers = document.getElementsByClassName('button-container');
+  for (var j = 0; j < buttonContainers.length; j++) {
+    var buttons = buttonContainers[j].getElementsByTagName('button');
+
+    for (var k = 0; k < buttons.length; k++) {
+      var buttonSectionGroup = buttons[k].getAttribute("data-section").split('-')[0];
+
+      if (buttonSectionGroup === activeSliderGroup) {
+        if (isAnySectionOpen) {
+          buttons[k].classList.add('clicked');
+        } else {
+          buttons[k].classList.remove('clicked');
+        }
+      }
     }
   }
 }
@@ -1166,7 +1152,7 @@ function handleVideoPlayback(section, shouldPlay) {
       }
       
 
-     // window.addEventListener('scroll', hideSectionsOnScroll);
+      window.addEventListener('scroll', hideSectionsOnScroll);
 
       var swiper = new Swiper('.swiper-container', {
         loop: false,

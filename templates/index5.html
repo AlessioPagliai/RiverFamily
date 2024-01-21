@@ -103,7 +103,7 @@
       position: relative;
       z-index: 1;
 
-      width: 40px;
+      width: 50px;
     }
 
 
@@ -202,8 +202,6 @@
     display: none;
   }
 }
-
-
 
 .header-container {
   position: fixed;
@@ -310,7 +308,7 @@
                   <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
                 </optgroup>
               </select>
-              <button onclick="addToCart('Jem', 17.90, 'price_1Oaf48AuFwBMux61hD5gCa7E', 2, this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
+              <button onclick="addToCart('Jem', 17.90, 'price_1Oaf48AuFwBMux61hD5gCa7E', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
             </div>
             <div class="hidden-section" id="section1-1-1">
               <h2>Yuki</h2>
@@ -343,7 +341,8 @@
                   <option value="https://storage.googleapis.com/riverfamily/gcodes/yuki_snowflake/Yuki-Snowflake-Prusa-MK3S-Gcodes.zip">MK3S/MK4</option>
                 </optgroup>
               </select>
-            </div>
+              <button onclick="addToCart('Yuki', 10.99, 'price_1O8AGrAuFwBMux611LgIlYdc', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
+                 </div>
             <div class="hidden-section" id="section1-2-1">
               <h2>Yuki Snowflake</h2>
               <div class="video-wrapper">
@@ -434,8 +433,8 @@
   color: #0070C9;
   font-size: 24px;
   position: absolute;
-  right: 20px; /* Aumentare se la 'X' è troppo vicina al bordo */
-  top: 10px; /* Aumentare se la 'X' è troppo vicina al bordo */
+  right: 15px; /* Aumentare se la 'X' è troppo vicina al bordo */
+  top: 5px; /* Aumentare se la 'X' è troppo vicina al bordo */
   cursor: pointer; /* Consigliato per indicare che è cliccabile */
 }
 
@@ -460,7 +459,7 @@
 }
 
 .styled-button {
-  margin: 0 12px; /* ereditato */
+  maargin: 0 12px; /* ereditato */
   font-family: "Poppins"; /* ereditato */
   font-size: 17px; /* ereditato */
   color: #0070C9; /* ereditato */
@@ -472,14 +471,33 @@
   /* Aggiungi altre proprietà di stile o sovrascrivi come necessario, ad esempio, per il padding, il bordo in caso di focus, ecc. */
 }
 
-.styled-button.increase-decrease {
+.styled-button.decrease {
   font-size: 24px;
-  margin: 12px 12px;
+  margin-right: 12px;
   padding: 0px 0px;
   background-color: transparent; /* ad esempio */
   border: 0px solid #0070C9; /* ad esempio */
   color: #0070C9; /* ad esempio */
-  
+}
+
+.styled-button.increase {
+  font-size: 24px;
+  margin-left: 12px;
+  margin-right: 0px ;
+  padding: 0px 0px;
+  background-color: transparent; /* ad esempio */
+  border: 0px solid #0070C9; /* ad esempio */
+  color: #0070C9; /* ad esempio */
+}
+
+.remove-button {
+  font-size: 24px;
+  margin-left: 0px ;
+  padding: 0px 0px;
+  padding-top: 2px;
+  color: #0070C9; /* ad esempio */
+  background-color: transparent; /* ad esempio */
+  border: 0px solid #0070C9; /* ad esempio */
 }
 
 .cart-item {
@@ -531,7 +549,6 @@
       <!-- Aggiungi qui gli articoli nel carrello -->
     </div>
     <p style="margin-top: 0px;"><span id="cart-total"> € 0.00</span></p>
-
     <button class="styled-button" id="purchase-button" type="submit" form="checkout-form" style="margin-bottom: 30px; margin-top: 20px;">Checkout</button>
     <div id="close-popup" style="cursor:pointer;">&times;</div>
   </div>
@@ -545,14 +562,14 @@ $(document).ready(function() {
   var stripe = Stripe('pk_live_51O6Yb0AuFwBMux613185oqIsR7iNtmqdhlFSo4TH1q3M8knI6E0p0rMU31DbWqzrELknHmOzkJXNhjGo8YRW6GWL003TO1OnLf');
 
   $('#purchase-button').on('click', function(e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  var lineItems = cart.map(function(item) {
-    return {
-      price: 'price_1O8AGrAuFwBMux611LgIlYdc', // Sostituisci con l'ID del prezzo corretto per ciascun prodotto
-      quantity: item.quantity,
-    };
-  });
+    var lineItems = cart.map(function(item) {
+        return {
+            price: item.priceId, // Usa l'ID del prezzo Stripe da ciascun prodotto nel carrello
+            quantity: item.quantity,
+        };
+    });
 
   stripe.redirectToCheckout({
     lineItems: lineItems,
@@ -611,7 +628,8 @@ document.addEventListener("DOMContentLoaded", function() {
 var cart = [];
 var cartCounter = document.querySelector('.cart-counter');
 
-function addToCart(productName, productPrice, stripePriceId, minQuantity, imageElement) {
+
+function addToCart(productName, productPrice, stripePriceId, imageElement) {
     var price = parseFloat(productPrice);
     if (!isNaN(price)) {
         var product = cart.find(p => p.name === productName);
@@ -621,9 +639,8 @@ function addToCart(productName, productPrice, stripePriceId, minQuantity, imageE
             product = { 
                 name: productName, 
                 price: price, 
-                quantity: minQuantity, // Aggiungi la quantità minima
-                priceId: stripePriceId,
-                minQuantity: minQuantity 
+                quantity: 1,
+                priceId: stripePriceId
             };
             cart.push(product);
         }
@@ -632,8 +649,8 @@ function addToCart(productName, productPrice, stripePriceId, minQuantity, imageE
         console.error('Il prezzo del prodotto non è valido.');
     }
     
-  // Clone the image element, add animation class, and append to the body
-  const clonedImage = imageElement.cloneNode(true);
+    // Clone the image element, add animation class, and append to the body
+    const clonedImage = imageElement.cloneNode(true);
     document.body.appendChild(clonedImage);
 
     const rect = imageElement.getBoundingClientRect();
@@ -649,91 +666,87 @@ function addToCart(productName, productPrice, stripePriceId, minQuantity, imageE
         clonedImage.remove();
     }, 1000); // La durata dell'animazione
 
+    // Mostra l'header e aggiungi la classe lampeggiante
+    document.getElementById("checkout-button").style.display = "block";
+    document.getElementById("checkout-button").classList.add("flashing");
 
-  // Mostra l'header e aggiungi la classe lampeggiante
-  document.getElementById("checkout-button").style.display = "block";
-  document.getElementById("checkout-button").classList.add("flashing");
-
-  // Imposta un timeout per rimuovere la classe lampeggiante dopo un certo periodo
-  setTimeout(function() {
-    document.getElementById("checkout-button").classList.remove("flashing");
-  }, 1000); // Rimuovi la classe dopo 2 secondi (puoi regolare il tempo a tuo piacimento)
+    // Imposta un timeout per rimuovere la classe lampeggiante dopo un certo periodo
+    setTimeout(function() {
+        document.getElementById("checkout-button").classList.remove("flashing");
+    }, 1000); // Rimuovi la classe dopo 2 secondi (puoi regolare il tempo a tuo piacimento)
 }
-
 
 function updateCart() {
     var cartList = document.querySelector('#checkout-popup .checkout-items');
     var cartTotal = document.getElementById('cart-total');
     var totalAmount = 0;
-    var totalCount = 0;  // Aggiungi una variabile per tenere traccia del conteggio totale degli articoli
+    var totalCount = 0;
 
-    cartList.innerHTML = ''; // Svuota l'elenco attuale
+    cartList.innerHTML = '';
 
     cart.forEach(function(item, index) {
         var itemElement = document.createElement('div');
-        itemElement.classList.add('cart-item'); // Aggiungi una classe per styling se necessario
+        itemElement.classList.add('cart-item');
 
-        // Crea gli elementi per il nome del prodotto e il prezzo
         var productDetails = document.createElement('span');
-        productDetails.textContent = item.name + '     ' + ' € ' + item.price.toFixed(2) ;
+        productDetails.textContent = item.name + ' - € ' + item.price.toFixed(2);
 
-        // Crea il contenitore per i bottoni e la quantità
         var quantityContainer = document.createElement('div');
-        quantityContainer.classList.add('quantity-container'); // Aggiungi una classe per styling
+        quantityContainer.classList.add('quantity-container');
 
-        // Crea il bottone per diminuire la quantità
+        // Bottone per diminuire la quantità
         var decreaseButton = document.createElement('button');
         decreaseButton.textContent = '-';
-        decreaseButton.classList.add('styled-button', 'increase-decrease'); // e qui
+        decreaseButton.classList.add('styled-button', 'decrease');
         decreaseButton.onclick = function() { changeQuantity(index, -1); };
+        quantityContainer.appendChild(decreaseButton);
 
-        // Crea un elemento per mostrare la quantità
         var quantityText = document.createElement('span');
-        quantityText.textContent = ' x' + item.quantity + ' '; // Spazi aggiunti per la leggibilità
-        quantityText.classList.add('quantity-text'); // Aggiungi una classe per eventuali stili specifici
+        quantityText.textContent = 'x' + item.quantity; // Aggiunta della quantità
+        quantityText.classList.add('quantity-text');
 
-        // Crea il bottone per aumentare la quantità
         var increaseButton = document.createElement('button');
         increaseButton.textContent = '+';
-        increaseButton.classList.add('styled-button', 'increase-decrease'); // aggiornato qui
+        increaseButton.classList.add('styled-button', 'increase');
         increaseButton.onclick = function() { changeQuantity(index, 1); };
-
-        // Aggiungi bottoni e testo di quantità al contenitore
-        quantityContainer.appendChild(decreaseButton);
-        quantityContainer.appendChild(quantityText);
+        quantityContainer.appendChild(quantityText); // Aggiunta della quantità
         quantityContainer.appendChild(increaseButton);
 
-        // Aggiungi dettagli del prodotto e contenitore di quantità all'elemento del carrello
         itemElement.appendChild(productDetails);
-        itemElement.appendChild(quantityContainer); // Aggiungi questa linea
-
-        // Aggiungi l'elemento del carrello all'elenco del carrello
+        itemElement.appendChild(quantityContainer);
         cartList.appendChild(itemElement);
 
         totalAmount += item.price * item.quantity;
-        totalCount += item.quantity;  // Aggiorna il conteggio totale con la quantità di ogni articolo
+        totalCount += item.quantity;
     });
 
-    cartTotal.textContent = '€ ' + totalAmount.toFixed(2) ;
-    cartCounter.textContent = totalCount; // Aggiorna il conteggio degli articoli con il conteggio totale
-
-    // La logica per mostrare o nascondere il bottone di checkout rimane invariata
+    cartTotal.textContent = '€ ' + totalAmount.toFixed(2);
+    cartCounter.textContent = totalCount;
     document.getElementById('checkout-button').style.display = cart.length > 0 ? 'block' : 'none';
 }
 
 
-function changeQuantity(itemIndex, change) {
-    var item = cart[itemIndex];
-    var newQuantity = item.quantity + change;
+    function removeFromCart(itemIndex) {
+        cart.splice(itemIndex, 1); // Rimuove l'articolo dal carrello
+        updateCart();
+    }
 
-    if (newQuantity > 0) {
-        item.quantity = newQuantity;
+
+
+    function changeQuantity(itemIndex, change) {
+    var item = cart[itemIndex];
+    
+    // Se la quantità è 1 e l'utente tenta di diminuirla, rimuovi l'articolo
+    if (item.quantity === 1 && change === -1) {
+        removeFromCart(itemIndex);
     } else {
-        cart.splice(itemIndex, 1);  // Rimuovi l'elemento se la quantità è 0
+        var newQuantity = item.quantity + change;        
+            item.quantity = newQuantity;
     }
 
     updateCart();
 }
+
 
 
 </script>
