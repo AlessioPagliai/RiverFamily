@@ -286,6 +286,74 @@
 
 <body>
 
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+  <div class="container">
+    <div class="image-section">
+      <img src="static\images\roy.webp" alt="Immagine 1">
+      <div class="button-container">
+        <button data-section="section1-1" onclick="showSection('section1-1')" >Discover</button>
+        <select onchange="downloadFile(this.value, this)">
+          <option value="">Print</option>
+          <optgroup label="Prusa">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Prusa_Mini_gcodes.zip">Mini</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Prusa_MK3S_gcodes.zip">MK3S</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Prusa_MK4_gcodes.zip">MK4</option>
+          </optgroup>
+          <optgroup label="Bambu Lab">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Bambu_Lab_A1_-_A1_Mini_gcodes.zip">A1 / A1 Mini</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Bambu_Lab_X1-Carbon_gcodes.zip">X1 Carbon</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Bambu_Lab_P1P_-_P1S_gcodes.zip">P1S / P1P</option>
+          </optgroup>
+          <optgroup label="Creality">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Ender_3_-_V2_-_V3_SE_gcodes.zip">Ender 3 (V2 / Pro / V3 SE)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Ender_2_pro_gcodes.zip">Ender 2 Pro</option>
+          </optgroup>
+          <optgroup label="Ankermake">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_AnkerMake_M5_gcodes.zip">M5 / M5C</option>
+          </optgroup>
+          <optgroup label="Anycubic">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Anycubic_Mega_gcodes.zip">Mega (S / X / Pro)</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Anycubic_Vyper_gcodes.zip">Vyper</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Anycubic_Kobra_2_gcodes.zip">Kobra 2</option>
+          </optgroup>
+          <optgroup label="Artillery">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Artillery_Sidewinder_X2_-_X3_gcodes.zip">Sidewinder X2 / X3</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Artillery_Genius_gcodes.zip">Genius</option>
+          </optgroup>
+          <optgroup label="Elegoo">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Elegoo_Neptune_4_Pro_-_Plus_gcodes.zip">Neptune 4 Pro / Plus</option>
+          </optgroup>
+          <optgroup label="Qidi">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Qidi_Xplus_-_XMAX_gcodes.zip">Xplus / XMAX / i-Mate</option>
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Qidi_Xplus3_-_XMAX3_-_Xsmart3_gcodes.zip">Xplus3 / XMAX3 / Xsmart3</option>
+          </optgroup>
+          <optgroup label="Sovol">
+            <option value="https://storage.googleapis.com/riverfamily/gcodes/roy/Roy_Sovol_SV06_gcodes.zip">SV06 / SV07</option>
+          </optgroup>
+        </select>
+        <button onclick="addToCart('Roy', 40, 'price_1OrMBJAuFwBMux61ZZVupV66', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
+      </div>
+      <div class="hidden-section" id="section1-1">
+        <h2>Roy</h2>
+        <div class="video-wrapper">
+          <video id="video-section1-1" muted loop controls>
+            <source src="https://storage.googleapis.com/riverfamily/videos/roy_2.mp4" type="video/mp4">
+          </video>
+          <iframe src="https://www.youtube.com/embed/JrwJQ4E91d4?si=1rU_XQ8LTQREWZFJ&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p style="max-width: 600px; margin-left:auto; margin-right:auto; margin-top:30px"></p>
+        <div class="link-container">
+          <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:6519037')">Thingiverse</button>
+          <button class="link-button" onclick="window.open('https://www.printables.com/model/794571-roy-air-purifier')">Printables</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -295,7 +363,7 @@
           <div class="image-section">
             <img src="static\images\12.png" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section1-1" onclick="showSection('section1-1')" >Discover</button>
+              <button data-section="section2-1" onclick="showSection('section2-1')" >Discover</button>
               <select onchange="downloadFile(this.value, this)">
                 <option value="">Print</option>
                 <optgroup label="Prusa">
@@ -313,7 +381,7 @@
                   <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Ender%202%20pro_gcodes.zip">Ender 2 Pro</option>
                 </optgroup>
                 <optgroup label="Ankermake">
-                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_AnkerMake%20M5_gcodes.zip">M5</option>
+                  <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_AnkerMake%20M5_gcodes.zip">M5 / M5C</option>
                 </optgroup>
                 <optgroup label="Anycubic">
                   <option value="https://storage.googleapis.com/riverfamily/gcodes/jem/Jem_Anycubic%20Mega_gcodes.zip">Mega (S / X / Pro)</option>
@@ -337,10 +405,10 @@
               </select>
               <button onclick="addToCart('Jem', 20, 'price_1Ob5ooAuFwBMux61a9278EY3', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
             </div>
-            <div class="hidden-section" id="section1-1">
+            <div class="hidden-section" id="section2-1">
               <h2>Jem</h2>
               <div class="video-wrapper">
-                <video id="video-section1-1" muted loop controls>
+                <video id="video-section2-1" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/Jem_1.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/m4EZyeUw9i4?si=DrtlxbEKUuR2XBsk&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -361,7 +429,7 @@
             <div class="image-section" >
               <img src="static\images\Jusy_6.2.png" alt="Immagine 1">
               <div class="button-container">
-                <button data-section="section1-2" onclick="showSection('section1-2')">Discover</button>
+                <button data-section="section2-2" onclick="showSection('section2-2')">Discover</button>
                 <select onchange="downloadFile(this.value, this)">
                   <option value="">Print</option>
                   <optgroup label="Prusa">
@@ -401,10 +469,10 @@
                   </optgroup>
                 </select>
               </div>
-              <div class="hidden-section" id="section1-2">
+              <div class="hidden-section" id="section2-2">
                 <h2>Jusy</h2>
                 <div class="video-wrapper">
-                  <video id="video-section1-2"  muted loop controls>
+                  <video id="video-section2-2"  muted loop controls>
                       <source src="https://storage.googleapis.com/riverfamily/videos/Jusy.mp4" type="video/mp4">
                     </video>
                     <iframe src="https://www.youtube.com/embed/G5-VeiQyuBg?si=aWUJeIZlmT9UDycU&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
@@ -439,7 +507,7 @@
           <div class="image-section">
             <img src="static\images\classic.webp" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section2-1" onclick="showSection('section2-1')">Discover</button>
+              <button data-section="section3-1" onclick="showSection('section3-1')">Discover</button>
               <select onchange="downloadFile(this.value, this)">
                 <option value="">Print</option>
                 <optgroup label="Prusa">
@@ -465,10 +533,10 @@
                 </optgroup>
               </select>
             </div>
-            <div class="hidden-section" id="section2-1">
+            <div class="hidden-section" id="section3-1">
               <h2>Yuki</h2>
               <div class="video-wrapper">
-                <video id="video-section2-1" muted loop controls>
+                <video id="video-section3-1" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_classic.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/vF2obkSBFAg?si=gw-rdLfxYRrPNLcs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -490,8 +558,8 @@
           <div class="image-section">
             <img src="static\images\snowflake.webp" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section2-2
-             " onclick="showSection('section2-2')">Discover</button>
+              <button data-section="section3-2
+             " onclick="showSection('section3-2')">Discover</button>
               <select onchange="downloadFile(this.value, this)">
                 <option value="">Print</option>
                 <optgroup label="Prusa">
@@ -517,10 +585,10 @@
                 </optgroup>
               </select>
             </div>
-            <div class="hidden-section" id="section2-2">
+            <div class="hidden-section" id="section3-2">
               <h2>Yuki Snowflake</h2>
               <div class="video-wrapper">
-                <video id="video-section2-2" muted loop controls>
+                <video id="video-section3-2" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_snowflake.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/PF0ymJvRQEU?si=fJCl4KHxy9w3549c&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
@@ -540,7 +608,7 @@
           <div class="image-section">
             <img src="static\images\bulbasaur.webp" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section2-3" onclick="showSection('section2-3')">Discover</button>
+              <button data-section="section3-3" onclick="showSection('section3-3')">Discover</button>
               <select onchange="downloadFile(this.value, this)">
                 <option value="">Print</option>
                 <optgroup label="Prusa">
@@ -564,10 +632,10 @@
                 </optgroup>
               </select>
             </div>
-            <div class="hidden-section" id="section2-3">
+            <div class="hidden-section" id="section3-3">
               <h2>Bulbasaur Air Cooler</h2>
               <div class="video-wrapper">
-                <video id="video-section2-3"  muted loop controls>
+                <video id="video-section3-3"  muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_bulbasaur_1.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/TFFby_LWA9A?si=jkC6MhBXXNgcqgrS&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -588,7 +656,7 @@
           <div class="image-section">
             <img src="static\images\gengar.webp" alt="Immagine 1">
             <div class="button-container">
-              <button data-section="section2-4" onclick="showSection('section2-4')">Discover</button>
+              <button data-section="section3-4" onclick="showSection('section3-4')">Discover</button>
               <select onchange="downloadFile(this.value, this)">
                 <option value="">Print</option>
                 <optgroup label="Creality">
@@ -607,10 +675,10 @@
                 </optgroup>
               </select>
             </div>
-            <div class="hidden-section" id="section2-4">
+            <div class="hidden-section" id="section3-4">
               <h2>Gengar Air Cooler</h2>
               <div class="video-wrapper">
-                <video id="video-section2-4"  muted loop controls>
+                <video id="video-section3-4"  muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/yuki_gengar.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/3r7qFmCJfaw?si=k1BBDUf2ZvwSY21s&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -638,7 +706,7 @@
     <div class="image-section" >
       <img src="static\images\dado7.webp" alt="Immagine 1">
       <div class="button-container">
-        <button data-section="section3-1" onclick="showSection('section3-1')">Discover</button>
+        <button data-section="section4-1" onclick="showSection('section4-1')">Discover</button>
         <select onchange="downloadFile(this.value, this)">
           <option value="">Print</option>
           <optgroup label="Prusa">
@@ -674,10 +742,10 @@
           </optgroup>
         </select>
       </div>
-      <div class="hidden-section" id="section3-1">
+      <div class="hidden-section" id="section4-1">
         <h2>Dado</h2>
         <div class="video-wrapper">
-          <video id="video-section3-1"  muted loop controls>
+          <video id="video-section4-1"  muted loop controls>
               <source src="https://storage.googleapis.com/riverfamily/videos/dado_1.mp4" type="video/mp4">
             </video>
             <iframe src="https://www.youtube.com/embed/uD2vHHnfa2A?si=4EQjOxBqw-D_UIGs&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
