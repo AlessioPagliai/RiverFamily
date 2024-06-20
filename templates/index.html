@@ -36,10 +36,11 @@
     }
 
     .image-section img {
-      max-width: 100%;
-      height: auto;
-      max-height: 490px;
-    }
+  max-height: 300px; 
+  width: auto;
+  height: auto;
+}
+
 
     .hidden-section {
       display: none;
@@ -117,14 +118,13 @@
     }
 
     .swiper-pagination {
-      display: flex;
-      justify-content: center;
-      position: absolute;
-      bottom: 0px;
-      left: 0;
-      right: 0;
-      margin: 0;
-    }
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
 
     .swiper-pagination-bullet {
       width: 12px; 
@@ -138,9 +138,14 @@
     }
     
     .swiper-slide {
-      position: relative;
-      /*height: 100%;*/
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: auto;
+}
+
 
     .swiper-button-next,
 .swiper-button-prev {
@@ -1273,7 +1278,7 @@ function updateCart() {
 
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-    function showSection(sectionId) {
+function showSection(sectionId) {
   console.log('Showing section:', sectionId); // Debug
   var sections = document.getElementsByClassName('hidden-section');
   var sectionGroup = sectionId.split('-')[0]; // Ottieni il gruppo di slide (es. "section1" da "section1-1")
