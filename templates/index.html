@@ -36,11 +36,17 @@
     }
 
     .image-section img {
-  max-height: 300px; 
-  width: auto;
-  height: auto;
-}
+      max-width: 100%;
+      height: auto;
+      max-height: 490px;
+    }
 
+
+    @media (max-width: 768px) {
+  .image-section img {
+    max-height: 300px; /* Imposta l'altezza massima solo su mobile */
+  }
+}
 
     .hidden-section {
       display: none;
@@ -118,13 +124,14 @@
     }
 
     .swiper-pagination {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      margin: 0;
+    }
 
     .swiper-pagination-bullet {
       width: 12px; 
@@ -138,14 +145,9 @@
     }
     
     .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: auto;
-}
-
+      position: relative;
+      /*height: 100%;*/
+    }
 
     .swiper-button-next,
 .swiper-button-prev {
