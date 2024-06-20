@@ -1306,16 +1306,50 @@ function showDiscoverButtons(sectionGroup) {
   });
 }
 
-function handleVideoPlayback(section, shouldPlay) {
-  var video = section.getElementsByTagName('video')[0];
-  if (video) {
-    if (shouldPlay && !isMobile) {
-      video.play();
+
+document.addEventListener('DOMContentLoaded', function() {
+    var videoElements = document.querySelectorAll('.video-wrapper video');
+    var iframeElements = document.querySelectorAll('.video-wrapper iframe');
+
+    if (isMobile) {
+        videoElements.forEach(function(video) {
+            video.style.display = 'none';
+        });
+
+        iframeElements.forEach(function(iframe) {
+            iframe.style.display = 'block';
+        });
     } else {
-      video.pause();
+        videoElements.forEach(function(video) {
+            video.style.display = 'block';
+        });
+
+        iframeElements.forEach(function(iframe) {
+            iframe.style.display = 'none';
+        });
     }
-  }
+});
+
+
+function handleVideoPlayback(section, shouldPlay) {
+    var video = section.getElementsByTagName('video')[0];
+    var iframe = section.getElementsByTagName('iframe')[0];
+    if (isMobile) {
+        if (video) video.style.display = 'none';
+        if (iframe) iframe.style.display = 'block';
+    } else {
+        if (video) {
+            video.style.display = 'block';
+            if (shouldPlay) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+        if (iframe) iframe.style.display = 'none';
+    }
 }
+
 
 function updateSwipers() {
   var swipers = document.querySelectorAll('.swiper-container');
