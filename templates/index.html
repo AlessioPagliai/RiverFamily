@@ -207,6 +207,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .video-wrapper video {
+    display: none !important;
+  }
+
+  .video-wrapper iframe {
+    display: block !important;
+  }
+}
+
+
 .header-container {
   position: fixed;
   top: 0; /* o 'top: 0' se vuoi che sia nella parte superiore */
@@ -1275,7 +1286,7 @@ function updateCart() {
       if (section.style.display === 'none' || section.style.display === '') {
         section.style.display = 'block';
         hideDiscoverButtons(sectionGroup); // Nascondi tutti i pulsanti Discover del gruppo
-        handleVideoPlayback(section, true);
+        handleVideoPlayback(section, !isMobile); // Non riprodurre video su dispositivi mobili
       } else {
         section.style.display = 'none';
         showDiscoverButtons(sectionGroup); // Mostra tutti i pulsanti Discover del gruppo
@@ -1291,6 +1302,7 @@ function updateCart() {
   // Aggiorna Swiper dopo la modifica del DOM
   updateSwipers();
 }
+
 
 function hideDiscoverButtons(sectionGroup) {
   var buttons = document.querySelectorAll('button[data-section^="' + sectionGroup + '"]');
@@ -1332,23 +1344,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function handleVideoPlayback(section, shouldPlay) {
-    var video = section.getElementsByTagName('video')[0];
-    var iframe = section.getElementsByTagName('iframe')[0];
-    if (isMobile) {
-        if (video) video.style.display = 'none';
-        if (iframe) iframe.style.display = 'block';
-    } else {
-        if (video) {
-            video.style.display = 'block';
-            if (shouldPlay) {
-                video.play();
-            } else {
-                video.pause();
-            }
-        }
-        if (iframe) iframe.style.display = 'none';
+  var video = section.getElementsByTagName('video')[0];
+  var iframe = section.getElementsByTagName('iframe')[0];
+
+  if (isMobile) {
+    if (video) video.style.display = 'none';
+    if (iframe) iframe.style.display = 'block';
+  } else {
+    if (video) {
+      video.style.display = 'block';
+      if (shouldPlay) {
+        video.play();
+      } else {
+        video.pause();
+      }
     }
+    if (iframe) iframe.style.display = 'none';
+  }
 }
+
 
 
 function updateSwipers() {
