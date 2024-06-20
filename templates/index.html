@@ -1309,7 +1309,7 @@ function showDiscoverButtons(sectionGroup) {
 function handleVideoPlayback(section, shouldPlay) {
   var video = section.getElementsByTagName('video')[0];
   if (video) {
-    if (shouldPlay) {
+    if (shouldPlay && !isMobile) {
       video.play();
     } else {
       video.pause();
