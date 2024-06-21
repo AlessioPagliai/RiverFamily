@@ -1023,6 +1023,11 @@
   /* Stili per il testo della quantità, se necessario */
 }
 
+.no-zoom {
+  touch-action: none;
+  overflow: hidden;
+}
+
 
 
   </style>
@@ -1114,18 +1119,36 @@ $(document).ready(function() {
 
 
  // Questa funzione apre il popup
-function confirmOrder() {
-  if (cart.length > 0) {
-    document.getElementById('checkout-overlay').style.display = 'flex'; // Mostra l'overlay
-  } else {
-    alert('Il carrello è vuoto. Aggiungi prodotti prima di effettuare il checkout.');
+ function confirmOrder() {
+    if (cart.length > 0) {
+      document.getElementById('checkout-overlay').style.display = 'flex'; // Mostra l'overlay
+      document.body.classList.add('no-zoom'); // Disabilita lo zoom
+    } else {
+      alert('Il carrello è vuoto. Aggiungi prodotti prima di effettuare il checkout.');
+    }
   }
-}
 
-// Questa funzione chiude il popup
-function closePopup() {
-  document.getElementById('checkout-overlay').style.display = 'none';
-}
+  // Questa funzione chiude il popup
+  function closePopup() {
+    document.getElementById('checkout-overlay').style.display = 'none';
+    document.body.classList.remove('no-zoom'); // Abilita nuovamente lo zoom
+  }
+
+  // Aggancia l'evento di click al tuo elemento 'x' per chiudere il popup
+  document.getElementById('close-popup').addEventListener('click', closePopup);
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Ascoltatore di eventi per l'overlay
+    document.getElementById('checkout-overlay').addEventListener('click', function(event) {
+      // Verifica se il click è direttamente sull'overlay (e non su un elemento figlio)
+      if (event.target === event.currentTarget) {
+        closePopup();
+      }
+    });
+
+    // Ascoltatore di eventi per il pulsante di chiusura
+    document.getElementById('close-popup').addEventListener('click', closePopup);
+  });
 
 // Aggancia l'evento di click al tuo elemento 'x' per chiudere il popup
 document.getElementById('close-popup').addEventListener('click', closePopup);
