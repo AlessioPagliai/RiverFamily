@@ -319,19 +319,54 @@
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
+
+      
+<!-- Slide 1 -->
+
       <div class="swiper-slide">
         <div class="container">
           <div class="image-section">
-            <img src="static\images\icepack.webp" alt="Immagine 1">
+            <img src="static\images\12_2_x2.webp" alt="Immagine 1">
             <div class="button-container">
               <button data-section="section1-1" onclick="showSection('section1-1')">Discover</button>
+              <button onclick="window.location.href='https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Snowflake%20Print%20Files.zip'">Print</button>
+              <button onclick="addToCart('Yuki S.', 50, 'price_1PU3Z8AuFwBMux617o5wBBzi', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
+            </div>
+            <div class="hidden-section" id="section1-1">
+              <h2>Yuki Snowflake</h2>
+              <div class="video-wrapper">
+                <video id="video-section1-1" muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/Yuki_snowflake.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/gVh2r-F7rD8?si=1WY90sj2--xTmsA9&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/riverfamily/designs')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/926123-yuki-air-cooler-snowflake')">Printables</button>
+                <button class="link-button" onclick="window.open('https://makerworld.com/en/models/515166')">Makerworld</button>
+                <button class="link-button" onclick="window.open('https://www.amazon.it/dp/B0D5WYC7K1/ref=twister_B0D5WXMHSN?_encoding=UTF8&th=1')">Amazon</button>
+                <button class="link-button" onclick="window.open('https://www.etsy.com/it/listing/1089201659/yuki-air-cooler')">Etsy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="image-section">
+            <img src="static\images\11_2_x2.webp" alt="Immagine 1">
+            <div class="button-container">
+              <button data-section="section1-2" onclick="showSection('section1-2')">Discover</button>
               <button onclick="window.location.href='https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Print%20Files.zip'">Print</button>
               <button onclick="addToCart('Yuki', 50, 'price_1PU3UrAuFwBMux61xf4h1qYG', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
             </div>
-            <div class="hidden-section" id="section1-1">
+            <div class="hidden-section" id="section1-2">
               <h2>Yuki</h2>
               <div class="video-wrapper">
-                <video id="video-section1-1" muted loop controls>
+                <video id="video-section1-2" muted loop controls>
                   <source src="https://storage.googleapis.com/riverfamily/videos/Yuki.mp4" type="video/mp4">
                 </video>
                 <iframe src="https://www.youtube.com/embed/TAI5tish3BI?si=UuU1btiFO5W7M_qx&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -349,34 +384,7 @@
       </div>
 
 
-      <div class="swiper-slide">
-        <div class="container">
-          <div class="image-section">
-            <img src="static\images\12_2_x2.webp" alt="Immagine 1">
-            <div class="button-container">
-              <button data-section="section1-2" onclick="showSection('section1-2')">Discover</button>
-              <button onclick="window.location.href='https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Snowflake%20Print%20Files.zip'">Print</button>
-              <button onclick="addToCart('Yuki S.', 50, 'price_1PU3Z8AuFwBMux617o5wBBzi', this.closest('.swiper-slide').querySelector('.image-section img'))">Buy</button>
-            </div>
-            <div class="hidden-section" id="section1-2">
-              <h2>Yuki Snowflake</h2>
-              <div class="video-wrapper">
-                <video id="video-section1-2" muted loop controls>
-                  <source src="https://storage.googleapis.com/riverfamily/videos/Yuki_snowflake.mp4" type="video/mp4">
-                </video>
-                <iframe src="https://www.youtube.com/embed/gVh2r-F7rD8?si=1WY90sj2--xTmsA9&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-              <div class="link-container">
-                <button class="link-button" onclick="window.open('https://www.amazon.it/dp/B0D5WYC7K1/ref=twister_B0D5WXMHSN?_encoding=UTF8&th=1')">Amazon</button>
-                <button class="link-button" onclick="window.open('https://www.etsy.com/it/listing/1089201659/yuki-air-cooler')">Etsy</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Slide 2 -->
+      <!-- Slide 3 -->
       <div class="swiper-slide">
         <div class="container">
           <div class="image-section">
