@@ -447,18 +447,25 @@
             <img src="static\images\mirai.webp" alt="Immagine 1">
             <div class="button-container">
               <button data-section="section5-5" onclick="showSection('section5-5')">Discover</button>
+              <button onclick="window.location.href='https://storage.googleapis.com/riverfamily/videos/Mirai_720p.mp4'">Print</button>
             </div>
             <div class="hidden-section" id="section5-5">
               <h2>Mirai</h2>
               <div class="video-wrapper">
-              <p>Coming soon</p>
-              <div class="link-container">
+                <video id="video-section5-2" muted loop controls>
+                  <source src="https://storage.googleapis.com/riverfamily/videos/Mirai_720p.mp4" type="video/mp4">
+                </video>
+                <iframe src="https://www.youtube.com/embed/LIyFCiK8exI?si=0d3HLYtjJgoKMnni&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+                <div class="link-container">
+                <button class="link-button" onclick="window.open('https://www.thingiverse.com/thing:6756782')">Thingiverse</button>
+                <button class="link-button" onclick="window.open('https://www.printables.com/model/998001-mirai-barefoot-shoes')">Printables</button>
+                <button class="link-button" onclick="window.open('https://makerworld.com/en/models/625732')">Makerworld</button>
               </div>
             </div>
           </div>
           </div>
         </div>
-      </div>
 
   </div>
     <div class="swiper-pagination"></div>
