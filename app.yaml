@@ -1,0 +1,19 @@
+runtime: python39  # Usa Python 3.9 (modifica se necessario)
+
+entrypoint: gunicorn -b :$PORT app:app  # Se il tuo file principale è main.py e contiene app = Flask(__name__)
+
+instance_class: F2  # Classe di istanza economica (puoi cambiarla: F1, F2, F4, ecc.)
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
+
+handlers:
+- url: /.*
+  script: auto
+  secure: always  # Forza HTTPS
+
+env_variables:
+  FLASK_ENV: "production"
+  SECRET_KEY: "supersecretkey"
