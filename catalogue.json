@@ -1,0 +1,3529 @@
+[
+  {
+    "slug": "toe",
+    "name": "Toe",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe with separated toes for more movement, using the same controlled wave-pattern idea as Onda: interleaved semicircular curves shaped around the foot.",
+    "image": "https://riverfamily.art/static/images/toe.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip",
+        "size": 159657218,
+        "generation": "1776848262085206",
+        "md5": "YWnCuPrJVUS1+8DDHVVE+A==",
+        "updated": "2026-04-22T08:57:42.223Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "toe.gh",
+        "size": 5414057
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip",
+        "path": "readme.txt",
+        "text": "\nhow to print the gcodes:\n\n\n→ use a printer with 0.4 nozzle and at least 256x256 build volume \n→ extract the SD card or the USB drive from the printer\n→ insert the SD card or the USB drive in a computer using an SD card reader or USB port\n→ copy the gcodes on the SD card or the USB drive\n→ insert the SD card back or the USB drive in the printer\n→ send the gcodes from the printer interface\n\nuse 85A filament\n\n---\n\nWebsite: https://www.riverfamily.art/\n\nMade with Stepan: https://drunks.st/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "WWwOjC6E7Lc",
+        "title": "Toe barefoot shoes - 3D printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WWwOjC6E7Lc"
+      },
+      {
+        "id": "PoO4unBbDBo",
+        "title": "toe barefoot shoes - 3d printed",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/PoO4unBbDBo"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1550923"
+      },
+      {
+        "label": "Thangs",
+        "url": "https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/toe-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2226925"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7267447"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Are 3D printed shoes actually comfortable?",
+        "slug": "are-3d-printed-shoes-comfortable"
+      },
+      {
+        "title": "How River custom shape is generated from two foot photos",
+        "slug": "custom-fit-3d-printed-shoes-foot-photos"
+      },
+      {
+        "title": "Why do 3D printed shoes look weird?",
+        "slug": "why-do-3d-printed-shoes-look-weird"
+      },
+      {
+        "title": "I 3D printed toe shoes. The internet was not normal about it.",
+        "slug": "toe-shoes-internet-was-not-normal"
+      },
+      {
+        "title": "Toe shoes: sweat, grip, comfort and durability",
+        "slug": "toe-shoes-sweat-grip-comfort-durability"
+      },
+      {
+        "title": "Why River Family designs are public domain",
+        "slug": "river-family-open-source-public-domain-designs"
+      }
+    ]
+  },
+  {
+    "slug": "onda",
+    "name": "Onda",
+    "category": "3D printed shoes",
+    "description": "A barefoot shoe with a smooth inner wave pattern, generated from Grasshopper toolpaths using interleaved semicircular curves. The package includes editable definitions and slicing guidance.",
+    "image": "https://riverfamily.art/static/images/onda.webp?v=20260809b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/onda.zip",
+        "size": 182217722,
+        "generation": "1779177966939065",
+        "md5": "S63zQfLoDQiiaBbA8AHn/Q==",
+        "updated": "2026-05-19T08:06:07.100Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "3d models/onda_handy.gh",
+        "size": 3352680
+      },
+      {
+        "path": "3d models/onda.gh",
+        "size": 6625159
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/onda.zip",
+        "path": "readme.txt",
+        "text": "\nuse the gcodes for an optimized print path ensuring the best results\n\nhow to print the gcodes: \n\n- use a printer with 0.4 nozzle and at least 250x250 build volume\n- extract the SD card or USB drive from the printer\n- insert the SD card or USB drive in a computer \n- copy the gcodes on the SD card or USB drive\n- insert the SD card or the USB drive back in the printer\n- send the gcodes from the printer interface\n\n\n---\n\n\nBambu Studio / Orca Slicer settings:\n\nglobal:\n\n- layer height: 0.24mm\n- line width walls: 0.6mm\n- wall generator: Arachne\n- order of walls: outer/inner\n- wall loops: 2\n- top shell layers: 0\n- bottom shell layers: 0\n- infill density: 0%\n- infill/wall overlap: 100%\n\nonda_1:\n\n- object flow ratio: 1.2\n\nonda_2:\n\n- infill density: 60%\n- infill pattern: Rectilinear\n- infill direction: 0°\n\nonda_3:\n\n- infill density: 60%\n- infill pattern: Grid\n- infill direction: 45°\n\n\n---\n\nwebsite: https://www.riverfamily.art/\n\nmade with Stepan: https://drunks.st/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "gQj7CpubXkM",
+        "title": "Onda, Koru - 3d printed barefoot shoes - 4 print paths",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gQj7CpubXkM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1550293"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/onda-barefoot-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/onda-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1620268"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7267167"
+      }
+    ],
+    "articles": [
+      {
+        "title": "TPU for 3D printed shoes: 82A, 85A, 95A and what changes on foot",
+        "slug": "tpu-for-3d-printed-shoes"
+      },
+      {
+        "title": "One barefoot shoe model, many print patterns",
+        "slug": "river-barefoot-shoe-pattern-family"
+      },
+      {
+        "title": "From Blender to Grasshopper: how River shoe patterns evolved",
+        "slug": "from-blender-to-grasshopper-3d-printed-shoes"
+      },
+      {
+        "title": "Why River shoes took thousands of iterations",
+        "slug": "thousands-of-iterations-behind-river-shoes"
+      }
+    ]
+  },
+  {
+    "slug": "duna",
+    "name": "Duna",
+    "category": "3D printed shoes",
+    "description": "TPU shoes with a shaped shell and several infill zones. Supplied toolpaths and Bambu Studio / Orca Slicer settings control the structure in each region.",
+    "image": "https://riverfamily.art/static/images/duna.webp?v=20260809b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/duna.zip",
+        "size": 399672667,
+        "generation": "1786278424004112",
+        "md5": "DWyMSZYm/5YZW4edlnJT3g==",
+        "updated": "2026-08-09T12:27:04.104Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "duna.gh",
+        "size": 58235510
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/duna.zip",
+        "path": "readme.txt",
+        "text": "\nuse the gcodes for an optimized print path ensuring the best results\n\nhow to print the gcodes: \n\n- use a printer with 0.4 nozzle and at least 250x250 build volume\n- extract the SD card or USB drive from the printer\n- insert the SD card or USB drive in a computer \n- copy the gcodes on the SD card or USB drive\n- insert the SD card or the USB drive back in the printer\n- send the gcodes from the printer interface\n\n--\n\nBambu Studio / Orca Slicer settings:\n\nglobal:\n\n- layer height: 0.24mm\n- line width sparse infill: 0.6mm\n- line width walls: 0.6mm\n- wall generator: Arachne\n- order of walls: outer/inner\n- walls: 2\n- top shell layers: 0\n- bottom shell layers: 0\n- infill density: 0%\n- infill direction 45\n- speed: 18 mm/s\n- enable support: no\n\nduna-1:\n\n- object flow ratio: 1.2\n\nduna-2:\n\n- line width sparse infill: 0.4mm\n- walls: 0\n- infill density: 33%\n- infill pattern: grid\n\nduna-3:\n\n- object flow ratio: 1.1\n- walls: 0\n- infill density: 100%\n- infill pattern: rectilinear\n\nduna-4:\n\n- walls: 0\n- infill density: 50%\n- infill pattern: grid\n\nduna-5:\n\n- line width sparse infill: 0.4mm\n- walls: 0\n- infill density: 33%\n- infill pattern: rectilinear\n- infill direction: 0\n\nduna-6:\n\n- object flow ratio: 1.2\n- walls: 10\n\nfilament:\n\n- Retraction: 1.8mm\n- Wipe: no\n- Z hop: 1.2mm, Normal type\n- Max volumetric speed: 2.5 mm^3/s \n- Temperature: 220°C - 230°C\n- Fan: off\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1833235"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/3263991"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7405172"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "tora",
+    "name": "Tora",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe on the simple flat-bottom base, using a small-grid print pattern for a light breathable structure and generous toe room.",
+    "image": "https://riverfamily.art/static/images/tora.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/tora.zip",
+        "size": 148420544,
+        "generation": "1787481420811059",
+        "md5": "na6LC+0vHC57vxbhbUpjwg==",
+        "updated": "2026-08-23T10:37:00.884Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "3d models/shoes.blend",
+        "size": 88445496
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/tora.zip",
+        "path": "readme.txt",
+        "text": "\nSizes: EU\n\n\n---\n\nFilaments: Bambulab 85A, Recreus 82A, 3Dfils 85A \n\n---\n\nBambu Studio / Orca Slicer settings:\n\nGlobal\n\n- layer height: 0.2mm\n- line width sparse infill: 0.6mm\n- wall loops: 0\n- top shell layers: 0\n- bottom shell layers: 0\n- sparse infill density: 62%\n- Infill pattern: Grid\n- Infill anchor: 1000 (unlimited)\n- Max infill anchor: 1000 (unlimited)\n- Infill direction: 45°\n- Detect narrow internal solid infill: no\n- Speed sparse infill: 18 mm/s\n- Enable support: no\n- Reduce infill retraction: no\n\nCube modifier (256x256x1.1mm around height 1.5mm to make a 3 layers platform):\n\n- Infill density: 60%\n- Infill pattern: Rectilinear\n- Infill direction: 0°\n \nFilament:\n\n- Retraction: 1.8mm\n- Wipe: no\n- Z hop: 1.2mm, Normal type\n- Max volumetric speed: 3.6 mm^3/s \n\n---\n\nCura settings:\n\n- place the model diagonally (45°)\n- layer height: 0.3mm\n- infill line width: 0.65 (or 0.4 with 162% infill flow)\n- wall line count: 0\n- top layers: 0\n- bottom layers: 0\n- initial bottom layers: 0\n- infill line distance: 2mm\n- infill pattern: grid\n- connect infill lines: yes\n- infill line direction: []\n- randomize infill start: yes\n- infill overlap: 0mm\n- infill speed: 18mm/s\n- combing mode: off\n- z hop: 1.2mm\n\nsettings modifier (300x300x1.1mm solid, placed around Z = 1.4mm, to make an internal flat top 3 layers platform to place the feet) \n\n- infill pattern: zigzag\n- infill line distance: 1mm\n- infill line direction: [0,90]\n\n---\n\nVideo: https://www.youtube.com/watch?v=y2OOk_2cu5w\n\nHow to design and slice: https://www.youtube.com/watch?v=6ae-rzo_zJM\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "y2OOk_2cu5w",
+        "title": "Tora - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=y2OOk_2cu5w"
+      },
+      {
+        "id": "6ae-rzo_zJM",
+        "title": "How to Design and Slice G0, Tora, Aspys, G1, Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ae-rzo_zJM"
+      },
+      {
+        "id": "svOo02dXwv8",
+        "title": "Tora",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/svOo02dXwv8"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/tora-shoes"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/934699-tora"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6686432"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/527598"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How to choose the right size for 3D printed shoes",
+        "slug": "3d-printed-shoe-sizing"
+      },
+      {
+        "title": "Barefoot 3D printed shoes: zero drop, wide toe box and why they feel different",
+        "slug": "barefoot-3d-printed-shoes-wide-toe-box"
+      }
+    ]
+  },
+  {
+    "slug": "g1",
+    "name": "G1",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe using the same simple flat-bottom base with a heavier grid pattern: thicker lines than Tora for a stronger visual and structural rhythm.",
+    "image": "https://riverfamily.art/static/images/G1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/G1_print%20files.zip",
+        "size": 134987503,
+        "generation": "1757176814458860",
+        "md5": "Caf9mlsC1VT6cXxXNFNRGg==",
+        "updated": "2025-09-06T16:40:14.568Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "3d models/shoes.blend",
+        "size": 88398612
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/G1_print%20files.zip",
+        "path": "readme.txt",
+        "text": "\nSizes: EU\n\n\n---\n\nFilament: Recreus 82A, 3Dfils 85A\n\nUse TPU 95A first \n\nNozzle: preferably 0.6mm, especially with softer filaments\n\n---\n\nUse the Orca Slicer or BambuStudio 3mf \n\nYou migh also download the “gcodes.zip” folder and print the universal gcodes by uploading them on the printer SD card: send them from the printer interface.  \n\n220x220 buildplates fit gcodes up to size EU 40, 250x250 buildplates fits all sizes\n\n---\n\n\nBambu Studio / Orca Slicer settings:\n\nOverlap 2 identical models, same settings except infill line direction.\nA \"grid\" pattern is made by overlapping 2 perpendicular zigzag patterns.\n\nGlobal\n\n- layer height: 0.28mm\n- line width sparse infill: 1mm\n- wall loops: 0\n- top shell layers: 0\n- bottom shell layers: 0\n- sparse infill density: 14%\n- Infill pattern: zigzag (rectilinear for Orca Slicer)\n- Infill anchor: 1000 (unlimited)\n- Max infill anchor: 1000 (unlimited)\n- Infill direction: 45° (model 1) - 135° (model 2)\n- Detect narrow internal solid infill: no\n- Speed sparse infill: 18 mm/s\n- Enable support: no\n- Reduce infill retraction: no\n\nCube modifier (256x256x1.1mm around height 1.5mm to make a 3 layers platform):\n\n- Infill density: 60% (model 1) - 0% (model 2)\n- Infill pattern: Rectilinear\n- Infill direction: 0°\n\nFilament:\n\n- Retraction: 2.4mm\n- Wipe: no\n- Z hop: 1.2mm, Normal type\n- Max volumetric speed: 4.8 mm^3/s\n\n---\n\nCura settings:\n\n- place the model diagonally (45°)\n- layer height: 0.3mm\n- infill line width: 0.9 (or 0.4 with 225% infill flow)\n- wall line count: 0\n- top layers: 0\n- bottom layers: 0\n- initial bottom layers: 0\n- infill line distance: 6mm\n- infill pattern: grid\n- connect infill lines: yes\n- infill line direction: []\n- randomize infill start: yes\n- infill overlap: 0mm\n- infill speed: 18mm/s\n- combing mode: off\n- z hop: 1.2mm\n\nsettings modifier (300x300x1.1mm solid, placed around Z = 1.4mm, to make an internal flat top 3 layers platform to place the feet)\n\n- infill pattern: zigzag\n- infill line distance: 1mm\n- infill line direction: [0,90]\n\n---\n\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "f9mXzkwcT4M",
+        "title": "G1 - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f9mXzkwcT4M"
+      },
+      {
+        "id": "VRr1tO2-qBI",
+        "title": "G1 (slim version) - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VRr1tO2-qBI"
+      },
+      {
+        "id": "6ae-rzo_zJM",
+        "title": "How to Design and Slice G0, Tora, Aspys, G1, Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ae-rzo_zJM"
+      },
+      {
+        "id": "-coRFgSnFwI",
+        "title": "G1",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/-coRFgSnFwI"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/934689-g1"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6686830"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/g1-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/527594"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "eros",
+    "name": "Eros",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe where the print pattern repeats the word “love” in cursive, turning the structure itself into the graphic surface.",
+    "image": "https://riverfamily.art/static/images/eros.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Eros.zip",
+        "size": 144823234,
+        "generation": "1787479608647378",
+        "md5": "xXJ8mYf944Z+aFZcB/KI3w==",
+        "updated": "2026-08-23T10:06:48.798Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "eros.gh",
+        "size": 150172
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Eros.zip",
+        "path": "readme.txt",
+        "text": "\nhow to print the gcodes: \n\n- use a printer with 0.4 nozzle and at least 250x250 build volume\n- extract the SD card or USB drive from the printer\n- insert the SD card or USB drive in a computer \n- copy the gcodes on the SD card or USB drive\n- insert the SD card or the USB drive back in the printer\n- send the gcodes from the printer interface\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "_mjh3TUEE1s",
+        "title": "Eros - 3d printed barefoot shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_mjh3TUEE1s"
+      },
+      {
+        "id": "CU-3nfUQltU",
+        "title": "3d printed \"love\" barefoot shoes - Eros",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/CU-3nfUQltU"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/lovelovelovelovelovelovelovelovelovelovelovelovelovelove"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1662941"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7107457"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How Eros turns a Grasshopper love pattern into a shoe",
+        "slug": "eros-grasshopper-love-pattern-3d-printed-shoe"
+      }
+    ]
+  },
+  {
+    "slug": "una",
+    "name": "Una",
+    "category": "3D printed shoes",
+    "description": "A minimal watertight River shoe: simple, direct and focused on the essentials. Una keeps the barefoot-style fit cleaner and more closed than the open breathable models.",
+    "image": "https://riverfamily.art/static/images/una.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/una.zip",
+        "size": 112461747,
+        "generation": "1767468642953776",
+        "md5": "vHyGEkb9l1Zx4Vh1jsr+/g==",
+        "updated": "2026-01-03T19:30:43.061Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "una.blend",
+        "size": 173032918
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "JFHJSK-A5Os",
+        "title": "Mare - Una - 3d printed barefoot shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JFHJSK-A5Os"
+      },
+      {
+        "id": "Xc2LpgrmWRo",
+        "title": "4 x 3d printed shoes - Una, Mare, Due Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/Xc2LpgrmWRo"
+      },
+      {
+        "id": "bUvEXrdNeIc",
+        "title": "4 x 3d printed shoes - Una, Due, Mare, Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/bUvEXrdNeIc"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/una-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/una-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1642823"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7259992"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "mare",
+    "name": "Mare",
+    "category": "3D printed shoes",
+    "description": "A relaxed watertight River shoe with organic lines and a soft visual rhythm. Mare keeps a more closed structure while staying flexible in TPU.",
+    "image": "https://riverfamily.art/static/images/mare.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/mare.zip",
+        "size": 74050832,
+        "generation": "1767468585718364",
+        "md5": "rDit9Cm1Gt0H0xeoMdukUQ==",
+        "updated": "2026-01-03T19:29:45.836Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "Mare.gh",
+        "size": 10863590
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "JFHJSK-A5Os",
+        "title": "Mare - Una - 3d printed barefoot shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JFHJSK-A5Os"
+      },
+      {
+        "id": "Xc2LpgrmWRo",
+        "title": "4 x 3d printed shoes - Una, Mare, Due Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/Xc2LpgrmWRo"
+      },
+      {
+        "id": "bUvEXrdNeIc",
+        "title": "4 x 3d printed shoes - Una, Due, Mare, Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/bUvEXrdNeIc"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1540194"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/mare-barefoot-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/mare-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1642782"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7260094"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "ala",
+    "name": "Ala",
+    "category": "3D printed shoes",
+    "description": "An open barefoot shoe generated in Grasshopper and printed with custom toolpaths. The downloadable package includes the editable definition.",
+    "image": "https://riverfamily.art/static/images/ala.webp?v=20260805a",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/ala.zip",
+        "size": 670024189,
+        "generation": "1785953591780302",
+        "md5": "SVTEOgRNXWtEAi1kJvmHCw==",
+        "updated": "2026-08-05T18:13:11.954Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "ala.gh",
+        "size": 116182996
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/ala.zip",
+        "path": "readme.txt",
+        "text": "\nhow to print the gcodes:\n\n→ use a printer with 0.4 nozzle and at least 256x256 build volume \n→ remove the SD card or the USB drive from the printer\n→ insert the SD card or the USB drive in a computer using an SD card reader or USB port\n→ copy the gcodes on the SD card or on the USB drive\n→ insert the SD card or the USB drive back in the printer\n→ send the gcodes from the printer interface\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1800797"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/ala-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/3136188"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7393153"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "loto",
+    "name": "Loto",
+    "category": "3D printed shoes",
+    "description": "A softer-looking shoe file with a rounded, calm shape. Loto is less aggressive visually, made for a printed shoe that feels closer to a casual slip-on.",
+    "image": "https://riverfamily.art/static/images/loto_1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/loto.zip",
+        "size": 95870616,
+        "generation": "1767550091185208",
+        "md5": "rQ8Xt5NHBNuGTuHke/uzrg==",
+        "updated": "2026-01-04T18:08:11.227Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "loto.blend",
+        "size": 132859768
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "MnxZOdka1xY",
+        "title": "loto - 3d printed barefoot mules",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MnxZOdka1xY"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2142534"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Can you print shoes on a Bambu A1 mini?",
+        "slug": "can-you-print-shoes-on-bambu-a1-mini"
+      }
+    ]
+  },
+  {
+    "slug": "g0",
+    "name": "G0",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe with the same grid pattern and base logic as the other flat-bottom models, printed at 45 degrees with the toe pointing down. That orientation makes the structure a little more closed than Tora or G1 and changes how the same slicing pattern appears on the shoe.",
+    "image": "https://riverfamily.art/static/images/G0.webp?v=20260807a",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/G0.zip",
+        "size": 71536382,
+        "generation": "1786108067251999",
+        "md5": "QLkgj4AiC/FJCuYSWz6adg==",
+        "updated": "2026-08-07T13:07:47.384Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "G0.blend",
+        "size": 84072558
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/G0.zip",
+        "path": "readme.txt",
+        "text": "\n0.6 nozzle \n\nsettings global, G0-1, G0-2\n\nlayer height: 0.28mm\nline width sparse infill: 0.9mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 43%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 0°\nDetect narrow internal solid infill: no\nSpeed sparse infill: 18 mm/s\nReduce infill retraction: no\n\nG0-3:\n\ninfill line width: 0.3mm\nobject flow ratio: 2\ninfill density: 50%\ninfill pattern: infill pattern: triangles\n\n \nfilament:\n\nRetraction: 2.4mm\nWipe: no\nZ hop: 1.2mm, Normal type\nMax volumetric speed: 6 mm^3/s \n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "8gQQRZ2Jtss",
+        "title": "G0 - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8gQQRZ2Jtss"
+      },
+      {
+        "id": "sGfFRvvpTdY",
+        "title": "G0 (slim version) - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sGfFRvvpTdY"
+      },
+      {
+        "id": "6ae-rzo_zJM",
+        "title": "How to Design and Slice G0, Tora, Aspys, G1, Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ae-rzo_zJM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6711343"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/955865-g0-shoes"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/g0-shoes-alessio_riverfamily"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/559996"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      }
+    ]
+  },
+  {
+    "slug": "mirai",
+    "name": "Mirai",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe using the same grid family as G0 and G1, but printed at 45 degrees with the toe pointing up and the back resting on the build plate. The pattern comes from the same slicing logic, but the orientation gives Mirai its own surface rhythm.",
+    "image": "https://riverfamily.art/static/images/mirai.webp?v=20260807a",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/mirai.zip",
+        "size": 75918347,
+        "generation": "1786108100840225",
+        "md5": "UchEOTj16vOQ45vYCZ50Ng==",
+        "updated": "2026-08-07T13:08:20.975Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "mirai.blend",
+        "size": 84136876
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/mirai.zip",
+        "path": "readme.txt",
+        "text": "\nnozzle: 0.6mm\n\nsettings global, mirai-1, mirai-2\n\nlayer height: 0.28mm\nline width sparse infill: 0.9mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 43%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nSpeed sparse infill: 18 mm/s\nReduce infill retraction: no\n\nmirai-3:\n\ninfill line width: 0.4mm\ninfill density: 80%\ninfill pattern: triangles\n \nfilament:\n\nRetraction: 2.4mm\nWipe: no\nZ hop: 1.2mm, Normal type\nMax volumetric speed: 6 mm^3/s\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "LIyFCiK8exI",
+        "title": "Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LIyFCiK8exI"
+      },
+      {
+        "id": "6ae-rzo_zJM",
+        "title": "How to Design and Slice G0, Tora, Aspys, G1, Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ae-rzo_zJM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6756782"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/998001-mirai-barefoot-shoes"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/mirai-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/625732"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      }
+    ]
+  },
+  {
+    "slug": "tale",
+    "name": "Tale",
+    "category": "3D printed shoes",
+    "description": "A characterful shoe with a less standard silhouette. Tale combines flexible TPU, sculptural form and the surprise of wearing a printed object that actually moves with your foot.",
+    "image": "https://riverfamily.art/static/images/tale.webp?v=20260807c",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Tale_print%20files.zip",
+        "size": 57224032,
+        "generation": "1748352493883898",
+        "md5": "t3A7slegyAiwT8BFWjzw6w==",
+        "updated": "2025-05-27T13:28:13.980Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "3d models/shoes.blend",
+        "size": 88485432
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Tale_print%20files.zip",
+        "path": "readme.txt",
+        "text": "Shoes sizes: EU\r\n\r\n\r\n\r\nFor the insert search \"insert liner fur clogs\":\r\n\r\n- link 1: https://aliexpress.com/item/1005006979682528.html\r\n- link 2: https://aliexpress.com/item/1005006249804202.html\r\n\r\n\r\n\r\nUse TPU 95A first. Overture is good, many other 95A break fast, don't use \"high speed\", \"high flow\" (too rigid).\n\n\nUse the Bambu Studio profile or the universal print files (gcodes) instead of slicing the 3d models. \r\n\r\nUpload the gcodes on an SD card and insert it in any printer with 0.6mm nozzle and minimum 250x250mm buildplate (256x256 for EU 46 size). Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature once the print starts to fit your filament needs \r\n\r\nDepending on the size, each shoe takes 4 to 6 hours, weights 60 to 90 grams\n\n\n---\n\nBambu Studio / Orca Slicer settings\n\nShoe:\n\nlayer height: 0.2\nline width sparse infill: 0.6mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 62%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nSpeed sparse infill: 18 mm/s\nEnable support: no\nReduce infill retraction: no\n\n\nFilament:\n\nRetraction: 1.8mm\nWipe: no\nZ hop: 1.2mm, Normal type\nMax volumetric speed: 4.8 mm^3/s \n\n\n---\r\n\r\n\r\nSettings (Cura):\r\n\r\n- place the model diagonally (45°)\r\n- layer height: 0.3mm\r\n- infill line width: 0.6mm\r\n- wall line count: 0\r\n- top layers: 0\r\n- bottom layers: 0\r\n- initial bottom layers: 0\r\n- infill line distance: 2mm\r\n- infill pattern: grid\r\n- connect infill lines: yes\r\n- infill line direction: []\r\n- infill overlap: 0mm\r\n- infill speed: 18mm/s\n\n\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\r\n\r\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "pYxZ859M_i0",
+        "title": "Tale - 3d printed slippers",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pYxZ859M_i0"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6886831"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/tale-slippers"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/859884"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "aspys",
+    "name": "Aspys",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe with the same grid family as G0, G1 and Mirai, printed vertically. The two shoes print as a mirrored pair fused at the collar, then are separated with scissors after printing.",
+    "image": "https://riverfamily.art/static/images/aspys.webp?v=20260807b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/aspys.zip",
+        "size": 40944506,
+        "generation": "1786098440845988",
+        "md5": "0xdCFUgK7rE9Sdar4jWTvg==",
+        "updated": "2026-08-07T10:27:20.980Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "aspys.blend",
+        "size": 1400782
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/aspys.zip",
+        "path": "readme.txt",
+        "text": "\nglobal, aspys-1:\n\nlayer height: 0.2mm\nline width sparse infill: 0.6mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 62%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nSpeed sparse infill: 18 mm/s\nEnable support: no\nReduce infill retraction: no\n\naspys-2:\n\nline width sparse infill: 0.4mm\nobject flow ratio: 2\nsparse infill density: 40%\n\n\nfilament:\n\nRetraction: 1.8mm\nWipe: no\nZ hop: 1.2mm, Normal type\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "6ae-rzo_zJM",
+        "title": "How to Design and Slice G0, Tora, Aspys, G1, Mirai - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ae-rzo_zJM"
+      },
+      {
+        "id": "nii49-HuheE",
+        "title": "Aspys - 3D Printed Barefoot Shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nii49-HuheE"
+      },
+      {
+        "id": "6hthtwqs0EQ",
+        "title": "Aspys Shoes - 3D printed #3dprinting #diy #3dprinted",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/6hthtwqs0EQ"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6694844"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/942044-aspys"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/aspys-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/538760"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      },
+      {
+        "title": "Why Aspys and E7 print fused at the collar",
+        "slug": "aspys-e7-fused-collar-vertical-printing"
+      }
+    ]
+  },
+  {
+    "slug": "riku",
+    "name": "Riku",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe in the middle of the grid family: visually and structurally between Tora’s small grid and G1’s thicker grid lines.",
+    "image": "https://riverfamily.art/static/images/riku.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Riku_print%20files.zip",
+        "size": 90259009,
+        "generation": "1745835603687871",
+        "md5": "UMVqAArBoOAz9ONVqh2DcA==",
+        "updated": "2025-04-28T10:20:03.726Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "3d models/shoes.blend",
+        "size": 88398612
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Riku_print%20files.zip",
+        "path": "readme.txt",
+        "text": "Sizes: EU\n\n\n---\n\nFilament: Recreus 82A, 3Dfils 85A \n\nUse TPU 95A first (Overture), don't use \"high speed\", \"high flow\" (too stiff, uncomfortable)\n\nNozzle: preferably 0.6mm, especially with softer filaments\n\n---\n\nBambu Studio settings:\n\nOverlap 2 identical models, same settings except infill line direction.\nA \"grid\" pattern is made by overlapping 2 perpendicular zigzag patterns. \n\nGlobal\n\n- layer height: 0.28mm\n- line width sparse infill: 72mm\n- wall loops: 0\n- top shell layers: 0\n- bottom shell layers: 0\n- sparse infill density: 19%\n- Infill pattern: zigzag\n- Infill anchor: 1000 (unlimited)\n- Max infill anchor: 1000 (unlimited)\n- Infill direction: 45° (model 1) - 135° (model 2)\n- Detect narrow internal solid infill: no\n- Speed sparse infill: 18 mm/s\n- Enable support: no\n- Reduce infill retraction: no\n\nCube modifier (256x256x1.1mm around height 1.5mm to make a 3 layers platform):\n\n- Infill density: 80% (model 1) - 0% (model 2)\n- Infill pattern: Rectilinear\n- Infill direction: 0°\n \nFilament:\n\n- Retraction: 2.4mm\n- Wipe: no\n- Z hop: 1.2mm, Normal type\n- Max volumetric speed: 4.8 mm^3/s \n\n---\n\nVideo: https://www.youtube.com/watch?v=0uL_TtakyKE\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "0uL_TtakyKE",
+        "title": "Riku - 3d printed barefoot shoes",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0uL_TtakyKE"
+      },
+      {
+        "id": "rgbvrU1ozOo",
+        "title": "3d printed barefoot shoes - Riku",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/rgbvrU1ozOo"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1356433"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "koru",
+    "name": "Koru",
+    "category": "3D printed shoes",
+    "description": "A barefoot River shoe built around a spiral pattern, like repeated cursive “e” shapes overlapping through the print path. The name Koru echoes the spiral idea behind the structure.",
+    "image": "https://riverfamily.art/static/images/koru.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Koru.zip",
+        "size": 288934933,
+        "generation": "1755617661644268",
+        "md5": "iSb8QwyHsyv+ZUhoBIUbFw==",
+        "updated": "2025-08-19T15:34:21.738Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "Koru.gh",
+        "size": 105390
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "gQj7CpubXkM",
+        "title": "Onda, Koru - 3d printed barefoot shoes - 4 print paths",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gQj7CpubXkM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/koru-barefoot-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1620252"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7095964"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "taka",
+    "name": "Taka",
+    "category": "3D printed shoes",
+    "description": "The thin-soled version of Tora: the same small-grid barefoot idea with a fine sole added for more ground protection while keeping the upper light and breathable.",
+    "image": "https://riverfamily.art/static/images/Taka_1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/taka.zip",
+        "size": 106492257,
+        "generation": "1776848219494857",
+        "md5": "fHEr3N0DpX/zsTMo1yr4dw==",
+        "updated": "2026-04-22T08:56:59.635Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "taka.blend",
+        "size": 112174302
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "yioujfHmsWw",
+        "title": "Taka shoes - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yioujfHmsWw"
+      },
+      {
+        "id": "nnkCee3quc0",
+        "title": "how to model and 3d print shoes - Taka, Yume, E7, Tryton",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nnkCee3quc0"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/taka-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/taka-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1234081"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7082783"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Can you 3D print shoes in TPU?",
+        "slug": "can-you-3d-print-shoes-in-tpu"
+      },
+      {
+        "title": "Do 3D printed shoes have grip on wet floors?",
+        "slug": "3d-printed-shoes-grip-wet-floors"
+      },
+      {
+        "title": "How long do 3D printed shoes last?",
+        "slug": "how-long-do-3d-printed-shoes-last"
+      },
+      {
+        "title": "How Taka, Tryton, Yume and E7 are modelled and printed",
+        "slug": "how-to-model-and-3d-print-taka-yume-e7-tryton"
+      }
+    ]
+  },
+  {
+    "slug": "riva",
+    "name": "Riva",
+    "category": "3D printed shoes",
+    "description": "TPU shoes combining a shell with region-specific grid, zig-zag and rectilinear infill. The package includes Grasshopper source and detailed slicer settings.",
+    "image": "https://riverfamily.art/static/images/riva.webp?v=20260809d",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/riva.zip",
+        "size": 509278510,
+        "generation": "1780148286277207",
+        "md5": "7aYEbrjvPsA4ojeifaz4PQ==",
+        "updated": "2026-05-30T13:38:06.359Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "riva.gh",
+        "size": 40680755
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/riva.zip",
+        "path": "readme.txt",
+        "text": "\nuse the gcodes for an optimized print path ensuring the best results\n\nhow to print the gcodes: \n\n- use a printer with 0.4 nozzle and at least 250x250 build volume\n- extract the SD card or USB drive from the printer\n- insert the SD card or USB drive in a computer \n- copy the gcodes on the SD card or USB drive\n- insert the SD card or the USB drive back in the printer\n- send the gcodes from the printer interface\n\n\n--\n\nBambu Studio / Orca Slicer settings:\n\nGlobal:\n\n- layer height: 0.24mm\n- line width sparse infill: 0.6mm\n- line width walls: 0.6mm\n- wall generator: Arachne\n- order of walls: outer/inner\n- walls: 2\n- top shell layers: 0\n- bottom shell layers: 0\n- infill density: 0%\n- speed: 18 mm/s\n- enable support: no\n- brim: outer and inner, gap 0mm\n\nRiva-1:\n\n- object flow ratio: 1.2\n\nRiva-2:\n\n- line width sparse infill: 0.4mm\n- walls: 0\n- infill density: 33%\n- infill pattern: zig-zag\n- infill direction: 0°\n\nRiva-3:\n\n- walls: 12\n\nRiva-4:\n\n- walls: 0\n- infill density: 33%\n- infill pattern: grid\n- infill direction: 45°\n\nRiva-5:\n\n- walls: 0\n- infill density: 100%\n- infill pattern: rectilinear\n- infill direction: 0°\n\nRiva-6:\n\n- line width sparse infill: 0.55mm\n- object flow ratio: 1.1\n- walls: 0\n- infill density: 100%\n- infill pattern: rectilinear\n- infill direction: 0°\n\nRiva-7 :\n\n- walls: 0\n- infill density: 150%\n- infill pattern: grid\n- infill direction: 45°\n\nRiva-8 :\n\n- walls: 0\n- infill density: 99%\n- infill pattern: grid\n- infill direction: 0°\n\nRiva-9 :\n\n- walls: 6\n\n\nFilament:\n\n- Retraction: 1.8mm\n- Wipe: no\n- Z hop: 1.2mm, Normal type\n- Max volumetric speed: 2.5 mm^3/s \n- Temperature: 220°C - 230°C\n- Fan: off\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2866716"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "tryton",
+    "name": "Tryton",
+    "category": "3D printed shoes",
+    "description": "The thin-soled version of G0: the same 45 degree, toe-down grid logic with a fine sole added underneath.",
+    "image": "https://riverfamily.art/static/images/Tryton_2.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/tryton.zip",
+        "size": 98158375,
+        "generation": "1786106752181855",
+        "md5": "HLCD1uzgLrBzbqgTYiaF0g==",
+        "updated": "2026-08-07T12:45:52.255Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "tryton.blend",
+        "size": 111382496
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/tryton.zip",
+        "path": "readme.txt",
+        "text": "\nnozzle: 0.6mm\n\nglobal settings, tryton-1, tryton-3:\n\nlayer height: 0.28mm\nline width sparse infill: 0.9mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 36%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 0°\nDetect narrow internal solid infill: no\nReduce infill retraction: no\n\ntryton-2:\n\nwalls: 12\n\nobject flow ratio: 1.5\n\ntryton-4:\n\nsparse infill line width: 0.6\n\ntryton-5:\n\nobject flow ratio: 1.5\niparse infill density: 80%\ninfill pattern: triangles\n\n \nfilament:\n\nRetraction: 2.4mm\nWipe: no\nZ hop: 1.2mm, Normal type\nMax volumetric speed: 6 mm^3/s\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "nnkCee3quc0",
+        "title": "how to model and 3d print shoes - Taka, Yume, E7, Tryton",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nnkCee3quc0"
+      },
+      {
+        "id": "_bgXucTOz3k",
+        "title": "conveyor belt 3d printed Tryton shoes #3dprinting",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/_bgXucTOz3k"
+      },
+      {
+        "id": "FZKIXf9nNCU",
+        "title": "3d printed shoes - Tryton",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/FZKIXf9nNCU"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/tryton-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/tryton-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1234056"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7082740"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      },
+      {
+        "title": "How Taka, Tryton, Yume and E7 are modelled and printed",
+        "slug": "how-to-model-and-3d-print-taka-yume-e7-tryton"
+      }
+    ]
+  },
+  {
+    "slug": "due",
+    "name": "Due",
+    "category": "3D printed shoes",
+    "description": "A simple watertight River shoe with a direct, functional shape. Due keeps the printed form cleaner and more protected than the open breathable models.",
+    "image": "https://riverfamily.art/static/images/due.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/due.zip",
+        "size": 320289193,
+        "generation": "1768843398335827",
+        "md5": "Eiys9VDXKs83GdM1rB+Ouw==",
+        "updated": "2026-01-19T17:23:18.451Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "due.blend",
+        "size": 404893987
+      }
+    ],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "Xc2LpgrmWRo",
+        "title": "4 x 3d printed shoes - Una, Mare, Due Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/Xc2LpgrmWRo"
+      },
+      {
+        "id": "bUvEXrdNeIc",
+        "title": "4 x 3d printed shoes - Una, Due, Mare, Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/bUvEXrdNeIc"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1562974"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/due-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/due-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1642841"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7275881"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "yume",
+    "name": "Yume",
+    "category": "3D printed shoes",
+    "description": "The thin-soled version of Mirai: the same 45 degree, toe-up grid logic with a fine sole added underneath.",
+    "image": "https://riverfamily.art/static/images/Yume_3.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/yume.zip",
+        "size": 95898920,
+        "generation": "1786182019901918",
+        "md5": "pZiwTZEWM4QLGsOIQUr59Q==",
+        "updated": "2026-08-08T09:40:20.052Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "yume.blend",
+        "size": 111447742
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/yume.zip",
+        "path": "readme.txt",
+        "text": "\nnozzle: 0.6mm\n\nglobal settings, yume-1, yume-3:\n\nlayer height: 0.28mm\nline width sparse infill: 0.9mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 43%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nReduce infill retraction: no\n\nyume-2:\n\nwalls: 12\nouter wall line width: 0.4mm\ninner wall line width: 0.4mm\nobject flow ratio: 1.5\n\nyume-4:\n\nsparse infill line width: 0.6\n\nyume-5:\n\nobject flow ratio: 1.5\niparse infill density: 80%\ninfill pattern: triangles\n\n \nfilament:\n\nRetraction: 2.4mm\nWipe: no\nZ hop: 1.2mm, Normal type\nMax volumetric speed: 6 mm^3/s\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "nnkCee3quc0",
+        "title": "how to model and 3d print shoes - Taka, Yume, E7, Tryton",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nnkCee3quc0"
+      },
+      {
+        "id": "xDno1riw640",
+        "title": "belt printer 3d printed Yume shoes",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/xDno1riw640"
+      },
+      {
+        "id": "2vDZeYJUbeY",
+        "title": "3d printed Yume shoes",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/2vDZeYJUbeY"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7082737"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/yume-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/yume-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1234067"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      },
+      {
+        "title": "How Taka, Tryton, Yume and E7 are modelled and printed",
+        "slug": "how-to-model-and-3d-print-taka-yume-e7-tryton"
+      }
+    ]
+  },
+  {
+    "slug": "e7",
+    "name": "E7",
+    "category": "3D printed shoes",
+    "description": "The thin-soled version of Aspys. Like Aspys, E7 prints vertically as a mirrored pair fused at the collar, then the two shoes are separated with scissors after printing.",
+    "image": "https://riverfamily.art/static/images/E7_1.webp?v=20260807e",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/E7.zip",
+        "size": 88941936,
+        "generation": "1786098796573324",
+        "md5": "UQp5lLV2EQOyPGVY5ZqudQ==",
+        "updated": "2026-08-07T10:33:16.638Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "E7.blend",
+        "size": 2353024
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/E7.zip",
+        "path": "readme.txt",
+        "text": "\nglobal:\n\nlayer height: 0.2mm\nline width sparse infill: 0.3mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 25%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nSpeed sparse infill: 18 mm/s\nEnable support: no\nReduce infill retraction: no\n\nE7-1:\n\nobject flow ratio: 2\n\nE7-2:\n\nobject flow ratio: 1.5\nwall loops: 3\nsparse infill density: 70%\ninfill pattern: zig zag\n\nE7-3: \n\nobject flow ratio: 2\n\nE7-4:\n\nobject flow ratio: 2\n\nE7-5:\n\nobject flow ratio: 2\nsparse infill density: 50%\ninfill pattern: triangles\n\nE7-6: \n\nobject flow ratio: 2\nsparse infill density: 40%\n\n\nfilament:\n\nRetraction: 1.8mm\nWipe: no\nZ hop: 1.2mm, Normal type\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "nnkCee3quc0",
+        "title": "how to model and 3d print shoes - Taka, Yume, E7, Tryton",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nnkCee3quc0"
+      },
+      {
+        "id": "ZXtAueYBw-Y",
+        "title": "E7 3d printed shoes",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/ZXtAueYBw-Y"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7082728"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/e7-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/e7-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1234024"
+      }
+    ],
+    "articles": [
+      {
+        "title": "G0 and Mirai: same grid, different print angle",
+        "slug": "g0-mirai-grid-print-orientation"
+      },
+      {
+        "title": "Why Aspys and E7 print fused at the collar",
+        "slug": "aspys-e7-fused-collar-vertical-printing"
+      },
+      {
+        "title": "How Taka, Tryton, Yume and E7 are modelled and printed",
+        "slug": "how-to-model-and-3d-print-taka-yume-e7-tryton"
+      }
+    ]
+  },
+  {
+    "slug": "roy",
+    "name": "Roy",
+    "category": "Air purifiers",
+    "description": "A printable air purifier frame for PC fans and HEPA or activated-carbon media. Roy makes the idea immediately clear: air is pulled through the filter, the working parts stay accessible, and the finished object still looks calm enough to leave on a shelf.",
+    "image": "https://riverfamily.art/static/images/roy_2.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Roy_print_files.zip",
+        "size": 2509393,
+        "generation": "1737373209161684",
+        "md5": "v1x2/q4AzL4zi0zuF7Ii0g==",
+        "updated": "2025-01-20T11:40:09.268Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Roy_print_files.zip",
+        "path": "readme.txt",
+        "text": "Upload the gcodes on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least 180x180mm buildplate\r\n\r\nRoy draws air from the sides and the bottom. The air drawn from the bottom is filtered by activated carbon, which removes odours and gases, the air drawn from the sides is filtered by Hepa Filter, which removes dust and allergens. Overall, the air in a room is filtered by both activated carbon and Hepa filter. \r\n\r\nRoy works with 120mm fans. The frame of the fan has to be removed by cutting with pliers. Then the fan is attached to the cap with thick double-sided tape.\r\nThe best fan is UpHere, which is smaller then usual 120mm fans, that is why there is a custom \"uphere\" version of Roy. Use the \"generic\" version for other fans. If you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\nCut 3 Roy filters from 1 30x60cm Hepa filter sheet. Google \"Frameless hepa filter\" to find it\r\n\r\nUse 3-5mm granular activated carbon\r\n\r\nWatch this video to understand how Roy is made: https://www.youtube.com/watch?v=JrwJQ4E91d4\r\n\r\nAirflow demo video: https://www.youtube.com/watch?v=9DTl3_uiMuQ\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "4EVhYHzNpwY",
+        "title": "Roy Air Purifier - airflow measure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4EVhYHzNpwY"
+      },
+      {
+        "id": "9DTl3_uiMuQ",
+        "title": "Roy Air Purifier - Airflow Demo",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9DTl3_uiMuQ"
+      },
+      {
+        "id": "JrwJQ4E91d4",
+        "title": "Roy | 3D Printed Air Purifier | Hepa + Activated Carbon",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JrwJQ4E91d4"
+      },
+      {
+        "id": "JNvp35-Kyu4",
+        "title": "How to Slice Roy Air Purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JNvp35-Kyu4"
+      },
+      {
+        "id": "6W7yWy0OCZg",
+        "title": "3D Printed Roy Air Purifier",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/6W7yWy0OCZg"
+      },
+      {
+        "id": "twa7Fa-10OU",
+        "title": "Roy Air Purifier - 3D Printed",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/twa7Fa-10OU"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6519037"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/roy-air-purifier-riverfamily"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483318"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How 3D printed air purifiers actually work",
+        "slug": "how-3d-printed-air-purifiers-work"
+      },
+      {
+        "title": "Roy, Max, Yomi, Eno or Ivo: which River purifier should you choose?",
+        "slug": "choosing-river-air-purifier-roy-max-yomi-eno-ivo"
+      }
+    ]
+  },
+  {
+    "slug": "max",
+    "name": "Max",
+    "category": "Air purifiers",
+    "description": "A compact purifier body despite the name. Max is for makers who want the fan-and-filter idea in a smaller footprint, with a clean shell that can sit on a desk, workbench or bedside table without feeling like a raw electronics project.",
+    "image": "https://riverfamily.art/static/images/max.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Max%20print%20files.zip",
+        "size": 485778,
+        "generation": "1737373167707159",
+        "md5": "lKm5DoepAXuIbIJBoJpB4w==",
+        "updated": "2025-01-20T11:39:27.829Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Max%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Fits any 120mm or 140mm PC fan\r\n\r\nIf you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\nCut hepa filters from \"Frameless hepa filter\" (Google it) and activated carbon filter from \"Activated carbon filter sheet\".\r\n\r\nUse the gcodes instead of slicing. Upload the gcodes on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least 160x160mm buildplate\r\n \r\n\r\nVideo: https://www.youtube.com/watch?v=FhuVkZABzz8\r\n\r\n\r\nSlicing:\r\n\r\n- infill line width: 1.2mm \r\n- walls: 0\r\n- bottom layers: 0\r\n- top layers: 0\r\n\r\n\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "5tJ7GLT7FQE",
+        "title": "Max Air Purifier - airflow demo and measure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5tJ7GLT7FQE"
+      },
+      {
+        "id": "FhuVkZABzz8",
+        "title": "Max - 3D printed air purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FhuVkZABzz8"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6816350"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1058756-max-air-purifier"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/max-air-purifier"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/748945"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How 3D printed air purifiers actually work",
+        "slug": "how-3d-printed-air-purifiers-work"
+      },
+      {
+        "title": "3D printed air purifier with a PC fan: what matters",
+        "slug": "3d-printed-air-purifier-pc-fan"
+      },
+      {
+        "title": "Roy, Max, Yomi, Eno or Ivo: which River purifier should you choose?",
+        "slug": "choosing-river-air-purifier-roy-max-yomi-eno-ivo"
+      }
+    ]
+  },
+  {
+    "slug": "yomi",
+    "name": "Yomi",
+    "category": "Air purifiers",
+    "description": "A larger River purifier with soft proportions and a friendly silhouette. Yomi gives the fan, filter and airflow path more physical presence while keeping the object visually quiet in a room.",
+    "image": "https://riverfamily.art/static/images/yoni.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Yoni%20print%20files.zip",
+        "size": 878689,
+        "generation": "1731089131428269",
+        "md5": "Q+k8x63zgi9y2iT+pzOqFA==",
+        "updated": "2024-11-08T18:05:31.540Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Yoni%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Video: https://youtu.be/dZVi3gWxYYk\r\n\r\nFits Noctua NF-A20 5V USB pc fan\r\n\r\nRemove the fan frame with pliers\r\n\r\nThen remove Noctua adhesive and attach the fan mid-print with “thick double sided adhesive tape”\r\n\r\nAdd a “usb fan speed controller” to adjust and increase fan speed.\r\n\r\nCut hepa filters from a \"Frameless hepa filter\" (Google it)\r\n\r\nCut activated carbon filter from an “Activated carbon air filter sheet”:\r\n\r\n\r\nUse the universal Yoni.gcode print file instead of slicing. Upload the gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface. Adjust temperature once the print starts to fit your filament needs.\r\n\r\nPrinter requirements for the gcode: 0.6mm nozzle and at least 210x210mm buildplate\r\n\r\n\r\nSlicing settings:\r\n\r\nInsert pause at z = 44mm\r\n\r\nGlobal:\r\n\r\nlayer height: 0.3mm\r\ninfill line width: 1.2mm \r\ninfill pattern: grid\r\ninfill density: 25%\r\ninfill line direction: 0°\r\nwalls: 0\r\nbottom layers: 0\r\ntop layers: 0\r\n\r\nYoni 2:\r\n\r\nwalls: 1\r\ninfill pattern: rectilinear\r\ninfill density: 100%\r\ninfill/wall overlap: 90%"
+      }
+    ],
+    "videos": [
+      {
+        "id": "7Cs-kMmjAmg",
+        "title": "Yomi Air Purifier - airflow test and measure",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7Cs-kMmjAmg"
+      },
+      {
+        "id": "dZVi3gWxYYk",
+        "title": "Yomi - 3D Printed Air Purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dZVi3gWxYYk"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6824329"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1066436-yoni-air-purifier"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/yoni-air-purifier"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/768952"
+      }
+    ],
+    "articles": [
+      {
+        "title": "HEPA or activated carbon in a 3D printed air purifier?",
+        "slug": "hepa-vs-activated-carbon-3d-printed-air-purifier"
+      },
+      {
+        "title": "Roy, Max, Yomi, Eno or Ivo: which River purifier should you choose?",
+        "slug": "choosing-river-air-purifier-roy-max-yomi-eno-ivo"
+      }
+    ]
+  },
+  {
+    "slug": "eno",
+    "name": "Eno",
+    "category": "Air purifiers",
+    "description": "The largest River purifier, with a minimal enclosure and a calm, substantial shape. Eno is for fan-and-filter builds that can take more space and still look like a deliberate home object, not a hidden appliance.",
+    "image": "https://riverfamily.art/static/images/eno.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Eno_printfiles.zip",
+        "size": 34956986,
+        "generation": "1747413584499877",
+        "md5": "37mZix8B0ufRP1hgyiUcEw==",
+        "updated": "2025-05-16T16:39:44.536Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Eno_printfiles.zip",
+        "path": "readme.txt",
+        "text": "Watch this video to understand how Eno is made: https://www.youtube.com/watch?v=AKlsLCGQxXA\n\n\nUpload the universal gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least 240x240mm buildplate for Eno 200mm, 180x180mm for Eno 120mm\r\n\r\n\r\nEno sliced with Bambu Studio has slightly different infill pattern with same functionality.\r\n\r\n\r\n120mm Eno Fits any 120mm PC fan, 200mm Eno fits Noctua NF-A20 5V USB pc fan\r\n\r\nCut the fan frame with pliers and attach it mid-print with thick double sided adhesive tape.\r\n\r\n\"Uphere\" is smaller then usual 120mm fans, that is why there is a custom version of Evo\r\n\r\n\r\nIf you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\nFor higher Noctua fan speed, use a “12V motor speed regulator” with a “12V power adapter”\r\n\r\n\r\nCut Hepa filters from \"Frameless hepa filter\" sheets\r\n\r\n\r\n---\n\r\n\r\nBambu Studio Settings:\r\n\r\nGlobal: \r\n\r\nlayer height: 0.6mm\r\nline width sparse infill: 0.9mm\r\nwalls: 0\r\ntops: 0\r\nbottoms: 0\r\ninfill density: 24%\r\ninfill pattern: Rectilinear\r\nlength of sparse infill anchor: 1000 (unlimited)\r\nmaximum length of sparse infill anchor: 1000 (unlimited)\r\ninfill/wall overlap: 100%\r\ndetect narrow internal infill: no\r\ninfill speed: 40mm/s\r\nreduce infill retraction: no\r\n1:\r\n\r\nline width sparse infill: 0.72mm\r\n2:\r\n\r\nwalls: 1\r\ninfill density: 100%\r\n3:\r\n\r\ninfill density: 60%\r\ninfill pattern: Grid\r\n4:\r\n\r\nline width sparse infill: 1.2mm\r\ninfill density: 15%\r\n5:\r\n\r\nline width sparse infill: 1.2mm\r\ninfill density: 30%\r\ninfill pattern: Grid\r\n\r\nInsert pause at layer 215 by right-clicking on the vertical bar after slicing\r\n\r\n---\r\n\r\nCura slicer settings:\r\n\r\nLayer Height: 0.6\r\ninfill line width: 0.4\r\nInfill Flow: 200%\r\nwall line width: 1\r\nWalls: 0\r\nBottom Layers: 0\r\nTop Layers: 0\r\nInfill Density: 9% (line distance 4.44mm)\r\nInfill Pattern: Zig Zag\r\nInfill Lines Direction: [0,0,0,30,30,30,60,60,60,120,120,120,150,150,150]\r\nInfill Speed: 30 mm/s\r\nPrint cooling: off\r\n\r\nEno Cura 2 (should be merged with Eno Cura 1, Eno Cura 3, Eno Cura 4, Eno Cura 5)\r\nwalls: 1\r\nbottom layers: 100\r\ninitial bottom layers: 100\r\nskin overlap %: 90%\r\n\r\n\r\nEno Cura 3\r\ninfill line distance: 2\r\n\r\n\r\nEno Cura 4\r\ninfill line distance: 8\r\ninfill line directions: [0]\r\ninfill flow: 300%\r\n\r\n\r\nEno Cura 5\r\ninfill line distance: 8\r\ninfill pattern: grid\r\ninfill line directions: [0, 90]\r\ninfill flow: 300%\r\n\r\n\r\nPause for fan insertion inserted as follows (uncomment/comment to change for Prusa or Bambulab pause commands): \r\n\r\n\r\nG0 F42000 X223.503 Y85.309 Z140.16\r\n;TIME_ELAPSED:18774.051527\r\n\r\n;M400 U1 ; Bambulab pause\r\n;M601 ; Prusa Pause\r\n\r\n; Generic pause:\r\nG0 X200.000 Y200.000 Z150.000 ; move away from the part\r\nM18 S0 ; disable stepper inactivity timeout\r\nM25 ; pause print\r\nG0 X200.000 Y2000.000 Z151.000 ; buffer lines: some printers pause a few lines below M25\r\nG0 X200.000 Y2000.000 Z152.000\r\nG0 X200.000 Y2000.000 Z153.000\r\nG0 X200.000 Y2000.000 Z154.000\r\nG0 X200.000 Y2000.000 Z155.000\r\n; Generic pause end\r\n\r\n;LAYER:230\r\n\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "AKlsLCGQxXA",
+        "title": "Eno - 3d printed air purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AKlsLCGQxXA"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7039512"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/eno-air-purifier"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/959770"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Roy, Max, Yomi, Eno or Ivo: which River purifier should you choose?",
+        "slug": "choosing-river-air-purifier-roy-max-yomi-eno-ivo"
+      }
+    ]
+  },
+  {
+    "slug": "ivo",
+    "name": "Ivo",
+    "category": "Air purifiers",
+    "description": "A larger rounded purifier with an approachable domestic feel. Ivo turns a technical fan-and-filter build into a soft home accessory while keeping the core maintenance question clear: filters and fans must remain reachable.",
+    "image": "https://riverfamily.art/static/images/ivo.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Ivo_printfiles.zip",
+        "size": 30044625,
+        "generation": "1747413583893801",
+        "md5": "5OdNdyFoli/Io9mKU5jwnw==",
+        "updated": "2025-05-16T16:39:43.934Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Ivo_printfiles.zip",
+        "path": "readme.txt",
+        "text": "Watch this video to understand how Ivo is made: https://www.youtube.com/watch?v=RK7_HKCGGZ0\n\n\nUpload the universal Ivo.gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least 210mmx210mm buildplate\r\n\r\n\r\n\"Ivo cura\" sliced with Cura has slightly different infill pattern with same functionality.\r\n\r\n\r\nFits Noctua NF-A20 5V USB pc fan\r\n\r\n\r\nCut the fan frame with pliers and attach it mid-print with thick double sided adhesive tape\r\n\r\n\r\nCut Hepa filters from \"Frameless hepa filter\" sheets (link1: https://aliexpress.com/item/4001298732898.html , link2: https://aliexpress.com/item/1005001619559275.html)\r\n\r\n\r\nFor higher fan speed, use a “12V motor speed regulator” with a “12V power adapter”\r\n\r\n\n---\r\n\r\n\r\nBambu Studio Settings:\r\n\r\nGlobal: \r\n\r\nlayer height: 0.6mm\r\nline width sparse infill: 0.72mm\r\nwalls: 0\r\ntops: 0\r\nbottoms: 0\r\ninfill density: 24%\r\ninfill pattern: Rectilinear\r\nlength of sparse infill anchor: 1000 (unlimited)\r\nmaximum length of sparse infill anchor: 1000 (unlimited)\r\ninfill/wall overlap: 100%\r\ndetect narrow internal infill: no\r\ninfill speed: 40mm/s\r\nreduce infill retraction: no\r\nPart 1\r\n\r\nIvo 4:\r\n\r\nline width sparse infill: 1.2mm\r\ninfill density: 30% \r\ninfill pattern: Grid\r\n \r\n\r\nPart 2 (ceneterd with Part 1)\r\n\r\nIvo 2:\r\n\r\ninfill density: 100%\r\nwalls: 1\r\nIvo 3:\r\n\r\nline width sparse infill: 1.2mm\r\ninfill pattern: Grid\r\nIvo 5:\r\n\r\ninfill density: 60%\r\n\r\n\r\nInsert pause at layer 64 by right-clicking on the vertical bar after slicing\r\n\r\n\n---\n\r\n\r\nCura slicer settings:\r\n\r\nLayer Height: 0.6\r\ninfill line width: 0.4\r\nInfill Flow: 200%\r\nwall line width: 1\r\nWalls: 0\r\nBottom Layers: 0\r\nTop Layers: 0\r\nInfill Density: 9% (line distance 4.44mm)\r\nInfill Pattern: Zig Zag\r\nInfill Lines Direction: [0,0,0,30,30,30,60,60,60,120,120,120,150,150,150]\r\nInfill Speed: 30 mm/s\r\nPrint cooling: off\r\n\r\nIvo_2 (should be merged with Ivo_1, Ivo_3, Ivo_4)\r\nwalls: 1\r\nbottom layers: 100\r\ninitial bottom layers: 100\r\nskin overlap %: 90%\r\n\r\n\r\nIvo_3, Ivo_4\r\ninfill line distance: 8\r\ninfill pattern: grid\r\ninfill line directions: [0,90]\r\ninfill flow: 300%\r\n\r\n\r\nPause for fan insertion inserted as follows (uncomment/comment to change for Prusa or Bambulab pause commands): \r\n\r\n\r\nG0 F9000 X204.81 Y101.883 Z38.1\r\n;TIME_ELAPSED:4723.181888\r\n\r\n;M400 U1 ; Bambulab pause\r\n;M601 ; Prusa Pause\r\n\r\n; Generic pause:\r\nG0 X200.000 Y200.000 Z150.000 ; move away from the part\r\nM18 S0 ; disable stepper inactivity timeout\r\nM25 ; pause print\r\nG0 X200.000 Y2000.000 Z151.000 ; buffer lines: some printers pause a few lines below M25\r\nG0 X200.000 Y2000.000 Z152.000\r\nG0 X200.000 Y2000.000 Z153.000\r\nG0 X200.000 Y2000.000 Z154.000\r\nG0 X200.000 Y2000.000 Z155.000\r\n; Generic pause end\r\n\r\n;LAYER:62\r\n\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "RK7_HKCGGZ0",
+        "title": "Ivo - 3d printed air purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RK7_HKCGGZ0"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7039523"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/ali-air-purifier-riverfamily"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/959799"
+      }
+    ],
+    "articles": [
+      {
+        "title": "PC fans, filter access and smoke tests in printed purifiers",
+        "slug": "pc-fans-filter-access-and-smoke-tests-air-purifier"
+      },
+      {
+        "title": "Roy, Max, Yomi, Eno or Ivo: which River purifier should you choose?",
+        "slug": "choosing-river-air-purifier-roy-max-yomi-eno-ivo"
+      }
+    ]
+  },
+  {
+    "slug": "ali",
+    "name": "Ali",
+    "category": "Air purifiers",
+    "description": "A light, vertical purifier concept with a clean profile. Ali lifts the fan-and-filter layout into a slimmer upright object for desks or shelves where the purifier should look intentional from the side as well as the front.",
+    "image": "https://riverfamily.art/static/images/ali.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Ali_printfiles.zip",
+        "size": 6283493,
+        "generation": "1747413555825913",
+        "md5": "JxS0grj8hh+hi0Ysw9oTsA==",
+        "updated": "2025-05-16T16:39:15.882Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Ali_printfiles.zip",
+        "path": "readme.txt",
+        "text": "Upload the universal gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least  180x180mm buildplate\r\n\r\n\r\nAli Fits any 120mm PC fan, \"Uphere\" version is specific the slightly smaller Uphere 120mm fan\r\n\r\n\r\nCut the fan frame with pliers and attach it mid-print with thick double sided adhesive tape.\r\n\r\n\r\nIf you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\n\r\n\r\nUse a 300x400mm \"Frameless hepa filter\" sheet with 2 fans or cut a shorter sheet for single fan\r\n\r\n\r\n\r\nWatch this video to understand how Ali is made: https://www.youtube.com/watch?v=P_O8Nc2xM8s\r\n\r\n\r\n\r\nBambu Studio Settings:\r\n\r\nGlobal: \r\n\r\nlayer height: 0.6mm\r\nline width sparse infill: 0.72mm\r\nwalls: 0\r\ntops: 0\r\nbottoms: 0\r\ninfill density: 24%\r\ninfill pattern: Rectilinear\r\nlength of sparse infill anchor: 1000 (unlimited)\r\nmaximum length of sparse infill anchor: 1000 (unlimited)\r\ninfill/wall overlap: 100%\r\ndetect narrow internal infill: no\r\ninfill speed: 40mm/s\r\nreduce infill retraction: no\r\n\r\nAli 2:\r\ninfill density: 100%\r\nwalls: 1\r\n\r\n\r\nAli 3, Ali 4:\r\nline width sparse infill: 1.2mm\r\ninfill density: 30%\r\ninfill pattern: Grid\r\n\r\nInsert pause at layer 55 by right-clicking on the vertical bar after slicing in Bambu Studio\r\n\r\n\r\nIn the gcodes, pause for fan insertion is inserted as follows (uncomment/comment to change for Prusa or Bambulab pause commands): \r\n\r\n\r\n; Z_HEIGHT: 33.3\r\n; layer num/total_layer_count: 55/69\r\n\r\n;M400 U1 ; Bambulab pause\r\n;M601 ; Prusa Pause\r\n\r\n; Generic pause:\r\nG0 X150.000 Y200.000 Z150.000 ; move away from the part\r\nM18 S0 ; disable stepper inactivity timeout\r\nM25 ; pause print\r\nG0 X150.000 Y2000.000 Z151.000 ; buffer lines: some printers pause a few lines below M25\r\nG0 X150.000 Y2000.000 Z152.000\r\nG0 X150.000 Y2000.000 Z153.000\r\nG0 X150.000 Y2000.000 Z154.000\r\nG0 X150.000 Y2000.000 Z155.000\r\n; Generic pause end\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "P_O8Nc2xM8s",
+        "title": "Ali - 3d printed air purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=P_O8Nc2xM8s"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7039501"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/ali-air-purifier-riverfamily-2"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/959682"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "evo",
+    "name": "Evo",
+    "category": "Air purifiers",
+    "description": "A more evolved purifier body with a strong but simple shape. Evo gives airflow, maintenance and appearance the same priority, so the print feels polished without hiding the fan and filter logic.",
+    "image": "https://riverfamily.art/static/images/evo.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Evo_printfiles.zip",
+        "size": 3577476,
+        "generation": "1747413562967270",
+        "md5": "V+E/6YloKPls1vhZO6IrWA==",
+        "updated": "2025-05-16T16:39:23.007Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Evo_printfiles.zip",
+        "path": "readme.txt",
+        "text": "Watch this video to understand how Evo is made: https://www.youtube.com/watch?v=7STE_GT0obQ\n\n\nUpload the universal Evo.gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least 180x180mm buildplate\r\n\r\n\r\nEvo sliced with Bambu Studio has slightly different infill pattern with same functionality.\r\n\r\n\r\nEvo works with 120mm fans. The frame of the fan has to be removed by cutting with pliers. Then the fan is attached to the cap mid-print with thick double-sided tape.\r\n\r\nThe best fan is UpHere, which is smaller then usual 120mm fans, that is why there is a custom \"uphere\" version of Evo. If you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\nCut Hepa filters from \"Frameless hepa filter\" sheets (link1: https://aliexpress.com/item/4001298732898.html , link2: https://aliexpress.com/item/1005001619559275.html)\r\n\n\r\n\r\nCura slicer print settings:\r\n\r\nLayer Height: 0.6\r\ninfill line width: 0.4\r\nInfill Flow: 200%\r\nwall line width: 1\r\nWalls: 0\r\nBottom Layers: 0\r\nTop Layers: 0\r\nInfill Density: 9% (line distance 4.44mm)\r\nInfill Pattern: Zig Zag\r\nInfill Lines Direction: [0,0,0,30,30,30,60,60,60,120,120,120,150,150,150]\r\nInfill Speed: 30 mm/s\r\nPrint cooling: off\r\n\r\nEvo_2 (should be merged with Evo_1, Evo_3, Evo_4)\r\nwalls: 1\r\nbottom layers: 100\r\ninitial bottom layers: 100\r\nskin overlap %: 90%\r\n\r\n\r\nEvo_3, Evo_4\r\ninfill line distance: 8\r\ninfill pattern: grid\r\ninfill line directions: [0,90]\r\ninfill flow: 300%\r\n\r\n\r\nPause for fan insertion inserted as follows (uncomment/comment to change for Prusa or Bambulab pause commands): \r\n\r\n\r\nG0 F42000 X128.66 Y63.115 Z33.9\r\n;TIME_ELAPSED:2197.355497\r\n;LAYER:55\r\n\r\n;M400 U1 ; Bambulab pause\r\n;M601 ; Prusa Pause\r\n\r\n;Generic pause start\r\nG0 X150.000 Y200.000 Z150.000 ; move away from the part\r\n\r\nM18 S0 ; disable stepper inactivity timeout\r\nM25 ; pause print\r\n\r\nG0 X150.000 Y2000.000 Z151.000 ; buffer lines: some printers pause a few lines below M25\r\nG0 X150.000 Y2000.000 Z152.000\r\nG0 X150.000 Y2000.000 Z153.000\r\nG0 X150.000 Y2000.000 Z154.000\r\nG0 X150.000 Y2000.000 Z155.000\r\n;Generic pause end\r\n\r\n\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "7STE_GT0obQ",
+        "title": "Evo - 3d printed air purifier",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7STE_GT0obQ"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7039529"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/evo-air-purifier"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/959807"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "haze",
+    "name": "Haze",
+    "category": "Air purifiers",
+    "description": "A plant-vent design using a printed airflow structure and a 120 mm PC fan, fitted during printing.",
+    "image": "https://riverfamily.art/static/images/haze.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Haze_printfiles.zip",
+        "size": 7337209,
+        "generation": "1747413556842748",
+        "md5": "1Zidol2uYsYmFnDjqbBUXA==",
+        "updated": "2025-05-16T16:39:16.883Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Purifiers/Haze_printfiles.zip",
+        "path": "readme.txt",
+        "text": "Upload the universal gcode on an SD card and insert it in any printer. Launch the gcode from the printer interface, ignore warnings and proceed. Adjust temperature and fan speed once the print starts to fit your filament needs\r\n\r\nPrinter requirements for the gcodes: preferably 0.6mm nozzle and at least  180x180mm buildplate\r\n\r\n\r\nHaze Fits any 120mm PC fan\r\n\r\n\r\nCut the fan frame with pliers and attach it mid-print with thick double sided adhesive tape.\r\n\r\n\r\nIf you choose a USB fan, you can add a \"usb fan speed controller\" (Google it) to adjust and increase USB fan speed. \r\n\r\n\r\n\r\nWatch this video to understand how Haze is made: https://www.youtube.com/watch?v=tFI38hTdewE\r\n\r\n\r\n\r\nBambu Studio Settings:\r\n\r\nGlobal: \r\n\r\nlayer height: 0.3mm\r\nline width sparse infill: 1.3\r\nwalls: 0\r\ntops: 0\r\nbottoms: 0\r\ninfill density: 25%\r\ninfill pattern: Grid\r\nmaximum length of sparse infill anchor: 0\r\ninfill/wall overlap: 100%\r\ndetect narrow internal infill: no\r\ninfill speed: 50mm/s\r\nreduce infill retraction: no\r\n \r\n\r\nHaze 2\r\n\r\nwalls: 2\r\ntops : 12\r\nFilament:\r\n\r\nretraction length: 3mm\r\nz hop when retract: 1.2mm\r\nz hop type: slope\r\nwipe while retracting: yes\r\nwipe distance: 3mm\r\nretract amount before wipe: 66%\r\n\r\nInsert pause at layer 135 by right-clicking on the vertical bar after slicing in Bambu Studio\r\n\r\n\r\nIn the gcodes, pause for fan insertion is inserted as follows (uncomment/comment to change for Prusa or Bambulab pause commands): \r\n\r\n\r\n; Z_HEIGHT: 40.5\r\n; layer num/total_layer_count: 135/570\r\n\r\n;M400 U1 ; Bambulab pause\r\n;M601 ; Prusa Pause\r\n\r\n; Generic pause:\r\nG0 X150.000 Y200.000 Z150.000 ; move away from the part\r\nM18 S0 ; disable stepper inactivity timeout\r\nM25 ; pause print\r\nG0 X150.000 Y2000.000 Z151.000 ; buffer lines: some printers pause a few lines below M25\r\nG0 X150.000 Y2000.000 Z152.000\r\nG0 X150.000 Y2000.000 Z153.000\r\nG0 X150.000 Y2000.000 Z154.000\r\nG0 X150.000 Y2000.000 Z155.000\r\n; Generic pause end\r\n\r\nLicense Public Domain:\r\nhttps://creativecommons.org/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "tFI38hTdewE",
+        "title": "Haze Plant Vent",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tFI38hTdewE"
+      },
+      {
+        "id": "DAgy_lDFak4",
+        "title": "Plant Vent - 3D printed - Haze",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/DAgy_lDFak4"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7039507"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/haze-plant-vent-riverfamily"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/959693"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Filter access, fan access and maintenance in a printed air purifier",
+        "slug": "air-purifier-filter-access-maintenance"
+      }
+    ]
+  },
+  {
+    "slug": "tite",
+    "name": "Tite",
+    "category": "Lamp holders",
+    "description": "A compact printable lamp holder with River’s clean, simple approach. Tite is small, useful and easy to place in a minimal light setup.",
+    "image": "https://riverfamily.art/static/images/tite.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Tite%20%26%20Mite/Tite%20print%20files.zip",
+        "size": 4862651,
+        "generation": "1727889232602369",
+        "md5": "YrMH213KdPkpxK+d+daqGQ==",
+        "updated": "2024-10-02T17:13:52.640Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Tite%20%26%20Mite/Tite%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Tite comes in various sizes to adapt to slightly different light sockets. The number after \"D\" refers to the internal diameter \r\n\r\nFits the types of E27 light sockets shown in \"compatible light socket.jpg\" image\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\nAlso applies to pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "jMSnfs0ehck",
+        "title": "Tite - 3D Printed Ceiling Lamp",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jMSnfs0ehck"
+      },
+      {
+        "id": "3bKSbjrDRj0",
+        "title": "Tite - 3D Printed Ceiling Lamp #3dprinting #3dlamp #diy #3dprinter #3dprinted #3dprint #lamp #maker",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/3bKSbjrDRj0"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1026020-tite-ceiling-lamp"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/tite-lamp-holder"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6785346"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/677330"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "mite",
+    "name": "Mite",
+    "category": "Lamp holders",
+    "description": "A compact printable lamp holder for small spaces. Mite keeps the form simple, letting light, finish and material do the work.",
+    "image": "https://riverfamily.art/static/images/mite.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Tite%20%26%20Mite/Mite%20print%20files.zip",
+        "size": 4599372,
+        "generation": "1729184753086162",
+        "md5": "6EkDYBq42gRIwxaXhrc+RA==",
+        "updated": "2024-10-17T17:05:53.134Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Tite%20%26%20Mite/Mite%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Fits \"E27 LAMP HOLDER WITH POWER CORD AND SWITCH\"\r\n\r\nMite comes in various sizes to adapt to slightly different lamp holders.\r\n\r\nThe number after \"D\" refers to the internal diameter\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\nAlso applies to pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "MALavJd18nI",
+        "title": "Mite - 3D Printed Nightstand Lamp",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MALavJd18nI"
+      },
+      {
+        "id": "UsXk_z6YXzk",
+        "title": "Mite - 3D printed desk lamp #3dprinting #3dlamp #diy #3dprinter #3dprinted #3dprint #maker #lamp",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/UsXk_z6YXzk"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6800839"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1042665-mite-lamp"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/mite-lamp"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/710320"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "muro",
+    "name": "Muro",
+    "category": "Lamp holders",
+    "description": "A printable lamp holder with a clean architectural feel. Muro gives a light source a simple structure that looks intentional on a wall, shelf or desk.",
+    "image": "https://riverfamily.art/static/images/muro_1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/muro.3mf",
+        "size": 90455,
+        "generation": "1767548952003669",
+        "md5": "kmQINBu7g8U8NV3grMOShA==",
+        "updated": "2026-01-04T17:49:12.038Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "path": "readme.txt",
+        "text": "\nFits \"E27 lamp holders with power cord and switch\"\n\nvideo: https://www.youtube.com/watch?v=mRgbkt5erwo\n\n---\n\nOnshape model: https://cad.onshape.com/documents/1cd30007bf8ec50419a6eba4/w/142d04dd1322d942ba0b2993/e/fd0190658b70fea81c132eb7\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names\n\n",
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/muro.3mf"
+      }
+    ],
+    "videos": [
+      {
+        "id": "mRgbkt5erwo",
+        "title": "Muro - wall lamp holder - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mRgbkt5erwo"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1813375"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/muro-wall-lamp-holder"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/muro-wall-lamp-holder"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2142332"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7397061"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "edge",
+    "name": "Edge",
+    "category": "Lamp holders",
+    "description": "A printable lamp holder with crisp lines and a sharper technical look. Edge is made for a clean light setup that feels precise, simple and functional.",
+    "image": "https://riverfamily.art/static/images/edge_1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/edge.3mf",
+        "size": 94315,
+        "generation": "1767548839383124",
+        "md5": "3RmJfkMAQ2q3YRWMH16QTw==",
+        "updated": "2026-01-04T17:47:19.423Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "path": "readme.txt",
+        "text": "\nFits \"E27 lamp holders with power cord and switch\"\n\nvideo: https://www.youtube.com/watch?v=S0upqs3yTF4\n\n---\n\nOnshape model: https://cad.onshape.com/documents/53828a69670b02783f47224c/w/ca8b8f51c0948c94564056aa/e/cffa3bcbb8d8e44c42e6e17b\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names\n\n",
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/edge.3mf"
+      }
+    ],
+    "videos": [
+      {
+        "id": "S0upqs3yTF4",
+        "title": "Edge - corner wall lamp holder - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=S0upqs3yTF4"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2142429"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "reno",
+    "name": "Reno",
+    "category": "Shower holders",
+    "description": "A printable shower holder with a friendly rounded shape. Reno is made for practical bathroom use while keeping the setup clean and simple.",
+    "image": "https://riverfamily.art/static/images/reno_1.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/reno.3mf",
+        "size": 60824,
+        "generation": "1767548929258013",
+        "md5": "VOWRRXdYIIZ5DlEegHHNdQ==",
+        "updated": "2026-01-04T17:48:49.294Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "path": "readme.txt",
+        "text": "\nvideo: https://www.youtube.com/watch?v=bGOQf_b8Hk0\n\n\n---\n\nOnshape model: https://cad.onshape.com/documents/6d078a894628473e79e00832/w/45a91a2dfc99b09ecd800169/e/20d4e0751ec3e23c965125c5\n\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names\n\n",
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/reno.3mf"
+      }
+    ],
+    "videos": [
+      {
+        "id": "bGOQf_b8Hk0",
+        "title": "Reno - universal hand shower holder - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bGOQf_b8Hk0"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2142258"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "bruk",
+    "name": "Bruk",
+    "category": "Bottles",
+    "description": "A simple polypropylene bottle printed from joined Cura G-code sections. Its folding cap becomes the seal: when the cap bends into position, water stops coming out.",
+    "image": "https://riverfamily.art/static/images/bruk.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Bruk%20%26%20Baum/Bruk%20print%20files.zip",
+        "size": 2606218,
+        "generation": "1727029849255974",
+        "md5": "wvELZeOKprXYL3izyrlc/A==",
+        "updated": "2024-09-22T18:30:49.395Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Bruk%20%26%20Baum/Bruk%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Manual modifications of the gcode movements are required to make Bruk watertight, so I suggest printing Bruk.gcode instead of slicing. \r\n\r\nBruk.gcode is compatible with printers with at least 130x130x210mm build volume. \r\n\r\nUse 0.6mm nozzle. Lower speed down to 50% after the print starts  on bowden printers. \r\n\r\nBruk.gcode prints in 6h with 30g of Polypropylene (PP) filament.\r\n\r\nApply standard plastic adhesive tape (commonly made of PP) to the bed to ensure adhesion. \r\n\r\nTested with Formfutura PP\r\n\r\n\r\nHow I sliced Bruk.gcode: https://www.youtube.com/watch?v=qj2Xh6ys8mk\r\n\r\nSettings (Cura):\r\n\r\nfrom the start to the end of the cylindrical part:\r\n- layer height: 0.3mm\r\n- line width: 0.6mm\r\n- wall line width: 0.59mm\r\n- wall line count: 1\r\n- bottom layers: 4\r\n- top/bottom pattern: zig zag\r\n- top/bottom line directions: [67,0,134,201]\r\n- skin overlap percentage: 80%\r\n- flow: 120%\r\n- wall flow: 135%\r\n- top/bottom speed: 15mm/s\r\n- wall speed: 15mm/s\r\n- fan speed: 100%\r\n- relative extrusion: yes\r\n- spiralize outer contour: yes\r\n\r\n\r\nconical part:\r\n- layer height: 0.2mm\r\n- wall flow: 170%\r\n- wall speed: 10mm/s\r\n\r\n\r\nneck:\r\n- layer height: 0.1mm\r\n- wall flow: 83% \r\n- wall speed: 10mm/s\r\n\r\nThen the 3 gcodes are joined\r\n\r\n+ manual and automatic (using using the *Attached Python script)  X-Y gcodes coordinates shifting, speed and flow adjustments in the area where the neck holder starts printing to improve water-tightness \r\n\r\n\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\nContact: alessio@riverfamily.art\r\n\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\nAlso applies to gcodes, slicing process, pictures, videos and names\r\n\r\n\r\n\r\n*Attached Python Script\r\n\r\nimport re\r\n\r\ndef adjust_gcode(input_filename, output_filename, x_offset=0.45, y_offset=0):\r\n    with open(input_filename, 'r') as f_in, open(output_filename, 'w') as f_out:\r\n        for line in f_in:\r\n            line = line.strip()\r\n            if line.startswith('G0') or line.startswith('G1'):\r\n                x_match = re.search('X(-?[0-9\\.]+)', line)\r\n                y_match = re.search('Y(-?[0-9\\.]+)', line)\r\n                if x_match:\r\n                    x = float(x_match.group(1)) + x_offset\r\n                    line = re.sub('X(-?[0-9\\.]+)', 'X{:.3f}'.format(x), line)\r\n                if y_match:\r\n                    y = float(y_match.group(1)) + y_offset\r\n                    line = re.sub('Y(-?[0-9\\.]+)', 'Y{:.3f}'.format(y), line)\r\n            f_out.write(line + '\\n')\r\n\r\n# Use:\r\nadjust_gcode('Bruk.gcode', 'Bruk_shifted.gcode')"
+      }
+    ],
+    "videos": [
+      {
+        "id": "qj2Xh6ys8mk",
+        "title": "How to Slice Bruk and Baum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qj2Xh6ys8mk"
+      },
+      {
+        "id": "SnC3xIh6hp4",
+        "title": "Bruk - 3D Printed Bottle",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SnC3xIh6hp4"
+      },
+      {
+        "id": "pQaiktVyyIM",
+        "title": "3D Printed Folding Cap Bottle - Bruk",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/pQaiktVyyIM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/bruk-bottle"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6772647"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1007458-bruk-bottle"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6766470"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/642033"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why Bruk and Baum bottles use joined G-code",
+        "slug": "continuous-gcode-bruk-baum-bottles"
+      },
+      {
+        "title": "How to slice a 3D printed PP bottle: Bruk and Baum",
+        "slug": "how-to-slice-3d-printed-pp-bottle-bruk-baum"
+      },
+      {
+        "title": "Why River uses polypropylene for bottles, Jem and Yuki ice packs",
+        "slug": "polypropylene-3d-printing-river-water-air-and-bottles"
+      }
+    ]
+  },
+  {
+    "slug": "baum",
+    "name": "Baum",
+    "category": "Bottles",
+    "description": "A collapsible polypropylene bottle made with the same joined-G-code approach as Bruk. The cap folds to seal, and the body can fold into itself like an accordion when empty.",
+    "image": "https://riverfamily.art/static/images/baum.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Bruk%20%26%20Baum/Baum%20print%20files.zip",
+        "size": 2782532,
+        "generation": "1726823520170934",
+        "md5": "A5ghyJPrU03RmsNUDyXo/w==",
+        "updated": "2024-09-20T09:12:00.267Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Bruk%20%26%20Baum/Baum%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "Manual modifications of the gcode movements are required to make Baum watertight, so I suggest printing Bruk.gcode instead of slicing. \r\n\r\nBaum.gcode is compatible with printers with at least 130x130x210mm build volume. \r\n\r\nUse 0.6mm nozzle. Lower speed down to 50% after the print starts  on bowden printers. \r\n\r\nBaum.gcode prints in 8h with 30g of Polypropylene (PP) filament.\r\n\r\nApply standard plastic adhesive tape (commonly made of PP) to the bed to ensure adhesion. \r\n\r\nTested with Formfutura PP\r\n\r\n\r\nHow I sliced Baum.gcode: https://www.youtube.com/watch?v=qj2Xh6ys8mk\r\n\r\nSettings (Cura):\r\n\r\nfrom the start to the neck:\r\n- layer height: 0.2mm\r\n- line width: 0.6mm\r\n- wall line width: 0.59mm\r\n- wall line count: 1\r\n- bottom layers: 4\r\n- top/bottom pattern: zig zag\r\n- top/bottom line directions: [67,0,134,201]\r\n- skin overlap percentage: 80%\r\n- flow: 120%\r\n- wall flow: 170%\r\n- top/bottom speed: 15mm/s\r\n- wall speed: 10mm/s\r\n- fan speed: 100%\r\n- relative extrusion: yes\r\n- spiralize outer contour: yes\r\n\r\nneck:\r\n- layer height: 0.1mm\r\n- wall flow: 83% \r\n- wall speed: 10mm/s\r\n\r\nThen the 3 gcodes are joined\r\n\r\n+ manual and automatic (using using the *Attached Python script)  X-Y gcodes coordinates shifting, speed and flow adjustments in the area where the neck holder starts printing to improve water-tightness \r\n\r\n\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\nContact: alessio@riverfamily.art\r\n\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\nAlso applies to gcodes, slicing process, pictures, videos and names\r\n\r\n\r\n\r\n*Attached Python Script\r\n\r\nimport re\r\n\r\ndef adjust_gcode(input_filename, output_filename, x_offset=0.45, y_offset=0):\r\n    with open(input_filename, 'r') as f_in, open(output_filename, 'w') as f_out:\r\n        for line in f_in:\r\n            line = line.strip()\r\n            if line.startswith('G0') or line.startswith('G1'):\r\n                x_match = re.search('X(-?[0-9\\.]+)', line)\r\n                y_match = re.search('Y(-?[0-9\\.]+)', line)\r\n                if x_match:\r\n                    x = float(x_match.group(1)) + x_offset\r\n                    line = re.sub('X(-?[0-9\\.]+)', 'X{:.3f}'.format(x), line)\r\n                if y_match:\r\n                    y = float(y_match.group(1)) + y_offset\r\n                    line = re.sub('Y(-?[0-9\\.]+)', 'Y{:.3f}'.format(y), line)\r\n            f_out.write(line + '\\n')\r\n\r\n# Use:\r\nadjust_gcode('Bruk.gcode', 'Bruk_shifted.gcode')"
+      }
+    ],
+    "videos": [
+      {
+        "id": "AIPcSTuXWGw",
+        "title": "Baum - 3D Printed Collapsible Bottle",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AIPcSTuXWGw"
+      },
+      {
+        "id": "qj2Xh6ys8mk",
+        "title": "How to Slice Bruk and Baum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qj2Xh6ys8mk"
+      },
+      {
+        "id": "uIcavDHKI00",
+        "title": "Baum - 3d printed collapsible bottle",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/uIcavDHKI00"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/baum-collapsible-bottle"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6772647"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1012944-baum-collapsible-bottle"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/652755"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How to slice a 3D printed PP bottle: Bruk and Baum",
+        "slug": "how-to-slice-3d-printed-pp-bottle-bruk-baum"
+      },
+      {
+        "title": "Why River uses polypropylene for bottles, Jem and Yuki ice packs",
+        "slug": "polypropylene-3d-printing-river-water-air-and-bottles"
+      }
+    ]
+  },
+  {
+    "slug": "yuki",
+    "name": "Yuki",
+    "category": "Ice air coolers",
+    "description": "A full-size ice-pack air cooler built from printed parts, a quiet USB fan and a frozen water pack. Freeze the pack overnight, place it inside, and Yuki sends a steady cooler stream across the desk with very low power use.",
+    "image": "https://riverfamily.art/static/images/classic2.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Print%20Files.zip",
+        "size": 32878044,
+        "generation": "1726817880806960",
+        "md5": "ICkCDusS1yWqf+fCdT7nJg==",
+        "updated": "2024-09-20T07:38:00.912Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Print%20Files.zip",
+        "path": "readme.txt",
+        "text": "Manual modifications of the print files (gcodes) are required for better quality, so I suggest using my gcodes instead of slicing. \r\n\r\n\r\nPrinter requirements for the gcodes:\r\n\r\n0.6mm nozzle with at least 200x200x200mm build volume\r\n\r\n\r\nbody.gcode , uphere_body.gcode:\r\n\r\nTwo versions of Yuki's body, \"body.gcode\" fits any 120mm pc fan, \"uphere_body.gcode\" is specific for \"Uphere 120mm pc fan\". Run a \"5V Uphere USB 120mm fan\" at up to 12V with a \"usb fan speed controller\" to get maximum airwflow at low noise. Nozzle temperature is 210 °C and bed 50 °C, adjust temperatures once the print starts to fit your filament needs. Prints with 170g of material in 11h. Ender 3 v2 gives the best outer surface smoothness. \r\n\r\n\r\ncap.gcode:\r\n\r\nPrints with 25g of Polipropylene in 1h45m. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nicepack.gcode:\r\n\r\nPrints with 100g of Polipropylene in 8h. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nGcodes slicing: https://youtu.be/3wivfIi9iO4\r\n\r\n\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n\r\n\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "3wivfIi9iO4",
+        "title": "Yuki Slicing",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3wivfIi9iO4"
+      },
+      {
+        "id": "TAI5tish3BI",
+        "title": "Yuki Air Cooler",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TAI5tish3BI"
+      },
+      {
+        "id": "C455tkzqK1A",
+        "title": "Yuki Air Cooler",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=C455tkzqK1A"
+      },
+      {
+        "id": "RUYsktSkPWI",
+        "title": "Yuki",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/RUYsktSkPWI"
+      },
+      {
+        "id": "47tLvbSGasQ",
+        "title": "Yuki Air Cooler  #3dprinting",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/47tLvbSGasQ"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/919033-yuki-air-cooler"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6669775"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/yuki-air-cooler"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/504480"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How Yuki ice-pack air coolers work",
+        "slug": "ice-pack-air-coolers-how-yuki-works"
+      },
+      {
+        "title": "How to slice Yuki Mini",
+        "slug": "how-to-slice-yuki-mini"
+      },
+      {
+        "title": "Why River uses polypropylene for bottles, Jem and Yuki ice packs",
+        "slug": "polypropylene-3d-printing-river-water-air-and-bottles"
+      }
+    ]
+  },
+  {
+    "slug": "kori",
+    "name": "Kori",
+    "category": "Ice air coolers",
+    "description": "An ice-bottle air cooler built around a 120 mm PC fan, with a printed grid enclosure. The fan is fitted during printing.",
+    "image": "https://riverfamily.art/static/images/kori.webp?v=20260815b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/yuki/kori.zip",
+        "size": 5552926,
+        "generation": "1786809727958734",
+        "md5": "vGwvWA2xlkUvxAFLdliTqA==",
+        "updated": "2026-08-15T16:02:08.027Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/kori.zip",
+        "path": "readme.txt",
+        "text": "\nFits any 120mm PC fan \n\nVideo: https://www.youtube.com/watch?v=UrBTvx66pbs\n\nCut the fan frame with pliers and attach it mid-print with thick double sided adhesive tape. \n\nIf you choose a USB fan, add a “usb fan speed controller” to adjust and increase fan speed.\n\n---\n\nSlicer settings\n\nGlobal, Kori 2:\n\nlayer height: 0.2mm\nwalls line width: 0.9mm\ninfill line width: 1mm\nwalls: 0\ntop layers: 0\nbottom layers: 0\ninfill density: 30%\ninfill pattern: grid\nlength of sparse infill anchor: unlimited\nbrim: yes\nreduce infill retraction: disabled\n\nKori 1:\n\nwalls: 12\n\nKori 3:\n\nwalls: 2\ntop layers: 100\n\n--- \n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [
+      {
+        "id": "UrBTvx66pbs",
+        "title": "Kori - 3d printed air cooler - ice bottle",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UrBTvx66pbs"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1772882"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/kori-air-cooler"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1518345"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7379223"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "yuki-snowflake",
+    "name": "Yuki Snowflake",
+    "category": "Ice air coolers",
+    "description": "The snowflake full-size Yuki: the same low-energy frozen-pack airflow in a more decorative shell, shared as refined G-code for cleaner internal overhangs.",
+    "image": "https://riverfamily.art/static/images/12_2_x2.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Snowflake%20Print%20Files.zip",
+        "size": 36222399,
+        "generation": "1726818050331874",
+        "md5": "EZf9+8ebv005ejaAfclERA==",
+        "updated": "2024-09-20T07:40:50.439Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20Snowflake%20Print%20Files.zip",
+        "path": "readme.txt",
+        "text": "Manual modifications of the print files (gcodes) are required for better quality, so I suggest using my gcodes instead of slicing. \r\n\r\n\r\nPrinter requirements for the gcodes:\r\n\r\n0.6mm nozzle with at least 200x200x200mm build volume\r\n\r\n\r\n\r\nbody_snowflake.gcode , uphere_body_snowflake.gcode:\r\n\r\nTwo versions of Yuki's body, \"body_snowflake.gcode\" fits any 120mm pc fan, \"uphere_body_snowflake.gcode\" is specific for \"Uphere 120mm pc fan\". Run a \"5V Uphere USB 120mm fan\" at up to 12V with a \"usb fan speed controller\" to get maximum airwflow at low noise. Nozzle temperature is 210 °C and bed 50 °C, adjust temperatures once the print starts to fit your filament needs. Prints with 170g of material in 11h. Ender 3 v2 gives the best outer surface smoot\r\n\r\n\r\n\r\ncap.gcode:\r\n\r\nPrints with 25g of Polipropylene in 1h45m. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nicepack.gcode:\r\n\r\nPrints with 100g of Polipropylene in 8h. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nGcodes slicing: https://youtu.be/3wivfIi9iO4\r\n\r\n\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n\r\n\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "vPwVILwLZ3Q",
+        "title": "Yuki - 3D Printed Air Cooler (Snowflake version)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vPwVILwLZ3Q"
+      },
+      {
+        "id": "3wivfIi9iO4",
+        "title": "Printing / assembly video",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3wivfIi9iO4"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/926123-yuki-air-cooler-snowflake"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6677711"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/515166"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How Yuki ice-pack air coolers work",
+        "slug": "ice-pack-air-coolers-how-yuki-works"
+      },
+      {
+        "title": "Why full-size Yuki uses post-processed G-code",
+        "slug": "why-yuki-uses-postprocessed-gcode"
+      }
+    ]
+  },
+  {
+    "slug": "yuki-mini",
+    "name": "Yuki Mini",
+    "category": "Ice air coolers",
+    "description": "A compact ice-pack air cooler: printed parts, an 80 mm PC fan and a frozen water pack or bottle for local airflow.",
+    "image": "https://riverfamily.art/static/images/classic.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20and%20Yuki%20Mini%20Print%20Files.zip",
+        "size": 78909413,
+        "generation": "1719944466919933",
+        "md5": "1cgJWz6QbQF899ha/kNEsA==",
+        "updated": "2024-07-02T18:21:06.961Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20and%20Yuki%20Mini%20Print%20Files.zip",
+        "path": "Yuki Mini/readme.txt",
+        "text": "Fits any 80x80x25mm PC fan\r\n\r\n\r\nPrinter requirements:\r\n\r\nAny 0.4mm nozzle printer with at least 180x180x180mm build volume\r\n\r\n\r\n\r\nGcodes slicing: https://www.youtube.com/watch?v=Tb_B_sDHnzw&t=10s\r\n\r\n\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n\r\n\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "vF2obkSBFAg",
+        "title": "Yuki Air Cooler - Mini",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vF2obkSBFAg"
+      },
+      {
+        "id": "uxXKBRGx_6I",
+        "title": "3D Printed Air Conditioner - Yuki Mini",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uxXKBRGx_6I"
+      },
+      {
+        "id": "Tb_B_sDHnzw",
+        "title": "How To Slice Yuki Mini",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Tb_B_sDHnzw"
+      },
+      {
+        "id": "iimNSWqK8dg",
+        "title": "Yuki Mini in Action!",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=iimNSWqK8dg"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/217636-yuki-air-cooler"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:4923823"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/yuki-air-cooler-snowflake"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483300"
+      }
+    ],
+    "articles": [
+      {
+        "title": "DIY desk air cooler with a USB fan and frozen water",
+        "slug": "diy-desk-air-cooler-usb-fan"
+      },
+      {
+        "title": "How to slice Yuki Mini",
+        "slug": "how-to-slice-yuki-mini"
+      }
+    ]
+  },
+  {
+    "slug": "yuki-snowflake-mini",
+    "name": "Yuki Snowflake Mini",
+    "category": "Ice air coolers",
+    "description": "A smaller decorative air-cooler shell built around the frozen ice-pack or bottle airflow idea: simple printed parts, low power and a softer winter shape for personal desk cooling.",
+    "image": "https://riverfamily.art/static/images/snowflake.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20and%20Yuki%20Mini%20Print%20Files.zip",
+        "size": 78909413,
+        "generation": "1719944466919933",
+        "md5": "1cgJWz6QbQF899ha/kNEsA==",
+        "updated": "2024-07-02T18:21:06.961Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20and%20Yuki%20Mini%20Print%20Files.zip",
+        "path": "Yuki Mini/readme.txt",
+        "text": "Fits any 80x80x25mm PC fan\r\n\r\n\r\nPrinter requirements:\r\n\r\nAny 0.4mm nozzle printer with at least 180x180x180mm build volume\r\n\r\n\r\n\r\nGcodes slicing: https://www.youtube.com/watch?v=Tb_B_sDHnzw&t=10s\r\n\r\n\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n\r\n\r\n\r\n"
+      },
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/yuki/Yuki%20and%20Yuki%20Mini%20Print%20Files.zip",
+        "path": "Yuki/readme.txt",
+        "text": "Printer requirements:\r\n\r\n0.6mm nozzle with at least 200x200x200mm build volume\r\n\r\n\r\n\r\nbody.gcode , uphere_body.gcode:\r\n\r\nTwo versions of Yuki's body, \"body.gcode\" fits any 120mm pc fan, \"uphere_body.gcode\" is specific for \"Uphere 120mm pc fan\". \r\nRun a \"5V Uphere USB 120mm fan\" at up to 12V with a \"usb fan speed controller\" to get maximum airwflow at low noise. \r\nPrints with 170g of PLA in 11h. Ender 3 v2 gives the best outer surface smoothness. \r\nGet original Yuki color with \"Xightongzhilian silk blue PLA\"\r\n\r\n\r\n\r\ncap.gcode:\r\n\r\nPrints with 25g of Polipropylene in 1h45m. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nicepack.gcode:\r\n\r\nPrints with 100g of Polipropylene in 8h. Apply polypropylene adhesive tape to the heatbed to ensure part adhesion. Tested with Formfutura PP \r\n\r\n\r\n\r\nGcodes slicing: https://youtu.be/3wivfIi9iO4\r\n\r\n\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n\r\n\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "PF0ymJvRQEU",
+        "title": "Yuki Air Cooler - Snowflake Mini",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PF0ymJvRQEU"
+      },
+      {
+        "id": "Tb_B_sDHnzw",
+        "title": "Printing / assembly video",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Tb_B_sDHnzw"
+      },
+      {
+        "id": "3wivfIi9iO4",
+        "title": "Printing / assembly video",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3wivfIi9iO4"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/229614-yuki-air-cooler-snowflake"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "bulbasaur-air-cooler",
+    "name": "Bulbasaur Air Cooler",
+    "category": "Ice air coolers",
+    "description": "A playful Bulbasaur-style ice air cooler shell: the Yuki frozen ice-pack airflow idea turned into a characterful low-energy desk object.",
+    "image": "https://riverfamily.art/static/images/bulbasaur.webp?v=20260801b",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "TFFby_LWA9A",
+        "title": "Bulbasaur Air Cooler",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TFFby_LWA9A"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/229602-bulbasaur-air-cooler"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:5425729"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/pokemon-air-coolers"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483307"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Do ice pack air coolers actually work?",
+        "slug": "do-ice-pack-air-coolers-work"
+      }
+    ]
+  },
+  {
+    "slug": "gengar-air-cooler",
+    "name": "Gengar Air Cooler",
+    "category": "Ice air coolers",
+    "description": "A Gengar-style ice air cooler shell with the Yuki formula inside: printed parts, a USB fan and frozen ice-pack airflow in a darker, mischievous desk object.",
+    "image": "https://riverfamily.art/static/images/gengar.webp?v=20260801b",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "3r7qFmCJfaw",
+        "title": "Gengar Air Cooler",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3r7qFmCJfaw"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/236596-gengar-air-cooler"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:5425729"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/gadget/pokemon-air-coolers"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483307"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Do ice pack air coolers actually work?",
+        "slug": "do-ice-pack-air-coolers-work"
+      }
+    ]
+  },
+  {
+    "slug": "dome",
+    "name": "Dome",
+    "category": "Desk fans",
+    "description": "A dome-shaped desk fan body with soft geometry. Dome keeps small personal airflow clean, simple and easy to place on a desk.",
+    "image": "https://riverfamily.art/static/images/dome.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/dome/Dome%20Print%20Files.zip",
+        "size": 2411004,
+        "generation": "1717581818328639",
+        "md5": "+SQL9s5LR1KerpOaT2r79g==",
+        "updated": "2024-06-05T10:03:38.366Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/dome/Dome%20Print%20Files.zip",
+        "path": "readme.txt",
+        "text": "Fits any 120mm fan\r\n\r\nDome.gcode should work on any direct drive printer with 0.4mm/0.6mm nozzle and at least 150x150x150 build volume\r\n\r\nPrint time is around 3h, it pauses after around 1.5h at layer 112 to let fan insertion. Click to unpause \r\n\r\nIt is sliced for PLA: 50° bed, 210° nozzle\r\n\r\nHas been tested on:\r\n\r\n- Prusa MK3S 0.4 nozzle \r\n- Prusa MK3S 0.6 nozzle \r\n- Prusa Mini 0.6 nozzle -> a lot of stringing\r\n- Creality Ender 3 v2 0.6 nozzle -> a lot of stringing\r\n- Qidi XMAX 0.6 nozzle -> a lot of stringing\r\n\r\nPostprocess stringing with fire\r\n\r\nIf you test it on a different printer, please contact me to add it to the list \r\n\r\nIf you manage to make a better .gcode, please share it with me\r\n\r\nalessio@riverfamily.art\r\n\r\n\r\n\r\nPrint Settings:\r\n\r\ndome_1.stl:\r\n\r\ninfill line width: 0.6\r\ninfill flow: 200% (might use 1.2mm line width with 100% infill flow instead)\r\nbottom layers: 0\r\ntop layers: 0\r\nwalls: 0 \r\ninfill: grid\r\ninfill line distance: 8\r\nConnect infill lines: no\r\n\r\ndome_2.stl:\r\n\r\nuse it as modifier and merge it with dome_1.stl\r\nbottom layers: 100\r\nwalls: 2\r\n\r\nInsert M25 gcode at height 34mm to pause print for fan insertion \r\n\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/"
+      }
+    ],
+    "videos": [
+      {
+        "id": "XOW3Q0AUHaI",
+        "title": "How to Slice Dome Desk Fan",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XOW3Q0AUHaI"
+      },
+      {
+        "id": "ZD18aO_w0LY",
+        "title": "Dome - 3D Printed Desk Fan",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZD18aO_w0LY"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6650059"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/902985-dome-desk-fan"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/architecture/dome-desk-fan"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/485247"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How to slice Dado and Dome desk fans",
+        "slug": "how-to-slice-dado-and-dome"
+      }
+    ]
+  },
+  {
+    "slug": "dado",
+    "name": "Dado",
+    "category": "Desk fans",
+    "description": "A compact desk fan body with a blocky, direct form. Dado is practical, printable and visually simple enough to fit into a desk setup.",
+    "image": "https://riverfamily.art/static/images/dado7.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/Fan/Dado_print_files.zip",
+        "size": 3002537,
+        "generation": "1730470724828850",
+        "md5": "wvFmiMFwHFI4zZaqdBIGiQ==",
+        "updated": "2024-11-01T14:18:44.889Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/Fan/Dado_print_files.zip",
+        "path": "readme.txt",
+        "text": "I suggest using my universal print files (gcodes) instead of slicing.\r\n\r\nUpload the gcodes on an SD card and insert it in the printer. Launch the gcode from the printer interface. Adjust temperature once the print starts to fit your filament needs.\r\n\r\nPrinter requirements for the gcodes: 0.4mm or 0.6mm nozzle and at least 180x180mm buildplate \r\n\r\n\r\nWebsite: https://www.riverfamily.art/\r\n\r\nContact: alessio@riverfamily.art\r\n\r\nHow to slice: https://www.youtube.com/watch?v=9SbpQj1s48o\r\n\r\n\r\nSettings (Cura):\r\n- layer height: 0.3mm\r\n- line width: 0.6mm\r\n- wall line count: 0\r\n- top layers: 0\r\n- bottom layers: 0\r\n- initial bottom layers: 0\r\n- infill line distance: 6mm\r\n- infill pattern: grid\r\n- connect infill lines: yes\r\n- infill line direction: [90,0]\r\n\r\n\r\nsettings modifier \r\n- wall line count: 6\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\nAlso applies to gcodes, slicing process, pictures, videos and names\r\n\r\n\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "uD2vHHnfa2A",
+        "title": "Dado Desk Fan",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uD2vHHnfa2A"
+      },
+      {
+        "id": "9SbpQj1s48o",
+        "title": "How to Slice Dado - Cura - Prusa Slicer - Bambu Studio",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9SbpQj1s48o"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/517534-dado-desk-fan"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6106954"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/home/dado-desk-fan"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483313"
+      }
+    ],
+    "articles": [
+      {
+        "title": "How to slice Dado and Dome desk fans",
+        "slug": "how-to-slice-dado-and-dome"
+      }
+    ]
+  },
+  {
+    "slug": "jem",
+    "name": "Jem",
+    "category": "Water filters",
+    "description": "A polypropylene tap water filter for activated carbon. The flower-like top opens for filling, the body attaches to standard taps, and the bottom grid holds carbon while water passes through. Joined G-code keeps the water path cleaner by reducing micro-stringing.",
+    "image": "https://riverfamily.art/static/images/jem.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/jem/Jem%20print%20files.zip",
+        "size": 2140628,
+        "generation": "1746534122242255",
+        "md5": "JJZkJiTPhw6cDecQfSK49g==",
+        "updated": "2025-05-06T12:22:02.335Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/jem/Jem%20print%20files.zip",
+        "path": "readme.txt",
+        "text": "2 sizes are included: Small and Medium\r\n\r\nPrint with Polypropylene (PP) filament \r\n\r\nApply Polypropylene adhesive tape to the bottom left of the plate to ensure part adhesion (common transparent tapes are made of polypropylene)\r\n\r\nThe gcode is compatible with printer of at least 100x100x100 build volume and tested with Formfutura polypropylene filament\r\n\r\n\r\n\r\nPlease contact me for help\r\n\r\nalessio@riverfamily.art\r\n\r\nThank you!\r\n\r\nAlessio\r\n\r\n\r\n\r\nLICENSE: Public Domain\r\n\r\nhttps://creativecommons.org/share-your-work/public-domain/cc0/\r\n\r\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "m4EZyeUw9i4",
+        "title": "Jem - 3D Printed tap Water Filter",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=m4EZyeUw9i4"
+      },
+      {
+        "id": "KRgAvJk08gg",
+        "title": "How to Slice Jem",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KRgAvJk08gg"
+      },
+      {
+        "id": "fpedGrsphCM",
+        "title": "Jem Water Filter",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/fpedGrsphCM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6454527"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/739927-jem-water-filter"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483326"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Jem: a flower-opening tap filter for activated carbon",
+        "slug": "jem-water-filter-activated-carbon-polypropylene"
+      },
+      {
+        "title": "How to slice Jem",
+        "slug": "how-to-slice-jem"
+      },
+      {
+        "title": "Why River uses polypropylene for bottles, Jem and Yuki ice packs",
+        "slug": "polypropylene-3d-printing-river-water-air-and-bottles"
+      }
+    ]
+  },
+  {
+    "slug": "jusy",
+    "name": "Jusy",
+    "category": "Water filters",
+    "description": "A handheld PCTG filter body: remove the protective cap, hold the body under running tap water and collect the water below.",
+    "image": "https://riverfamily.art/static/images/jusy.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/jusy/Jusy%20print%20files.zip",
+        "size": 4748437,
+        "generation": "1746534132392624",
+        "md5": "31m8VBHs0YHBbOziCw9qGQ==",
+        "updated": "2025-05-06T12:22:12.475Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "ihN6FQhv_Qo",
+        "title": "Jusy - 3D Printed Water Filter",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ihN6FQhv_Qo"
+      },
+      {
+        "id": "G8QwZvBpFWw",
+        "title": "How to Slice Jusy",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=G8QwZvBpFWw"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:6377631"
+      },
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/681688-jusy-water-filter"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/483320"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Jusy: the handheld water filter for filling one glass at a time",
+        "slug": "jusy-handheld-water-filter-pctg"
+      }
+    ]
+  },
+  {
+    "slug": "shiro",
+    "name": "Shiro",
+    "category": "Chocolate bars",
+    "description": "A white cacao-butter bar with only two ingredients and no added sugar: 2/3 milk powder and 1/3 cocoa butter. Creamy, minimal and naturally more paste-like than sugary white bars.",
+    "image": "https://riverfamily.art/static/images/shiro.webp?v=20260801b",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/cacao/shiro.zip",
+        "size": 5234379,
+        "generation": "1771326915409514",
+        "md5": "Vo2PhVJQ2ouBFLgPnlIzkg==",
+        "updated": "2026-02-17T11:15:15.494Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/cacao/shiro.zip",
+        "path": "readme.txt",
+        "text": "\nfill the 3d printed part with food grade silicone to make the mold\n\nput 2/3 milk powder and 1/3 cocoa butter for a few hours in a wet grinder\n\ntemper the chocolate and pour it in the mold\n\nvideo: https://www.youtube.com/watch?v=K8zPajqGRvA\n\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "K8zPajqGRvA",
+        "title": "Amara, Shiro, Fragile, Tato - chocolate bars",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K8zPajqGRvA"
+      },
+      {
+        "id": "U-hW9oJvbjs",
+        "title": "tato: 1/2 fragile, 1/2 shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=U-hW9oJvbjs"
+      },
+      {
+        "id": "g28s4LgiiJk",
+        "title": "fragile: 1/2 Amara,1/2 Shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g28s4LgiiJk"
+      },
+      {
+        "id": "ZFs2hyKySoE",
+        "title": "Shiro - milk cocoa butter white bar",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZFs2hyKySoE"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1604934"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2141605"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7297363"
+      }
+    ],
+    "articles": [
+      {
+        "title": "River cacao bars: two or three ingredients, no added sugar",
+        "slug": "chocolate-bars-without-added-sugar"
+      }
+    ]
+  },
+  {
+    "slug": "stop",
+    "name": "Stop",
+    "category": "Chocolate bars",
+    "description": "The first standalone River cacao bar: vegan, bitter and built around 62% cacao with 38% coconut milk powder. The same rounded 62/38 proportion shapes the bar, while the coconut fat gives it a clean melt-in-the-mouth texture.",
+    "image": "https://riverfamily.art/static/images/stop.webp",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/cacao/stop.zip",
+        "size": 6477636,
+        "generation": "1771326876572767",
+        "md5": "W0vj4PqTknqALFcb+Iw/HQ==",
+        "updated": "2026-02-17T11:14:36.658Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/cacao/stop.zip",
+        "path": "readme.txt",
+        "text": "\nfill the 3d printed part with food grade silicone to make the mold\n\nput 62% cacao paste and 38% coconut milk powder for a few hours in a wet grinder\n\ntemper the chocolate and pour it in the mold\n\nvideo: https://www.youtube.com/watch?v=W6cwA68vjcc\n\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "Yu7MJvxcVsc",
+        "title": "Stop - coconut milk cacao bar",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yu7MJvxcVsc"
+      },
+      {
+        "id": "W6cwA68vjcc",
+        "title": "Coconut milk cacao STOP - chocolate bar",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=W6cwA68vjcc"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1604917"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2141503"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7297354"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Stop: 62% cacao, 38% coconut milk, one clean proportion",
+        "slug": "stop-coconut-milk-chocolate-golden-ratio"
+      },
+      {
+        "title": "Cocoa nibs or cacao paste: where the bar starts",
+        "slug": "cocoa-nibs-vs-cacao-paste-for-homemade-chocolate"
+      }
+    ]
+  },
+  {
+    "slug": "amara",
+    "name": "Amara",
+    "category": "Chocolate bars",
+    "description": "A bitter milk-cacao bar for people who like dark profiles: 2/3 cacao and 1/3 milk powder, with no added sugar. It lands close to an 80% dark character, but the softening ingredient is milk, not plain sugar.",
+    "image": "https://riverfamily.art/static/images/amara.webp",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/cacao/amara.zip",
+        "size": 21753709,
+        "generation": "1771326894747563",
+        "md5": "9a4ZuSjKqkN6lUjc1pGeVw==",
+        "updated": "2026-02-17T11:14:54.840Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/cacao/amara.zip",
+        "path": "readme.txt",
+        "text": "\nfill the 3d printed part with food grade silicone to make the mold\n\nput 2/3 cacao paste and 1/3 coconut milk powder for a few hours in a wet grinder\n\ntemper the chocolate and pour it in the mold\n\nvideo: https://www.youtube.com/watch?v=K8zPajqGRvA\n\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "K8zPajqGRvA",
+        "title": "Amara, Shiro, Fragile, Tato - chocolate bars",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K8zPajqGRvA"
+      },
+      {
+        "id": "g28s4LgiiJk",
+        "title": "fragile: 1/2 Amara,1/2 Shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g28s4LgiiJk"
+      },
+      {
+        "id": "hWLFyUEDzsM",
+        "title": "Amara - cacao milk bar",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hWLFyUEDzsM"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1604923"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2141537"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7297358"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Why Amara uses milk powder instead of added sugar",
+        "slug": "why-river-chocolate-uses-milk-instead-of-sugar"
+      },
+      {
+        "title": "No added sugar is not the same as sugar-free",
+        "slug": "why-no-added-sugar-chocolate-is-different"
+      },
+      {
+        "title": "How River cacao bars are made in a melanger",
+        "slug": "how-river-chocolate-is-made-in-a-melanger"
+      },
+      {
+        "title": "Why some cacao bars taste sharper than others",
+        "slug": "roasting-conching-and-acidity-in-chocolate"
+      }
+    ]
+  },
+  {
+    "slug": "fragile",
+    "name": "Fragile",
+    "category": "Chocolate bars",
+    "description": "A three-ingredient cacao bar with no added sugar, designed to arrive broken on purpose. Fragile turns a shipping problem into the format: thinner packaging, less waste and pieces that are meant to be shared.",
+    "image": "https://riverfamily.art/static/images/fragile.webp",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/cacao/fragile.zip",
+        "size": 5927318,
+        "generation": "1771326906965963",
+        "md5": "4vRM91tv6yONyq8IAOjmNA==",
+        "updated": "2026-02-17T11:15:07.050Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/cacao/fragile.zip",
+        "path": "readme.txt",
+        "text": "\nfill the 3d printed part with food grade silicone to make the mold\n\nput 50% milk powder, 33% cocoa paste and 17% cocoa butter for a few hours in a wet grinder (or mix ½ “Amara” ½ “Shiro” bars)\n\ntemper the chocolate and pour it in the mold\n\nvideo: https://www.youtube.com/watch?v=K8zPajqGRvA\n\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "K8zPajqGRvA",
+        "title": "Amara, Shiro, Fragile, Tato - chocolate bars",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K8zPajqGRvA"
+      },
+      {
+        "id": "U-hW9oJvbjs",
+        "title": "tato: 1/2 fragile, 1/2 shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=U-hW9oJvbjs"
+      },
+      {
+        "id": "g28s4LgiiJk",
+        "title": "fragile: 1/2 Amara,1/2 Shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g28s4LgiiJk"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1604939"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2141650"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7297368"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Fragile is supposed to arrive broken",
+        "slug": "fragile-chocolate-bar-broken-on-purpose"
+      }
+    ]
+  },
+  {
+    "slug": "tato",
+    "name": "Tato",
+    "category": "Chocolate bars",
+    "description": "A three-ingredient cacao bar inspired by childhood creamy milk bars, but with cleaner ingredients and no added sugar. Amara and Shiro are the parents; Fragile is half of each; Tato is the next generation, closer to Shiro.",
+    "image": "https://riverfamily.art/static/images/tato.webp",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/cacao/tato.zip",
+        "size": 5668439,
+        "generation": "1771326924152141",
+        "md5": "xgKyOC6CgZb7yCtuFrro1Q==",
+        "updated": "2026-02-17T11:15:24.244Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/cacao/tato.zip",
+        "path": "readme.txt",
+        "text": "\nfill the 3d printed part with food grade silicone to make the mold\n\npour ½ “Fragile” and ½ “Shiro” in the mold\n\nvideo: https://www.youtube.com/watch?v=K8zPajqGRvA\n\n"
+      }
+    ],
+    "videos": [
+      {
+        "id": "K8zPajqGRvA",
+        "title": "Amara, Shiro, Fragile, Tato - chocolate bars",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K8zPajqGRvA"
+      },
+      {
+        "id": "U-hW9oJvbjs",
+        "title": "tato: 1/2 fragile, 1/2 shiro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=U-hW9oJvbjs"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1604946"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2141852"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7297371"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Tato, Fragile, Shiro and Amara: one cacao family",
+        "slug": "tato-fragile-shiro-chocolate-family"
+      }
+    ]
+  },
+  {
+    "slug": "orca",
+    "name": "Orca",
+    "category": "3D printed shoes",
+    "description": "Grid-pattern shoes with separate infill zones for the body and sole. The package includes Grasshopper source and printing settings.",
+    "image": "",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/orca.zip",
+        "size": 153184241,
+        "generation": "1786626920071956",
+        "md5": "ClyKQSsiX2YYd0qMW7Ljpw==",
+        "updated": "2026-08-13T13:15:20.171Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "orca.gh",
+        "size": 10964408
+      }
+    ],
+    "readmes": [
+      {
+        "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/orca.zip",
+        "path": "readme.txt",
+        "text": "\nnozzle: 0.4mm\n\nglobal settings, orca-1:\n\nlayer height: 0.2mm\nline width sparse infill: 0.6mm\nline width walls: 0.6mm\nwall loops: 0\ntop shell layers: 0\nbottom shell layers: 0\nsparse infill density: 62%\nInfill pattern: Grid\nInfill anchor: 1000 (unlimited)\nMax infill anchor: 1000 (unlimited)\nInfill direction: 45°\nDetect narrow internal solid infill: no\nReduce infill retraction: no\n\norca-2:\n\ninfill density: 100%\ninfill pattern: rectilinear\n\norca-3:\n\nsparse infill line width: 0.4\ninfill density: 25%\n\norca-4:\n\nsparse infill line width: 0.4\nobject flow ratio: 2\niparse infill density: 50%\ninfill pattern: triangles\n\n \nfilament:\n\nRetraction: 1.8mm\nWipe: no\nZ hop: 1.2mm, Normal type\nfan: off\n\n---\n\nWebsite: https://www.riverfamily.art/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names"
+      }
+    ],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1809607"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/orca-shoes"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/orca-shoes"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2390182"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7395389"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "eye-mask",
+    "name": "Eye Mask",
+    "category": "Everyday objects",
+    "description": "A printable eye mask. Model and print profile are available on MakerWorld.",
+    "image": "",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/2378122"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "tide",
+    "name": "Tide",
+    "category": "3D printed shoes",
+    "description": "A 3D printed shoe from the Una, Mare, Due and Tide family. Download the model and print profile from MakerWorld.",
+    "image": "",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "Xc2LpgrmWRo",
+        "title": "4 x 3d printed shoes - Una, Mare, Due Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/Xc2LpgrmWRo"
+      },
+      {
+        "id": "bUvEXrdNeIc",
+        "title": "4 x 3d printed shoes - Una, Due, Mare, Tide",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/bUvEXrdNeIc"
+      }
+    ],
+    "platforms": [
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1642807"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "barefoot-mules",
+    "name": "Barefoot Mules",
+    "category": "3D printed shoes",
+    "description": "Open-back barefoot mules, with model files and print profiles shared on the community platforms.",
+    "image": "",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [],
+    "platforms": [
+      {
+        "label": "Printables",
+        "url": "https://www.printables.com/model/1817125"
+      },
+      {
+        "label": "Cults",
+        "url": "https://cults3d.com/en/3d-model/fashion/barefoot-mules"
+      },
+      {
+        "label": "Creality Cloud",
+        "url": "https://www.crealitycloud.com/it/model-detail/barefoot-mules"
+      },
+      {
+        "label": "MakerWorld",
+        "url": "https://makerworld.com/en/models/1356368"
+      },
+      {
+        "label": "Thingiverse",
+        "url": "https://www.thingiverse.com/thing:7398374"
+      }
+    ],
+    "articles": []
+  },
+  {
+    "slug": "iris",
+    "name": "Iris",
+    "category": "3D printed shoes",
+    "description": "A 3D printed barefoot mule. See the demonstration video and Bambu Studio project.",
+    "image": "",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Iris.3mf",
+        "size": 5142847,
+        "generation": "1758013344044551",
+        "md5": "OC+XjJXBB5RngE5KQ+DH6Q==",
+        "updated": "2025-09-16T09:02:24.080Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "f_M5QmV3TH8",
+        "title": "Iris barefoot mules - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f_M5QmV3TH8"
+      },
+      {
+        "id": "IPE4ghtg9ho",
+        "title": "Iris barefoot mules - 3d printed #3dprinting #shoes",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/IPE4ghtg9ho"
+      }
+    ],
+    "platforms": [],
+    "articles": []
+  },
+  {
+    "slug": "lily",
+    "name": "Lily",
+    "category": "3D printed shoes",
+    "description": "A 3D printed mule. See the demonstration video and Bambu Studio project.",
+    "image": "",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/Lily.3mf",
+        "size": 5140119,
+        "generation": "1758013343992547",
+        "md5": "WmWt0P4bnliGulFvmYNUjA==",
+        "updated": "2025-09-16T09:02:24.060Z"
+      }
+    ],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "LLBoYRclqaM",
+        "title": "Lily - 3d printed mules",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LLBoYRclqaM"
+      },
+      {
+        "id": "WjbRCyT-928",
+        "title": "barefoot shoes - Lily 3d printed mules  #3dprinting #shoes #blender3d #3dmodeling #blender",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/WjbRCyT-928"
+      }
+    ],
+    "platforms": [],
+    "articles": []
+  },
+  {
+    "slug": "rosa",
+    "name": "Rosa",
+    "category": "3D printed shoes",
+    "description": "A 3D printed barefoot mule shown in the River Family video catalogue.",
+    "image": "",
+    "downloads": [],
+    "source_files": [],
+    "readmes": [],
+    "videos": [
+      {
+        "id": "Iw9AY8uiEHw",
+        "title": "Rosa - 3d printed barefoot mules",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Iw9AY8uiEHw"
+      },
+      {
+        "id": "Nq3xFAiI7KI",
+        "title": "Rosa mules - 3d printed",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/Nq3xFAiI7KI"
+      }
+    ],
+    "platforms": [],
+    "articles": []
+  }
+]
