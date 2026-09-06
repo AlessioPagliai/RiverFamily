@@ -8,16 +8,20 @@
     "downloads": [
       {
         "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip",
-        "size": 159657218,
-        "generation": "1776848262085206",
-        "md5": "YWnCuPrJVUS1+8DDHVVE+A==",
-        "updated": "2026-04-22T08:57:42.223Z"
+        "size": 198395581,
+        "generation": "1788704987916362",
+        "md5": "1MtNwumNHZ/u4heeEQewAw==",
+        "updated": "2026-09-06T14:29:48.000Z"
       }
     ],
     "source_files": [
       {
         "path": "toe.gh",
         "size": 5414057
+      },
+      {
+        "path": "toe+rounding(collar+bottom)+logo.gh",
+        "size": 9838087
       }
     ],
     "readmes": [
@@ -93,7 +97,28 @@
         "slug": "river-family-open-source-public-domain-designs"
       }
     ],
-    "github_image": "images/toe.webp"
+    "github_image": "images/toe.webp",
+    "development_variant": {
+      "status": "Testing pending; may become the preferred version after walking tests.",
+      "description": "Rounder geometry at the collar and bottom, with the River logo on the first layer; based on the version shown to Ben.",
+      "repository_source": {
+        "path": "Toe-rounded-collar-bottom-logo-2026-09-06.gh",
+        "size": 9838087,
+        "sha256": "04546ada6ee2026556ab4f04590e58198d8da5d0bbbb324206c5adc93b6aa044"
+      },
+      "example_gcodes": [
+        {
+          "path": "toe-45-L+rounded+logo.gcode",
+          "size": 75518439,
+          "sha256": "750656b239a99cce0b4e7a38e7ebf03f40a23824f2807b1f06358c8b6335c4e3"
+        },
+        {
+          "path": "toe-45-R+rounded+logo.gcode",
+          "size": 75453017,
+          "sha256": "0490fd75bbf8b6ce8df9176600594c050335ef4e7489d6ed22dd56e70b8664bb"
+        }
+      ]
+    }
   },
   {
     "slug": "onda",
