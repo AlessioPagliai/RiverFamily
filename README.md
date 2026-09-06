@@ -47,7 +47,9 @@ Use the supplied 3MF or G-code when the notes recommend it: several River design
 
 [Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip) · 159.7 MB · [Printables](https://www.printables.com/model/1550923) · [Thangs](https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065) · [Cults](https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/toe-shoes) · [MakerWorld](https://makerworld.com/en/models/2226925) · [Thingiverse](https://www.thingiverse.com/thing:7267447)
 
-**Editable source inside the download:** `toe.gh` (5.4 MB)
+**Editable source:** [`Toe-latest-public-source-2026-09-06.gh`](./Toe-latest-public-source-2026-09-06.gh) (8.8 MB), the latest collaboration variant released here under CC0 on 6 September 2026 · `toe.gh` (5.4 MB) inside the original download
+
+SHA-256: `69a3efd70b2bbf2ddfda5a173a77bb48e71389eaf1d13d9c25a2779f41673bb5`
 
 **Videos:** [Toe barefoot shoes - 3D printed](https://www.youtube.com/watch?v=WWwOjC6E7Lc) · [toe barefoot shoes - 3d printed](https://www.youtube.com/shorts/PoO4unBbDBo)
 
