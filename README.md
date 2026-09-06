@@ -1,6 +1,6 @@
 # River Family — open 3D printable designs
 
-River Family is a collection of wearable 3D printed shoes, air coolers, purifiers, filters, bottles, lamps and everyday objects by Alessio Pagliai and collaborators. This page brings the project together in one place: pictures, short explanations, editable source where available, printing instructions, videos and the published model pages.
+River Family is a collection of wearable 3D printed shoes, air coolers, purifiers, filters, bottles, lamps and everyday objects by Alessio Pagliai. This page brings the project together in one place: pictures, short explanations, editable source where available, printing instructions, videos and the published model pages.
 
 > **Large files:** the design packages stay in Google Cloud Storage because many are hundreds of megabytes and GitHub blocks normal repository files above 100 MiB. Every verified package is linked directly below. The repository remains quick to browse and clone.
 
