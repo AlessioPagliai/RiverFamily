@@ -51,7 +51,7 @@ Created with [Stepan](https://drunks.st/).
 
 [Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip) · 198.4 MB · [Printables](https://www.printables.com/model/1550923) · [Thangs](https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065) · [Cults](https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/toe-shoes) · [MakerWorld](https://makerworld.com/en/models/2226925) · [Thingiverse](https://www.thingiverse.com/thing:7267447)
 
-**Editable sources:** [`Toe-rounded-collar-bottom-logo-2026-09-06.gh`](./Toe-rounded-collar-bottom-logo-2026-09-06.gh) (9.8 MB), with rounder geometry at the collar and bottom plus the River logo on the first layer · [`Toe-latest-public-source-2026-09-06.gh`](./Toe-latest-public-source-2026-09-06.gh) (9.3 MB), the previous collaboration variant · `toe.gh` (5.4 MB), the original public source inside the download
+**Editable sources:** [`Toe-rounded-collar-bottom-logo-2026-09-06.gh`](./Toe-rounded-collar-bottom-logo-2026-09-06.gh) (9.8 MB), with rounder geometry at the collar and bottom plus the word “logo” used as a logo on the first layer · [`Toe-latest-public-source-2026-09-06.gh`](./Toe-latest-public-source-2026-09-06.gh) (9.3 MB), the previous collaboration variant · `toe.gh` (5.4 MB), the original public source inside the download
 
 The rounded/logo version is a development candidate based on the version shown to Ben. It may replace the earlier version after it has been tested by walking in it. The download currently includes two EU 45 examples: `toe-45-L+rounded+logo.gcode` and `toe-45-R+rounded+logo.gcode`.
 

@@ -100,7 +100,7 @@
     "github_image": "images/toe.webp",
     "development_variant": {
       "status": "Testing pending; may become the preferred version after walking tests.",
-      "description": "Rounder geometry at the collar and bottom, with the River logo on the first layer; based on the version shown to Ben.",
+      "description": "Rounder geometry at the collar and bottom, with the word ‘logo’ used as a logo on the first layer; based on the version shown to Ben.",
       "repository_source": {
         "path": "Toe-rounded-collar-bottom-logo-2026-09-06.gh",
         "size": 9838087,
