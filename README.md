@@ -36,14 +36,16 @@ Use the supplied 3MF or G-code when the notes recommend it: several River design
 
 ## Designs
 
-> **How to browse:** select any design name to open its picture, download files, publishing links, videos and printing instructions. Toe is open below as an example.
+> **How to browse:** select any design name to open its picture, download files, publishing links, videos and printing instructions.
 
 ### 3D printed shoes
 
-<details id="toe" open>
+<details id="toe">
 <summary><strong>Toe</strong> — A barefoot River shoe with separated toes for more movement, using the same controlled wave-pattern idea as Onda: interleaved semicircular curves shaped around the foot.</summary>
 
 <img src="images/toe.webp" alt="Toe by River Family" width="520">
+
+Created with [Stepan](https://drunks.st/).
 
 **Files and published pages**
 
@@ -81,6 +83,8 @@ use 85A filament
 <summary><strong>Onda</strong> — A barefoot shoe with a smooth inner wave pattern, generated from Grasshopper toolpaths using interleaved semicircular curves. The package includes editable definitions and slicing guidance.</summary>
 
 <img src="images/onda.webp" alt="Onda by River Family" width="520">
+
+Created with [Stepan](https://drunks.st/).
 
 **Files and published pages**
 
