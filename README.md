@@ -36,12 +36,14 @@ Use the supplied 3MF or G-code when the notes recommend it: several River design
 
 ## Designs
 
+> **How to browse:** select any design name to open its picture, download files, publishing links, videos and printing instructions. Toe is open below as an example.
+
 ### 3D printed shoes
 
-<details id="toe">
+<details id="toe" open>
 <summary><strong>Toe</strong> — A barefoot River shoe with separated toes for more movement, using the same controlled wave-pattern idea as Onda: interleaved semicircular curves shaped around the foot.</summary>
 
-<img src="https://riverfamily.art/static/images/toe.webp?v=20260801b" alt="Toe by River Family" width="520">
+<img src="images/toe.webp" alt="Toe by River Family" width="520">
 
 **Files and published pages**
 
@@ -78,7 +80,7 @@ use 85A filament
 <details id="onda">
 <summary><strong>Onda</strong> — A barefoot shoe with a smooth inner wave pattern, generated from Grasshopper toolpaths using interleaved semicircular curves. The package includes editable definitions and slicing guidance.</summary>
 
-<img src="https://riverfamily.art/static/images/onda.webp?v=20260809b" alt="Onda by River Family" width="520">
+<img src="images/onda.webp" alt="Onda by River Family" width="520">
 
 **Files and published pages**
 
@@ -145,7 +147,7 @@ onda_3:
 <details id="duna">
 <summary><strong>Duna</strong> — TPU shoes with a shaped shell and several infill zones. Supplied toolpaths and Bambu Studio / Orca Slicer settings control the structure in each region.</summary>
 
-<img src="https://riverfamily.art/static/images/duna.webp?v=20260809b" alt="Duna by River Family" width="520">
+<img src="images/duna.webp" alt="Duna by River Family" width="520">
 
 **Files and published pages**
 
@@ -241,7 +243,7 @@ filament:
 <details id="tora">
 <summary><strong>Tora</strong> — A barefoot River shoe on the simple flat-bottom base, using a small-grid print pattern for a light breathable structure and generous toe room.</summary>
 
-<img src="https://riverfamily.art/static/images/tora.webp?v=20260801b" alt="Tora by River Family" width="520">
+<img src="images/tora.webp" alt="Tora by River Family" width="520">
 
 **Files and published pages**
 
@@ -338,7 +340,7 @@ How to design and slice: https://www.youtube.com/watch?v=6ae-rzo_zJM
 <details id="g1">
 <summary><strong>G1</strong> — A barefoot River shoe using the same simple flat-bottom base with a heavier grid pattern: thicker lines than Tora for a stronger visual and structural rhythm.</summary>
 
-<img src="https://riverfamily.art/static/images/G1.webp?v=20260801b" alt="G1 by River Family" width="520">
+<img src="images/g1.webp" alt="G1 by River Family" width="520">
 
 **Files and published pages**
 
@@ -442,7 +444,7 @@ settings modifier (300x300x1.1mm solid, placed around Z = 1.4mm, to make an inte
 <details id="eros">
 <summary><strong>Eros</strong> — A barefoot River shoe where the print pattern repeats the word “love” in cursive, turning the structure itself into the graphic surface.</summary>
 
-<img src="https://riverfamily.art/static/images/eros.webp?v=20260801b" alt="Eros by River Family" width="520">
+<img src="images/eros.webp" alt="Eros by River Family" width="520">
 
 **Files and published pages**
 
@@ -475,7 +477,7 @@ how to print the gcodes:
 <details id="una">
 <summary><strong>Una</strong> — A minimal watertight River shoe: simple, direct and focused on the essentials. Una keeps the barefoot-style fit cleaner and more closed than the open breathable models.</summary>
 
-<img src="https://riverfamily.art/static/images/una.webp?v=20260801b" alt="Una by River Family" width="520">
+<img src="images/una.webp" alt="Una by River Family" width="520">
 
 **Files and published pages**
 
@@ -492,7 +494,7 @@ how to print the gcodes:
 <details id="mare">
 <summary><strong>Mare</strong> — A relaxed watertight River shoe with organic lines and a soft visual rhythm. Mare keeps a more closed structure while staying flexible in TPU.</summary>
 
-<img src="https://riverfamily.art/static/images/mare.webp?v=20260801b" alt="Mare by River Family" width="520">
+<img src="images/mare.webp" alt="Mare by River Family" width="520">
 
 **Files and published pages**
 
@@ -509,7 +511,7 @@ how to print the gcodes:
 <details id="ala">
 <summary><strong>Ala</strong> — An open barefoot shoe generated in Grasshopper and printed with custom toolpaths. The downloadable package includes the editable definition.</summary>
 
-<img src="https://riverfamily.art/static/images/ala.webp?v=20260805a" alt="Ala by River Family" width="520">
+<img src="images/ala.webp" alt="Ala by River Family" width="520">
 
 **Files and published pages**
 
@@ -538,7 +540,7 @@ how to print the gcodes:
 <details id="loto">
 <summary><strong>Loto</strong> — A softer-looking shoe file with a rounded, calm shape. Loto is less aggressive visually, made for a printed shoe that feels closer to a casual slip-on.</summary>
 
-<img src="https://riverfamily.art/static/images/loto_1.webp?v=20260801b" alt="Loto by River Family" width="520">
+<img src="images/loto.webp" alt="Loto by River Family" width="520">
 
 **Files and published pages**
 
@@ -557,7 +559,7 @@ how to print the gcodes:
 <details id="g0">
 <summary><strong>G0</strong> — A barefoot River shoe with the same grid pattern and base logic as the other flat-bottom models, printed at 45 degrees with the toe pointing down. That orientation makes the structure a little more closed than Tora or G1 and changes how the same slicing pattern appears on the shoe.</summary>
 
-<img src="https://riverfamily.art/static/images/G0.webp?v=20260807a" alt="G0 by River Family" width="520">
+<img src="images/g0.webp" alt="G0 by River Family" width="520">
 
 **Files and published pages**
 
@@ -613,7 +615,7 @@ Max volumetric speed: 6 mm^3/s
 <details id="mirai">
 <summary><strong>Mirai</strong> — A barefoot River shoe using the same grid family as G0 and G1, but printed at 45 degrees with the toe pointing up and the back resting on the build plate. The pattern comes from the same slicing logic, but the orientation gives Mirai its own surface rhythm.</summary>
 
-<img src="https://riverfamily.art/static/images/mirai.webp?v=20260807a" alt="Mirai by River Family" width="520">
+<img src="images/mirai.webp" alt="Mirai by River Family" width="520">
 
 **Files and published pages**
 
@@ -668,7 +670,7 @@ Max volumetric speed: 6 mm^3/s
 <details id="tale">
 <summary><strong>Tale</strong> — A characterful shoe with a less standard silhouette. Tale combines flexible TPU, sculptural form and the surprise of wearing a printed object that actually moves with your foot.</summary>
 
-<img src="https://riverfamily.art/static/images/tale.webp?v=20260807c" alt="Tale by River Family" width="520">
+<img src="images/tale.webp" alt="Tale by River Family" width="520">
 
 **Files and published pages**
 
@@ -751,7 +753,7 @@ Settings (Cura):
 <details id="aspys">
 <summary><strong>Aspys</strong> — A barefoot River shoe with the same grid family as G0, G1 and Mirai, printed vertically. The two shoes print as a mirrored pair fused at the collar, then are separated with scissors after printing.</summary>
 
-<img src="https://riverfamily.art/static/images/aspys.webp?v=20260807b" alt="Aspys by River Family" width="520">
+<img src="images/aspys.webp" alt="Aspys by River Family" width="520">
 
 **Files and published pages**
 
@@ -804,7 +806,7 @@ Z hop: 1.2mm, Normal type
 <details id="riku">
 <summary><strong>Riku</strong> — A barefoot River shoe in the middle of the grid family: visually and structurally between Tora’s small grid and G1’s thicker grid lines.</summary>
 
-<img src="https://riverfamily.art/static/images/riku.webp?v=20260801b" alt="Riku by River Family" width="520">
+<img src="images/riku.webp" alt="Riku by River Family" width="520">
 
 **Files and published pages**
 
@@ -877,7 +879,7 @@ Video: https://www.youtube.com/watch?v=0uL_TtakyKE
 <details id="koru">
 <summary><strong>Koru</strong> — A barefoot River shoe built around a spiral pattern, like repeated cursive “e” shapes overlapping through the print path. The name Koru echoes the spiral idea behind the structure.</summary>
 
-<img src="https://riverfamily.art/static/images/koru.webp?v=20260801b" alt="Koru by River Family" width="520">
+<img src="images/koru.webp" alt="Koru by River Family" width="520">
 
 **Files and published pages**
 
@@ -894,7 +896,7 @@ Video: https://www.youtube.com/watch?v=0uL_TtakyKE
 <details id="taka">
 <summary><strong>Taka</strong> — The thin-soled version of Tora: the same small-grid barefoot idea with a fine sole added for more ground protection while keeping the upper light and breathable.</summary>
 
-<img src="https://riverfamily.art/static/images/Taka_1.webp?v=20260801b" alt="Taka by River Family" width="520">
+<img src="images/taka.webp" alt="Taka by River Family" width="520">
 
 **Files and published pages**
 
@@ -913,7 +915,7 @@ Video: https://www.youtube.com/watch?v=0uL_TtakyKE
 <details id="riva">
 <summary><strong>Riva</strong> — TPU shoes combining a shell with region-specific grid, zig-zag and rectilinear infill. The package includes Grasshopper source and detailed slicer settings.</summary>
 
-<img src="https://riverfamily.art/static/images/riva.webp?v=20260809d" alt="Riva by River Family" width="520">
+<img src="images/riva.webp" alt="Riva by River Family" width="520">
 
 **Files and published pages**
 
@@ -1029,7 +1031,7 @@ Filament:
 <details id="tryton">
 <summary><strong>Tryton</strong> — The thin-soled version of G0: the same 45 degree, toe-down grid logic with a fine sole added underneath.</summary>
 
-<img src="https://riverfamily.art/static/images/Tryton_2.webp?v=20260801b" alt="Tryton by River Family" width="520">
+<img src="images/tryton.webp" alt="Tryton by River Family" width="520">
 
 **Files and published pages**
 
@@ -1093,7 +1095,7 @@ Max volumetric speed: 6 mm^3/s
 <details id="due">
 <summary><strong>Due</strong> — A simple watertight River shoe with a direct, functional shape. Due keeps the printed form cleaner and more protected than the open breathable models.</summary>
 
-<img src="https://riverfamily.art/static/images/due.webp?v=20260801b" alt="Due by River Family" width="520">
+<img src="images/due.webp" alt="Due by River Family" width="520">
 
 **Files and published pages**
 
@@ -1110,7 +1112,7 @@ Max volumetric speed: 6 mm^3/s
 <details id="yume">
 <summary><strong>Yume</strong> — The thin-soled version of Mirai: the same 45 degree, toe-up grid logic with a fine sole added underneath.</summary>
 
-<img src="https://riverfamily.art/static/images/Yume_3.webp?v=20260801b" alt="Yume by River Family" width="520">
+<img src="images/yume.webp" alt="Yume by River Family" width="520">
 
 **Files and published pages**
 
@@ -1175,7 +1177,7 @@ Max volumetric speed: 6 mm^3/s
 <details id="e7">
 <summary><strong>E7</strong> — The thin-soled version of Aspys. Like Aspys, E7 prints vertically as a mirrored pair fused at the collar, then the two shoes are separated with scissors after printing.</summary>
 
-<img src="https://riverfamily.art/static/images/E7_1.webp?v=20260807e" alt="E7 by River Family" width="520">
+<img src="images/e7.webp" alt="E7 by River Family" width="520">
 
 **Files and published pages**
 
@@ -1252,6 +1254,8 @@ Z hop: 1.2mm, Normal type
 <details id="orca">
 <summary><strong>Orca</strong> — Grid-pattern shoes with separate infill zones for the body and sole. The package includes Grasshopper source and printing settings.</summary>
 
+<img src="images/orca.webp" alt="Orca by River Family" width="520">
+
 **Files and published pages**
 
 [Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/orca.zip) · 153.2 MB · [Printables](https://www.printables.com/model/1809607) · [Cults](https://cults3d.com/en/3d-model/fashion/orca-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/orca-shoes) · [MakerWorld](https://makerworld.com/en/models/2390182) · [Thingiverse](https://www.thingiverse.com/thing:7395389)
@@ -1312,6 +1316,8 @@ fan: off
 <details id="tide">
 <summary><strong>Tide</strong> — A 3D printed shoe from the Una, Mare, Due and Tide family. Download the model and print profile from MakerWorld.</summary>
 
+<img src="images/tide.webp" alt="Tide by River Family" width="520">
+
 **Files and published pages**
 
 [MakerWorld](https://makerworld.com/en/models/1642807)
@@ -1323,6 +1329,8 @@ fan: off
 <details id="barefoot-mules">
 <summary><strong>Barefoot Mules</strong> — Open-back barefoot mules, with model files and print profiles shared on the community platforms.</summary>
 
+<img src="images/barefoot-mules.webp" alt="Barefoot Mules by River Family" width="520">
+
 **Files and published pages**
 
 [Printables](https://www.printables.com/model/1817125) · [Cults](https://cults3d.com/en/3d-model/fashion/barefoot-mules) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/barefoot-mules) · [MakerWorld](https://makerworld.com/en/models/1356368) · [Thingiverse](https://www.thingiverse.com/thing:7398374)
@@ -1331,6 +1339,8 @@ fan: off
 
 <details id="iris">
 <summary><strong>Iris</strong> — A 3D printed barefoot mule. See the demonstration video and Bambu Studio project.</summary>
+
+<img src="images/iris.webp" alt="Iris by River Family" width="520">
 
 **Files and published pages**
 
@@ -1345,6 +1355,8 @@ fan: off
 <details id="lily">
 <summary><strong>Lily</strong> — A 3D printed mule. See the demonstration video and Bambu Studio project.</summary>
 
+<img src="images/lily.webp" alt="Lily by River Family" width="520">
+
 **Files and published pages**
 
 [Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/Lily.3mf) · 5.1 MB
@@ -1358,6 +1370,8 @@ fan: off
 <details id="rosa">
 <summary><strong>Rosa</strong> — A 3D printed barefoot mule shown in the River Family video catalogue.</summary>
 
+<img src="images/rosa.webp" alt="Rosa by River Family" width="520">
+
 **Videos:** [Rosa - 3d printed barefoot mules](https://www.youtube.com/watch?v=Iw9AY8uiEHw) · [Rosa mules - 3d printed](https://www.youtube.com/shorts/Nq3xFAiI7KI)
 
 </details>
@@ -1367,7 +1381,7 @@ fan: off
 <details id="yuki">
 <summary><strong>Yuki</strong> — A full-size ice-pack air cooler built from printed parts, a quiet USB fan and a frozen water pack. Freeze the pack overnight, place it inside, and Yuki sends a steady cooler stream across the desk with very low power use.</summary>
 
-<img src="https://riverfamily.art/static/images/classic2.webp?v=20260801b" alt="Yuki by River Family" width="520">
+<img src="images/yuki.webp" alt="Yuki by River Family" width="520">
 
 **Files and published pages**
 
@@ -1409,7 +1423,7 @@ Gcodes slicing: https://youtu.be/3wivfIi9iO4
 <details id="kori">
 <summary><strong>Kori</strong> — An ice-bottle air cooler built around a 120 mm PC fan, with a printed grid enclosure. The fan is fitted during printing.</summary>
 
-<img src="https://riverfamily.art/static/images/kori.webp?v=20260815b" alt="Kori by River Family" width="520">
+<img src="images/kori.webp" alt="Kori by River Family" width="520">
 
 **Files and published pages**
 
@@ -1464,7 +1478,7 @@ top layers: 100
 <details id="yuki-snowflake">
 <summary><strong>Yuki Snowflake</strong> — The snowflake full-size Yuki: the same low-energy frozen-pack airflow in a more decorative shell, shared as refined G-code for cleaner internal overhangs.</summary>
 
-<img src="https://riverfamily.art/static/images/12_2_x2.webp?v=20260801b" alt="Yuki Snowflake by River Family" width="520">
+<img src="images/yuki-snowflake.webp" alt="Yuki Snowflake by River Family" width="520">
 
 **Files and published pages**
 
@@ -1506,7 +1520,7 @@ Gcodes slicing: https://youtu.be/3wivfIi9iO4
 <details id="yuki-mini">
 <summary><strong>Yuki Mini</strong> — A compact ice-pack air cooler: printed parts, an 80 mm PC fan and a frozen water pack or bottle for local airflow.</summary>
 
-<img src="https://riverfamily.art/static/images/classic.webp?v=20260801b" alt="Yuki Mini by River Family" width="520">
+<img src="images/yuki-mini.webp" alt="Yuki Mini by River Family" width="520">
 
 **Files and published pages**
 
@@ -1536,7 +1550,7 @@ Gcodes slicing: https://www.youtube.com/watch?v=Tb_B_sDHnzw&t=10s
 <details id="yuki-snowflake-mini">
 <summary><strong>Yuki Snowflake Mini</strong> — A smaller decorative air-cooler shell built around the frozen ice-pack or bottle airflow idea: simple printed parts, low power and a softer winter shape for personal desk cooling.</summary>
 
-<img src="https://riverfamily.art/static/images/snowflake.webp?v=20260801b" alt="Yuki Snowflake Mini by River Family" width="520">
+<img src="images/yuki-snowflake-mini.webp" alt="Yuki Snowflake Mini by River Family" width="520">
 
 **Files and published pages**
 
@@ -1585,7 +1599,7 @@ Gcodes slicing: https://youtu.be/3wivfIi9iO4
 <details id="bulbasaur-air-cooler">
 <summary><strong>Bulbasaur Air Cooler</strong> — A playful Bulbasaur-style ice air cooler shell: the Yuki frozen ice-pack airflow idea turned into a characterful low-energy desk object.</summary>
 
-<img src="https://riverfamily.art/static/images/bulbasaur.webp?v=20260801b" alt="Bulbasaur Air Cooler by River Family" width="520">
+<img src="images/bulbasaur-air-cooler.webp" alt="Bulbasaur Air Cooler by River Family" width="520">
 
 **Files and published pages**
 
@@ -1600,7 +1614,7 @@ Gcodes slicing: https://youtu.be/3wivfIi9iO4
 <details id="gengar-air-cooler">
 <summary><strong>Gengar Air Cooler</strong> — A Gengar-style ice air cooler shell with the Yuki formula inside: printed parts, a USB fan and frozen ice-pack airflow in a darker, mischievous desk object.</summary>
 
-<img src="https://riverfamily.art/static/images/gengar.webp?v=20260801b" alt="Gengar Air Cooler by River Family" width="520">
+<img src="images/gengar-air-cooler.webp" alt="Gengar Air Cooler by River Family" width="520">
 
 **Files and published pages**
 
@@ -1617,7 +1631,7 @@ Gcodes slicing: https://youtu.be/3wivfIi9iO4
 <details id="roy">
 <summary><strong>Roy</strong> — A printable air purifier frame for PC fans and HEPA or activated-carbon media. Roy makes the idea immediately clear: air is pulled through the filter, the working parts stay accessible, and the finished object still looks calm enough to leave on a shelf.</summary>
 
-<img src="https://riverfamily.art/static/images/roy_2.webp?v=20260801b" alt="Roy by River Family" width="520">
+<img src="images/roy.webp" alt="Roy by River Family" width="520">
 
 **Files and published pages**
 
@@ -1659,7 +1673,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="max">
 <summary><strong>Max</strong> — A compact purifier body despite the name. Max is for makers who want the fan-and-filter idea in a smaller footprint, with a clean shell that can sit on a desk, workbench or bedside table without feeling like a raw electronics project.</summary>
 
-<img src="https://riverfamily.art/static/images/max.webp?v=20260801b" alt="Max by River Family" width="520">
+<img src="images/max.webp" alt="Max by River Family" width="520">
 
 **Files and published pages**
 
@@ -1703,7 +1717,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="yomi">
 <summary><strong>Yomi</strong> — A larger River purifier with soft proportions and a friendly silhouette. Yomi gives the fan, filter and airflow path more physical presence while keeping the object visually quiet in a room.</summary>
 
-<img src="https://riverfamily.art/static/images/yoni.webp?v=20260801b" alt="Yomi by River Family" width="520">
+<img src="images/yomi.webp" alt="Yomi by River Family" width="520">
 
 **Files and published pages**
 
@@ -1765,7 +1779,7 @@ infill/wall overlap: 90%
 <details id="eno">
 <summary><strong>Eno</strong> — The largest River purifier, with a minimal enclosure and a calm, substantial shape. Eno is for fan-and-filter builds that can take more space and still look like a deliberate home object, not a hidden appliance.</summary>
 
-<img src="https://riverfamily.art/static/images/eno.webp?v=20260801b" alt="Eno by River Family" width="520">
+<img src="images/eno.webp" alt="Eno by River Family" width="520">
 
 **Files and published pages**
 
@@ -1910,7 +1924,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="ivo">
 <summary><strong>Ivo</strong> — A larger rounded purifier with an approachable domestic feel. Ivo turns a technical fan-and-filter build into a soft home accessory while keeping the core maintenance question clear: filters and fans must remain reachable.</summary>
 
-<img src="https://riverfamily.art/static/images/ivo.webp?v=20260801b" alt="Ivo by River Family" width="520">
+<img src="images/ivo.webp" alt="Ivo by River Family" width="520">
 
 **Files and published pages**
 
@@ -2044,7 +2058,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="ali">
 <summary><strong>Ali</strong> — A light, vertical purifier concept with a clean profile. Ali lifts the fan-and-filter layout into a slimmer upright object for desks or shelves where the purifier should look intentional from the side as well as the front.</summary>
 
-<img src="https://riverfamily.art/static/images/ali.webp?v=20260801b" alt="Ali by River Family" width="520">
+<img src="images/ali.webp" alt="Ali by River Family" width="520">
 
 **Files and published pages**
 
@@ -2129,7 +2143,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="evo">
 <summary><strong>Evo</strong> — A more evolved purifier body with a strong but simple shape. Evo gives airflow, maintenance and appearance the same priority, so the print feels polished without hiding the fan and filter logic.</summary>
 
-<img src="https://riverfamily.art/static/images/evo.webp?v=20260801b" alt="Evo by River Family" width="520">
+<img src="images/evo.webp" alt="Evo by River Family" width="520">
 
 **Files and published pages**
 
@@ -2215,7 +2229,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="haze">
 <summary><strong>Haze</strong> — A plant-vent design using a printed airflow structure and a 120 mm PC fan, fitted during printing.</summary>
 
-<img src="https://riverfamily.art/static/images/haze.webp?v=20260801b" alt="Haze by River Family" width="520">
+<img src="images/haze.webp" alt="Haze by River Family" width="520">
 
 **Files and published pages**
 
@@ -2305,7 +2319,7 @@ https://creativecommons.org/public-domain/cc0/
 <details id="dome">
 <summary><strong>Dome</strong> — A dome-shaped desk fan body with soft geometry. Dome keeps small personal airflow clean, simple and easy to place on a desk.</summary>
 
-<img src="https://riverfamily.art/static/images/dome.webp?v=20260801b" alt="Dome by River Family" width="520">
+<img src="images/dome.webp" alt="Dome by River Family" width="520">
 
 **Files and published pages**
 
@@ -2372,7 +2386,7 @@ Insert M25 gcode at height 34mm to pause print for fan insertion
 <details id="dado">
 <summary><strong>Dado</strong> — A compact desk fan body with a blocky, direct form. Dado is practical, printable and visually simple enough to fit into a desk setup.</summary>
 
-<img src="https://riverfamily.art/static/images/dado7.webp?v=20260801b" alt="Dado by River Family" width="520">
+<img src="images/dado.webp" alt="Dado by River Family" width="520">
 
 **Files and published pages**
 
@@ -2402,7 +2416,7 @@ Printer requirements for the gcodes: 0.4mm or 0.6mm nozzle and at least 180x180m
 <details id="jem">
 <summary><strong>Jem</strong> — A polypropylene tap water filter for activated carbon. The flower-like top opens for filling, the body attaches to standard taps, and the bottom grid holds carbon while water passes through. Joined G-code keeps the water path cleaner by reducing micro-stringing.</summary>
 
-<img src="https://riverfamily.art/static/images/jem.webp?v=20260801b" alt="Jem by River Family" width="520">
+<img src="images/jem.webp" alt="Jem by River Family" width="520">
 
 **Files and published pages**
 
@@ -2440,7 +2454,7 @@ Alessio
 <details id="jusy">
 <summary><strong>Jusy</strong> — A handheld PCTG filter body: remove the protective cap, hold the body under running tap water and collect the water below.</summary>
 
-<img src="https://riverfamily.art/static/images/jusy.webp?v=20260801b" alt="Jusy by River Family" width="520">
+<img src="images/jusy.webp" alt="Jusy by River Family" width="520">
 
 **Files and published pages**
 
@@ -2459,7 +2473,7 @@ Alessio
 <details id="bruk">
 <summary><strong>Bruk</strong> — A simple polypropylene bottle printed from joined Cura G-code sections. Its folding cap becomes the seal: when the cap bends into position, water stops coming out.</summary>
 
-<img src="https://riverfamily.art/static/images/bruk.webp?v=20260801b" alt="Bruk by River Family" width="520">
+<img src="images/bruk.webp" alt="Bruk by River Family" width="520">
 
 **Files and published pages**
 
@@ -2528,7 +2542,7 @@ Then the 3 gcodes are joined
 <details id="baum">
 <summary><strong>Baum</strong> — A collapsible polypropylene bottle made with the same joined-G-code approach as Bruk. The cap folds to seal, and the body can fold into itself like an accordion when empty.</summary>
 
-<img src="https://riverfamily.art/static/images/baum.webp?v=20260801b" alt="Baum by River Family" width="520">
+<img src="images/baum.webp" alt="Baum by River Family" width="520">
 
 **Files and published pages**
 
@@ -2594,7 +2608,7 @@ Then the 3 gcodes are joined
 <details id="tite">
 <summary><strong>Tite</strong> — A compact printable lamp holder with River’s clean, simple approach. Tite is small, useful and easy to place in a minimal light setup.</summary>
 
-<img src="https://riverfamily.art/static/images/tite.webp?v=20260801b" alt="Tite by River Family" width="520">
+<img src="images/tite.webp" alt="Tite by River Family" width="520">
 
 **Files and published pages**
 
@@ -2618,7 +2632,7 @@ Fits the types of E27 light sockets shown in "compatible light socket.jpg" image
 <details id="mite">
 <summary><strong>Mite</strong> — A compact printable lamp holder for small spaces. Mite keeps the form simple, letting light, finish and material do the work.</summary>
 
-<img src="https://riverfamily.art/static/images/mite.webp?v=20260801b" alt="Mite by River Family" width="520">
+<img src="images/mite.webp" alt="Mite by River Family" width="520">
 
 **Files and published pages**
 
@@ -2644,7 +2658,7 @@ The number after "D" refers to the internal diameter
 <details id="muro">
 <summary><strong>Muro</strong> — A printable lamp holder with a clean architectural feel. Muro gives a light source a simple structure that looks intentional on a wall, shelf or desk.</summary>
 
-<img src="https://riverfamily.art/static/images/muro_1.webp?v=20260801b" alt="Muro by River Family" width="520">
+<img src="images/muro.webp" alt="Muro by River Family" width="520">
 
 **Files and published pages**
 
@@ -2672,7 +2686,7 @@ Onshape model: https://cad.onshape.com/documents/1cd30007bf8ec50419a6eba4/w/142d
 <details id="edge">
 <summary><strong>Edge</strong> — A printable lamp holder with crisp lines and a sharper technical look. Edge is made for a clean light setup that feels precise, simple and functional.</summary>
 
-<img src="https://riverfamily.art/static/images/edge_1.webp?v=20260801b" alt="Edge by River Family" width="520">
+<img src="images/edge.webp" alt="Edge by River Family" width="520">
 
 **Files and published pages**
 
@@ -2702,7 +2716,7 @@ Onshape model: https://cad.onshape.com/documents/53828a69670b02783f47224c/w/ca8b
 <details id="reno">
 <summary><strong>Reno</strong> — A printable shower holder with a friendly rounded shape. Reno is made for practical bathroom use while keeping the setup clean and simple.</summary>
 
-<img src="https://riverfamily.art/static/images/reno_1.webp?v=20260801b" alt="Reno by River Family" width="520">
+<img src="images/reno.webp" alt="Reno by River Family" width="520">
 
 **Files and published pages**
 
@@ -2730,7 +2744,7 @@ Onshape model: https://cad.onshape.com/documents/6d078a894628473e79e00832/w/45a9
 <details id="shiro">
 <summary><strong>Shiro</strong> — A white cacao-butter bar with only two ingredients and no added sugar: 2/3 milk powder and 1/3 cocoa butter. Creamy, minimal and naturally more paste-like than sugary white bars.</summary>
 
-<img src="https://riverfamily.art/static/images/shiro.webp?v=20260801b" alt="Shiro by River Family" width="520">
+<img src="images/shiro.webp" alt="Shiro by River Family" width="520">
 
 **Files and published pages**
 
@@ -2760,7 +2774,7 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 <details id="stop">
 <summary><strong>Stop</strong> — The first standalone River cacao bar: vegan, bitter and built around 62% cacao with 38% coconut milk powder. The same rounded 62/38 proportion shapes the bar, while the coconut fat gives it a clean melt-in-the-mouth texture.</summary>
 
-<img src="https://riverfamily.art/static/images/stop.webp" alt="Stop by River Family" width="520">
+<img src="images/stop.webp" alt="Stop by River Family" width="520">
 
 **Files and published pages**
 
@@ -2790,7 +2804,7 @@ video: https://www.youtube.com/watch?v=W6cwA68vjcc
 <details id="amara">
 <summary><strong>Amara</strong> — A bitter milk-cacao bar for people who like dark profiles: 2/3 cacao and 1/3 milk powder, with no added sugar. It lands close to an 80% dark character, but the softening ingredient is milk, not plain sugar.</summary>
 
-<img src="https://riverfamily.art/static/images/amara.webp" alt="Amara by River Family" width="520">
+<img src="images/amara.webp" alt="Amara by River Family" width="520">
 
 **Files and published pages**
 
@@ -2820,7 +2834,7 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 <details id="fragile">
 <summary><strong>Fragile</strong> — A three-ingredient cacao bar with no added sugar, designed to arrive broken on purpose. Fragile turns a shipping problem into the format: thinner packaging, less waste and pieces that are meant to be shared.</summary>
 
-<img src="https://riverfamily.art/static/images/fragile.webp" alt="Fragile by River Family" width="520">
+<img src="images/fragile.webp" alt="Fragile by River Family" width="520">
 
 **Files and published pages**
 
@@ -2850,7 +2864,7 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 <details id="tato">
 <summary><strong>Tato</strong> — A three-ingredient cacao bar inspired by childhood creamy milk bars, but with cleaner ingredients and no added sugar. Amara and Shiro are the parents; Fragile is half of each; Tato is the next generation, closer to Shiro.</summary>
 
-<img src="https://riverfamily.art/static/images/tato.webp" alt="Tato by River Family" width="520">
+<img src="images/tato.webp" alt="Tato by River Family" width="520">
 
 **Files and published pages**
 
@@ -2879,6 +2893,8 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 
 <details id="eye-mask">
 <summary><strong>Eye Mask</strong> — A printable eye mask. Model and print profile are available on MakerWorld.</summary>
+
+<img src="images/eye-mask.webp" alt="Eye Mask by River Family" width="520">
 
 **Files and published pages**
 
