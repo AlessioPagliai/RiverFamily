@@ -51,11 +51,13 @@ Created with [Stepan](https://drunks.st/).
 
 [Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip) · 198.4 MB · [Printables](https://www.printables.com/model/1550923) · [Thangs](https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065) · [Cults](https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/toe-shoes) · [MakerWorld](https://makerworld.com/en/models/2226925) · [Thingiverse](https://www.thingiverse.com/thing:7267447)
 
-**Editable sources:** [`Toe-rounded-collar-bottom-logo-2026-09-06.gh`](./Toe-rounded-collar-bottom-logo-2026-09-06.gh) (9.8 MB), with rounder geometry at the collar and bottom plus the word “logo” used as a logo on the first layer · [`Toe-latest-public-source-2026-09-06.gh`](./Toe-latest-public-source-2026-09-06.gh) (9.3 MB), the previous collaboration variant · `toe.gh` (5.4 MB), the original public source inside the download
+**Main editable source:** `toe.gh` (5.4 MB) inside the [Toe download](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip). This is the current polished, working version to use.
+
+**Experimental source:** [`Toe-rounded-collar-bottom-logo-2026-09-06.gh`](./Toe-rounded-collar-bottom-logo-2026-09-06.gh) (9.8 MB), with rounder geometry at the collar and bottom plus the word “logo” used as a logo on the first layer.
 
 The rounded/logo version is a development candidate. It may replace the earlier version after it has been tested by walking in it. The download currently includes two EU 45 examples: `toe-45-L+rounded+logo.gcode` and `toe-45-R+rounded+logo.gcode`.
 
-**SHA-256:** rounded/logo source `04546ada6ee2026556ab4f04590e58198d8da5d0bbbb324206c5adc93b6aa044` · previous collaboration source `69a3efd70b2bbf2ddfda5a173a77bb48e71389eaf1d13d9c25a2779f41673bb5`
+**SHA-256:** experimental rounded/logo source `04546ada6ee2026556ab4f04590e58198d8da5d0bbbb324206c5adc93b6aa044`
 
 **Videos:** [Toe barefoot shoes - 3D printed](https://www.youtube.com/watch?v=WWwOjC6E7Lc) · [toe barefoot shoes - 3d printed](https://www.youtube.com/shorts/PoO4unBbDBo)
 
