@@ -2912,16 +2912,18 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 
 ### Robots
 
-<details id="umanoide">
-<summary><strong>umanoide</strong> — Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.</summary>
+<details id="primo">
+<summary><strong>Primo</strong> — Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.</summary>
 
-<img src="images/umanoide.webp" alt="umanoide by River Family" width="520">
+<img src="images/primo.webp" alt="Primo by River Family" width="520">
 
 **Files and published pages**
 
-[GitHub](https://github.com/AlessioPagliai/umanoide) · [CAD on Onshape](https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409) · [Download files](https://storage.googleapis.com/riverfamily/umanoide/umanoide.zip) · [URDF package](https://storage.googleapis.com/riverfamily/umanoide/umanoide-urdf.zip) · 11.8 MB · [Printables](https://www.printables.com/model/1846831) · [Thingiverse](https://www.thingiverse.com/thing:7411626) · [YouTube](https://youtu.be/bHGGjXYELUE)
+[Download files](https://storage.googleapis.com/riverfamily/primo/primo.zip) · 21 MB · [GitHub](https://github.com/AlessioPagliai/primo) · [CAD on Onshape](https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409) · [Printables](https://www.printables.com/model/1846831) · [Cults](https://cults3d.com/en/3d-model/gadget/primo-open-source-humanoid) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/6aae7192f052c066aeb8dd96) · [MakerOnline](https://www.makeronline.com/en/model/primo%20open%20source%20humanoid/331171.html) · [Thingiverse](https://www.thingiverse.com/thing:7411626)
 
-Not built yet. The GitHub repository has the bill of materials with every supplier link, the electrical scheme, the simulation pipeline and the design notes.
+**Videos:** [Primo open source humanoid - CAD tour and walking in Isaac Lab](https://www.youtube.com/watch?v=6nTcHpFmKbQ)
+
+Not built yet. The download is the whole project: bill of materials with every supplier link, electrical scheme, printable STL, URDF, simulation pipeline, design notes and the handoff to continue it, also with an AI.
 
 </details>
 

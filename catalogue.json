@@ -3612,14 +3612,14 @@
   "github_image": "images/rosa.webp"
  },
  {
-  "slug": "umanoide",
-  "name": "umanoide",
+  "slug": "primo",
+  "name": "Primo",
   "category": "Robots",
   "description": "Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.",
-  "image": "https://riverfamily.art/static/images/umanoide.webp?v=20260919",
+  "image": "https://riverfamily.art/static/images/primo.webp?v=20260919",
   "downloads": [
    {
-    "url": "https://storage.googleapis.com/riverfamily/umanoide/umanoide.zip",
+    "url": "https://storage.googleapis.com/riverfamily/primo/primo.zip",
     "size": null,
     "generation": null,
     "md5": null,
@@ -3638,12 +3638,23 @@
   ],
   "readmes": [],
   "links": {
-   "github": "https://github.com/AlessioPagliai/umanoide",
+   "github": "https://github.com/AlessioPagliai/primo",
    "onshape": "https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409",
-   "urdf": "https://storage.googleapis.com/riverfamily/umanoide/umanoide-urdf.zip",
-   "printables": "https://www.printables.com/model/1846831-umanoide-open-source-humanoid-in-design",
+   "urdf": "https://github.com/AlessioPagliai/primo/tree/main/sim",
+   "printables": "https://www.printables.com/model/1846831",
+   "cults": "https://cults3d.com/en/3d-model/gadget/primo-open-source-humanoid",
+   "creality": "https://www.crealitycloud.com/it/model-detail/6aae7192f052c066aeb8dd96",
+   "makeronline": "https://www.makeronline.com/en/model/primo%20open%20source%20humanoid/331171.html",
    "thingiverse": "https://www.thingiverse.com/thing:7411626",
-   "youtube": "https://youtu.be/bHGGjXYELUE"
-  }
+   "youtube": "https://youtu.be/6nTcHpFmKbQ"
+  },
+  "videos": [
+   {
+    "id": "6nTcHpFmKbQ",
+    "title": "Primo open source humanoid - CAD tour and walking in Isaac Lab",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=6nTcHpFmKbQ"
+   }
+  ]
  }
 ]
