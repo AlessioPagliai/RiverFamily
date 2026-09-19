@@ -16,4 +16,3 @@ handlers:
 
 env_variables:
   FLASK_ENV: "production"
-  SECRET_KEY: "supersecretkey"
