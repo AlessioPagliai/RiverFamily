@@ -2910,6 +2910,21 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 
 </details>
 
+### Robots
+
+<details id="umanoide">
+<summary><strong>umanoide</strong> — Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.</summary>
+
+<img src="images/umanoide.webp" alt="umanoide by River Family" width="520">
+
+**Files and published pages**
+
+[GitHub](https://github.com/AlessioPagliai/umanoide) · [CAD on Onshape](https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409) · [Download files](https://storage.googleapis.com/riverfamily/umanoide/umanoide.zip) · [URDF package](https://storage.googleapis.com/riverfamily/umanoide/umanoide-urdf.zip) · 11.8 MB
+
+Not built yet. The GitHub repository has the bill of materials with every supplier link, the electrical scheme, the simulation pipeline and the design notes.
+
+</details>
+
 ## About this catalogue
 
 This index was rebuilt from River Family's published website source, the README files inside the public Cloud Storage downloads, the public model profiles and the YouTube catalogue. Links are model-specific where a matching public page was verified; otherwise the profile link at the top is the safest place to search. The machine-readable [catalogue.json](catalogue.json) records the verified download object generation, update time and checksum supplied by Cloud Storage.
