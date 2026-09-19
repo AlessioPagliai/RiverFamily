@@ -2911,7 +2911,7 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 ### Robots
 
 <details id="primo">
-<summary><strong>Primo</strong> — Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.</summary>
+<summary><strong>Primo</strong> — Open source humanoid robot, 3D printed, 30 RobStride actuators, Jetson Thor. In design.</summary>
 
 <img src="images/primo.webp" alt="Primo by River Family" width="520">
 

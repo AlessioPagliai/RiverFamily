@@ -3642,7 +3642,7 @@
     "slug": "primo",
     "name": "Primo",
     "category": "Robots",
-    "description": "Open source humanoid, 3D printed, 30 RobStride actuators, Jetson Thor. In design.",
+    "description": "Open source humanoid robot, 3D printed, 30 RobStride actuators, Jetson Thor. In design.",
     "image": "https://riverfamily.art/static/images/primo.webp?v=20260919",
     "downloads": [
       {
