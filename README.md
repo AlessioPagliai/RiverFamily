@@ -2917,7 +2917,7 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 
 **Files and published pages**
 
-[Download files](https://storage.googleapis.com/riverfamily/primo/primo.zip) · 21 MB · [GitHub](https://github.com/AlessioPagliai/primo) · [CAD on Onshape](https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409) · [Printables](https://www.printables.com/model/1846831) · [Cults](https://cults3d.com/en/3d-model/gadget/primo-open-source-humanoid) · [MakerOnline](https://www.makeronline.com/en/model/primo%20open%20source%20humanoid/331171.html) · [Thingiverse](https://www.thingiverse.com/thing:7411626)
+[Download files](https://storage.googleapis.com/riverfamily/primo/primo.zip) · 32 MB · [GitHub](https://github.com/AlessioPagliai/primo) · [CAD on Onshape](https://cad.onshape.com/documents/2a6d830c153f862229ff478f/w/82c50406ffe66995476ba0a1/e/6ac57dbaf03b523effa40409) · [Printables](https://www.printables.com/model/1846831) · [Cults](https://cults3d.com/en/3d-model/gadget/primo-open-source-humanoid) · [MakerOnline](https://www.makeronline.com/en/model/primo%20open%20source%20humanoid/331171.html) · [Thingiverse](https://www.thingiverse.com/thing:7411626)
 
 **Videos:** [Primo open source humanoid - CAD tour and walking in Isaac Lab](https://www.youtube.com/watch?v=6nTcHpFmKbQ)
 
