@@ -2908,6 +2908,39 @@ video: https://www.youtube.com/watch?v=K8zPajqGRvA
 
 </details>
 
+<details id="vase">
+<summary><strong>Vase</strong> — A plant pot printed as one spiral line: the bottom starts from the centre and the same line climbs the wall up to the rim, with no seam and no travel. Ready G-codes made in Grasshopper, 0.8 mm nozzle.</summary>
+
+<img src="images/vase.webp" alt="Vase by River Family" width="520">
+
+**Files and published pages**
+
+[Download files](https://storage.googleapis.com/riverfamily/vase/vase.zip) · 79 MB · [Printables](https://www.printables.com/model/1898389) · [Thingiverse](https://www.thingiverse.com/thing:7429577)
+
+**Main editable source:** `vase.gh` inside the [Vase download](https://storage.googleapis.com/riverfamily/vase/vase.zip), with the eight G-codes (60 to 300 mm), the readme and the pictures.
+
+**Videos:** [vase - spiral plant pot - 3d printed](https://www.youtube.com/watch?v=7BM25H59FjI) · [vase - spiral plant pot - 3d printed (Short)](https://www.youtube.com/shorts/q9gG_obiTq0)
+
+<details>
+<summary><strong>Printing / making instructions</strong></summary>
+
+Numbers refer to cylinder diameter and height: 120.gcode prints a vase 120 mm wide and 120 mm tall. Use a printer with a 0.8 mm nozzle, copy the G-codes to the SD card or USB drive and start them from the printer. Nozzle 210 °C, bed 65 °C, PLA. 0.9 mm layers.
+
+Minimum build volume (X x Y x Z), print time and PLA:
+
+- 60.gcode: 160 x 160 x 63 mm, 33 min, 32 g
+- 90.gcode: 175 x 175 x 93 mm, 1 h 13 min, 71 g
+- 100.gcode: 180 x 180 x 103 mm, 1 h 31 min, 88 g
+- 120.gcode: 190 x 190 x 123 mm, 2 h 11 min, 127 g
+- 150.gcode: 205 x 205 x 153 mm, 3 h 24 min, 198 g
+- 200.gcode: 230 x 230 x 203 mm, 6 h 03 min, 351 g
+- 250.gcode: 255 x 255 x 253 mm, 9 h 27 min, 549 g
+- 300.gcode: 305 x 305 x 303 mm, 13 h 37 min, 790 g
+
+</details>
+
+</details>
+
 ### Robots
 
 <details id="primo">

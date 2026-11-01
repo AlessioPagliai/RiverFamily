@@ -3682,5 +3682,49 @@
         "url": "https://www.youtube.com/watch?v=6nTcHpFmKbQ"
       }
     ]
+  },
+  {
+    "slug": "vase",
+    "name": "Vase",
+    "category": "Everyday objects",
+    "description": "A plant pot printed as one spiral line, from the centre of the bottom to the rim. Ready G-codes made in Grasshopper, 0.8 mm nozzle.",
+    "image": "https://riverfamily.art/static/images/vase_1.webp?v=20261101",
+    "downloads": [
+      {
+        "url": "https://storage.googleapis.com/riverfamily/vase/vase.zip",
+        "size": 79267904,
+        "generation": null,
+        "md5": null,
+        "updated": "2026-11-01T00:00:00.000Z"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "vase.gh",
+        "size": 49721
+      }
+    ],
+    "readmes": [],
+    "articles": [],
+    "links": {
+      "printables": "https://www.printables.com/model/1898389",
+      "thingiverse": "https://www.thingiverse.com/thing:7429577",
+      "youtube": "https://youtu.be/7BM25H59FjI"
+    },
+    "videos": [
+      {
+        "id": "7BM25H59FjI",
+        "title": "vase - spiral plant pot - 3d printed",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7BM25H59FjI"
+      },
+      {
+        "id": "q9gG_obiTq0",
+        "title": "vase - spiral plant pot - 3d printed",
+        "type": "short",
+        "url": "https://www.youtube.com/shorts/q9gG_obiTq0"
+      }
+    ],
+    "github_image": "images/vase.webp"
   }
 ]
