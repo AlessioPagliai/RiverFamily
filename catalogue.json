@@ -8,28 +8,24 @@
     "downloads": [
       {
         "url": "https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip",
-        "size": 196971226,
-        "generation": "1789821504933277",
-        "updated": "2026-09-19T12:38:25Z",
-        "crc32c": "NH4s6g==",
-        "package_md5": "70jNSFYGG65yi/nnnM/SYg=="
+        "size": 159647738,
+        "generation": "1795269214623750",
+        "updated": "2026-11-21T13:53:34Z",
+        "crc32c": "rxYjqw==",
+        "package_md5": "ZR/Lg4SFJcikAOFNSYcMyg=="
       }
     ],
     "source_files": [
       {
         "path": "toe.gh",
         "size": 5414057
-      },
-      {
-        "path": "toe+rounding(collar+bottom)+logo.gh",
-        "size": 8430961
       }
     ],
     "readmes": [
       {
         "archive": "https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip",
         "path": "readme.txt",
-        "text": "how to print the gcodes:\n\n\n→ use a printer with 0.4 nozzle and at least 256x256 build volume \n→ extract the SD card or the USB drive from the printer\n→ insert the SD card or the USB drive in a computer using an SD card reader or USB port\n→ copy the gcodes on the SD card or the USB drive\n→ insert the SD card back or the USB drive in the printer\n→ send the gcodes from the printer interface\n\nuse 85A filament\n\n---\n\nWebsite: https://www.riverfamily.art/\n\nMade with Stepan: https://drunks.st/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names\n\n---\n\nExperimental rounded version — 19 September 2026\n\nThe main source remains toe.gh. The experimental toe+rounding(collar+bottom)+logo.gh and EU 45 left/right example G-codes are included for testing.\n"
+        "text": "how to print the gcodes:\n\n\n→ use a printer with 0.4 nozzle and at least 256x256 build volume \n→ extract the SD card or the USB drive from the printer\n→ insert the SD card or the USB drive in a computer using an SD card reader or USB port\n→ copy the gcodes on the SD card or the USB drive\n→ insert the SD card back or the USB drive in the printer\n→ send the gcodes from the printer interface\n\nuse 85A filament\n\n---\n\nWebsite: https://www.riverfamily.art/\n\nMade with Stepan: https://drunks.st/\n\n---\n\nLICENSE: Public Domain (https://creativecommons.org/share-your-work/public-domain/cc0/)\n\nAlso applies to gcodes, slicing process, pictures, videos and names\n"
       }
     ],
     "videos": [
@@ -98,28 +94,7 @@
         "slug": "river-family-open-source-public-domain-designs"
       }
     ],
-    "github_image": "images/toe.webp",
-    "development_variant": {
-      "status": "Experimental; toe.gh remains the main source.",
-      "description": "Cleaner rounded geometry at the collar and bottom, with the word “logo” used as a logo on the first layer.",
-      "repository_source": {
-        "path": "Toe-rounded-collar-bottom-logo-2026-09-19.gh",
-        "size": 8430961,
-        "sha256": "1c61bc929562b06031979203268bba1bed7140bdf12040812772034be8f75f37"
-      },
-      "example_gcodes": [
-        {
-          "path": "toe-round-45-L.gcode",
-          "size": 75463194,
-          "sha256": "fcce528af15e4db28f53d6f5cfe6a47111a278642e1b36f049175a529f49ebe7"
-        },
-        {
-          "path": "toe-round-45-R.gcode",
-          "size": 75398192,
-          "sha256": "d4e2967ce6d69af311b9632155ce1e9a73c3b8f9912a76ccc75313ba03dbe45b"
-        }
-      ]
-    }
+    "github_image": "images/toe.webp"
   },
   {
     "slug": "onda",

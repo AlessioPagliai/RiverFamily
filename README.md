@@ -49,11 +49,9 @@ Created with [Stepan](https://drunks.st/).
 
 **Files and published pages**
 
-[Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip) · 197.0 MB · [Printables](https://www.printables.com/model/1550923) · [Thangs](https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065) · [Cults](https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/toe-shoes) · [MakerWorld](https://makerworld.com/en/models/2226925) · [Thingiverse](https://www.thingiverse.com/thing:7267447)
+[Download files](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip) · 159.6 MB · [Printables](https://www.printables.com/model/1550923) · [Thangs](https://thangs.com/designer/%E5%B7%9D/3d-model/Toe%20barefoot%20shoes-1498065) · [Cults](https://cults3d.com/en/3d-model/fashion/toe-barefoot-shoes) · [Creality Cloud](https://www.crealitycloud.com/it/model-detail/toe-shoes) · [MakerWorld](https://makerworld.com/en/models/2226925) · [Thingiverse](https://www.thingiverse.com/thing:7267447)
 
 **Main editable source:** `toe.gh` (5.4 MB) inside the [Toe download](https://storage.googleapis.com/riverfamily/gcodes/shoes/toe.zip). This is the current polished, working version to use.
-
-**Experimental update:** [`Toe-rounded-collar-bottom-logo-2026-09-19.gh`](./Toe-rounded-collar-bottom-logo-2026-09-19.gh) (8.4 MB). Rounded collar and bottom, with the word “logo” on the first layer. EU 45 left/right examples are in the download; `toe.gh` remains the main source.
 
 **Videos:** [Toe barefoot shoes - 3D printed](https://www.youtube.com/watch?v=WWwOjC6E7Lc) · [toe barefoot shoes - 3d printed](https://www.youtube.com/shorts/PoO4unBbDBo)
 
